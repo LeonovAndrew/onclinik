@@ -1,0 +1,3229 @@
+.body_white
+{
+    color: #000;
+
+    background: #fff;
+}
+
+.body_white .main-header-wrap1
+{
+    border-bottom: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .main-header-link1
+{
+    background: #fff;
+}
+
+.body_white .main-header-link1-list
+{
+    top: calc(100% + 2px);
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .main-header-form-search input
+{
+    color: #000;
+
+    border-color: #000;
+    border-top: none;
+    border-right-color: #000;
+    border-bottom: none;
+    border-left-color: #000;
+    background-color: #fff;
+}
+
+.body_white .main-header-form-search button
+{
+    background-image: url(../img/search-btn_black.svg);
+}
+
+.body_white .main-header-link-item a
+{
+    color: #000;
+}
+
+.body_white .main-header-link-item
+{
+    border-right-color: #000;
+}
+
+.body_white .main-header-link1 b
+{
+    color: #000;
+}
+
+.body_white .main-header-tel-wrap a
+{
+    color: #000;
+}
+
+.body_white .main-header-tel-wrap b
+{
+    color: #000;
+}
+
+.body_white .main-header-link1-list a
+{
+    color: #000;
+}
+
+.body_white .btn1
+{
+    color: #000;
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .main-header-list
+{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.body_white .main-header-list a
+{
+    color: #000;
+
+    background-color: #fff;
+}
+
+.body_white .submenu-wrap:hover > a
+{
+    color: #000 !important;
+
+    background-color: #ccc !important;
+}
+
+.body_white .submenu-container
+{
+    background: #fff;
+}
+
+.body_white .submenu-container .submenu_tab_list
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white.no-touch .main-header-list a:hover,
+.body_white.no-touch .fixed-header-list a:hover
+{
+    color: #000;
+
+    background-color: #ccc;
+}
+
+.body_white.no-touch .submenu-container a:hover
+{
+    color: #000;
+
+    text-decoration: underline;
+
+    background-color: #fff;
+}
+
+.body_white.no-touch .submenu-container .submenu_tab_list a:hover
+{
+    color: #000;
+
+    text-decoration: none;
+
+    background-color: #ccc;
+}
+
+.body_white .submenu-container .submenu_tab_list a.active
+{
+    color: #000;
+
+    background-color: #ccc;
+}
+
+.submenu-wrap:hover .submenu-container
+{
+    margin-top: -1px;
+
+    border-top: 1px solid #000;
+}
+
+.body_white .fixed-header-wrap1
+{
+    border-bottom: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .fixed-header-search-form input
+{
+    color: #000;
+
+    border-top: none;
+    border-bottom: none;
+    background: #fff;
+}
+
+.body_white .fixed-header-search-form button
+{
+    background-image: url(../img/search-btn_white.svg);
+}
+
+.body_white .fixed-header-tel-wrap a
+{
+    color: #000;
+}
+
+.body_white .fixed-header-tel-wrap span
+{
+    color: #000;
+}
+
+.body_white .fixed-header-feedback a
+{
+    color: #000;
+
+    border-left: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .fixed-header-list
+{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .submenu-container .submenu_tab_list a
+{
+    color: #000;
+}
+
+.body_white .submenu-container a
+{
+    color: #000;
+}
+
+.body_white .banner .tab_list a
+{
+    color: #000;
+
+    border: 1px solid #000;
+    border-top: none;
+    background: #fff;
+}
+
+.body_white.no-touch .banner .tab_list a:hover,
+.body_white .banner .tab_list a.active
+{
+    color: #000;
+
+    background: #ccc;
+}
+
+.body_white .banner .tab_list a:after
+{
+    border-top-color: #ccc;
+}
+
+.body_white .banner-list li
+{
+    border-bottom-color: #000;
+}
+
+.body_white .banner-list a
+{
+    color: #000;
+}
+
+.body_white .banner-link-wrap1 a
+{
+    color: #000;
+}
+
+.body_white .banner-info
+{
+    background: #fff;
+}
+
+.body_white .banner-info h2
+{
+    color: #000;
+}
+
+.body_white .banner-price-new
+{
+    color: #000;
+}
+
+.body_white .banner-price-old
+{
+    color: #000;
+}
+
+.body_white .banner-info p
+{
+    color: #000;
+}
+
+.body_white .services1 h2
+{
+    color: #000;
+}
+
+.body_white .services1 h2 b
+{
+    color: #000;
+    font-weight: 700;
+}
+
+.body_white .services1-item h3
+{
+    color: #000;
+}
+
+.body_white .services1-item p
+{
+    color: #000;
+}
+
+.body_white .map-btn span
+{
+    color: #000;
+
+    background: #fff;
+}
+
+.body_white .map .container:after
+{
+    background: #000;
+}
+
+.body_white .main-footer-container h3
+{
+    color: #000;
+}
+
+.body_white .main-footer-container h3:after
+{
+    background: #000;
+}
+
+.body_white .main-footer-list a
+{
+    color: #000;
+}
+
+.body_white .main-footer-list1 a
+{
+    color: #000;
+}
+
+.body_white .main-footer-tel
+{
+    color: #000;
+}
+
+.body_white .main-footer-contacts span
+{
+    color: #000;
+}
+
+.body_white .main-footer-wrap1:after
+{
+    background: #000;
+}
+
+.body_white .main-footer-certificates-item p
+{
+    color: #000;
+}
+
+.body_white .main-footer-wrap2:after
+{
+    background: #000;
+}
+
+.body_white .main-footer-share-wrap span
+{
+    color: #000;
+}
+
+.body_white .main-footer-subscribe-btn-wrap a
+{
+    color: #000;
+
+    background: #fff;
+}
+
+.body_white .main-footer-subscribe-btn-wrap a:before
+{
+    background: #000;
+}
+
+.body_white .main-footer-versions-item a
+{
+    color: #000;
+}
+
+.body_white .main-footer-list2 a
+{
+    color: #000;
+}
+
+.body_white .main-footer-list2 li:after
+{
+    background: #000;
+}
+
+.body_white .main-footer-wrap4 p
+{
+    color: #000;
+}
+
+.body_white .main-footer-wrap4 span a
+{
+    color: #000;
+}
+
+.body_white .section-nav h2
+{
+    color: #000;
+
+    border-bottom-color: #000;
+}
+
+.body_white .section-list1 li
+{
+    color: #000;
+}
+
+.body_white .section-list1 a
+{
+    color: #000;
+}
+
+.body_white .rules-wrap2 p
+{
+    color: #000;
+}
+
+.body_white .rules-wrap2 h1
+{
+    color: #000;
+}
+
+.body_white .breadcrumbs-list li
+{
+    color: #000;
+}
+
+.body_white .breadcrumbs-list a
+{
+    color: #000;
+}
+
+.body_white .rules-text-cotaniner2
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .rules-text3 h3
+{
+    color: #000;
+}
+
+.body_white .rules-text-list1 li
+{
+    color: #000;
+}
+
+.body_white .rules-text-list1 a
+{
+    color: #000;
+}
+
+.body_white .rules-text-list1 a:after
+{
+    background: #fff;
+}
+
+.body_white .rules-info-link b
+{
+    color: #000;
+}
+
+.body_white .rules-info-link-item i
+{
+    color: #000;
+}
+
+.body_white .rules-info-link-item span
+{
+    color: #000;
+}
+
+.body_white .rules-text-list2 b
+{
+    color: #000;
+}
+
+.body_white .rules-text-list2 span
+{
+    color: #000;
+}
+
+.body_white .rules-text-list2 a
+{
+    color: #000;
+}
+
+.body_white .rules-text-list2 a:after
+{
+    background: #fff;
+}
+
+.body_white .rules-text-cotaniner3 h3
+{
+    color: #000;
+}
+
+.body_white .rules-text-cotaniner4 h2
+{
+    color: #000;
+}
+
+.body_white .achievement-wrap1 h2
+{
+    color: #000;
+}
+
+.body_white .achievement-item
+{
+    margin-right: 1px;
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .achievement-item-text h3
+{
+    color: #000;
+}
+
+.body_white .action h1
+{
+    color: #000;
+}
+
+.body_white .action-paragraph1
+{
+    color: #000;
+}
+
+.body_white .action-info-time
+{
+    background: transparent;
+}
+
+.body_white .action-info-time b
+{
+    color: #000;
+}
+
+.body_white .service1-action-timer .clock-text-wrap span
+{
+    color: #000;
+}
+
+.body_white .service1-action-timer .clock-text-wrap b
+{
+    color: #000;
+}
+
+.body_white .action-info-text h2
+{
+    color: #000;
+}
+
+.body_white .action-info-text-wrap p
+{
+    color: #000;
+}
+
+.body_white .text-btn:before
+{
+    background: #000;
+}
+
+.body_white .text-btn span
+{
+    color: #000;
+}
+
+.body_white .text-btn:after
+{
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    background: #fff;
+}
+
+.body_white .text-btn.active:after
+{
+    border-color: #000;
+}
+
+.body_white .text-btn i
+{
+    border-top-color: #000;
+    border-bottom-color: #000;
+}
+
+.body_white .text-btn i:after
+{
+    border-top-color: #fff;
+}
+
+.body_white .action-clinics h2
+{
+    color: #000;
+}
+
+.body_white .clinics-item-text-wrap1
+{
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .clinics-item-text-wrap2
+{
+    border: 1px solid #000;
+    border-top: none;
+    background: #fff;
+}
+
+.body_white .clinics-item-title-wrap1 h3
+{
+    color: #000;
+}
+
+.body_white .clinics-item-title-wrap1 p
+{
+    color: #000;
+}
+
+.body_white .clinics-item-title-wrap2 a
+{
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+.body_white .clinics-item-text-wrap2 ul li
+{
+    color: #000;
+}
+
+.body_white .clinics-item-text-wrap2 ul a
+{
+    color: #000;
+}
+
+.body_white .action-text1 p
+{
+    color: #000;
+}
+
+.body_white .action-programs h2
+{
+    color: #000;
+}
+
+.body_white .action-programs-item-wrap p
+{
+    color: #000;
+}
+
+.body_white .action-programs-item-wrap b
+{
+    color: #000;
+}
+
+.body_white .action-programs-item-wrap span
+{
+    color: #000;
+    font-size: 16px;
+}
+
+.body_white .action-programs-item-wrap:after
+{
+    background: #000;
+}
+
+.body_white .btn2
+{
+    color: #000;
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .service1-feedback-wrap
+{
+    background: #fff;
+}
+
+.body_white .service1-feedback-wrap h2
+{
+    color: #000;
+}
+
+.body_white .service1-feedback-wrap p
+{
+    color: #000;
+}
+
+.body_white .service1-feedback-wrap p a
+{
+    color: #000;
+}
+
+.body_white .action-info-img p
+{
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .action-info-img p span
+{
+    color: #000;
+}
+
+.body_white .action-info-img p b
+{
+    color: #000;
+}
+
+.body_white .action-other h2
+{
+    color: #000;
+}
+
+.body_white .stock-img-wrap i
+{
+    color: #000;
+
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .stock-btn
+{
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .stock-timer-wrap
+{
+    border: 1px solid #000;
+    border-bottom: none;
+    background: #fff;
+}
+
+.body_white .stock-text
+{
+    border: 1px solid #000;
+    border-top: none;
+    background: #fff;
+}
+
+.body_white .stock-text h3
+{
+    color: #000;
+}
+
+.body_white .stock-text b
+{
+    color: #000;
+}
+
+.body_white .stock-text p
+{
+    color: #000;
+}
+
+.body_white .administration h1
+{
+    color: #000;
+}
+
+.body_white .administration-filter
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .jq-selectbox__select-text
+{
+    color: #000;
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .jq-selectbox__dropdown
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .jq-selectbox li,
+.body_white .jq-select-multiple li
+{
+    color: #000;
+}
+
+.body_white .administration-item-feedback
+{
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .administration-item-text
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .administration-item-text h3
+{
+    color: #000;
+}
+
+.body_white .administration-item-text span
+{
+    color: #000;
+}
+
+.body_white .administration-item-text b
+{
+    color: #000;
+}
+
+.body_white .agreement h1
+{
+    color: #000;
+}
+
+.body_white .agreement-text p
+{
+    color: #000;
+}
+
+.body_white .agreement-text ul li
+{
+    color: #000;
+}
+
+.body_white .programs h1
+{
+    color: #000;
+}
+
+.body_white .programs-text1 p
+{
+    color: #000;
+}
+
+.body_white .programs-text3 p
+{
+    color: #000;
+}
+
+.body_white .programs-text3 h3
+{
+    color: #000;
+}
+
+.body_white .programs-text3 ul li
+{
+    color: #000;
+}
+
+.body_white .programs-item
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .programs-item h3
+{
+    color: #000;
+}
+
+.body_white .programs-item p
+{
+    color: #000;
+}
+
+.body_white .programs-item-btn-wrap span
+{
+    color: #000;
+
+    border-color: #000;
+}
+
+.body_white .programs-item-btn-wrap a
+{
+    color: #000;
+}
+
+.programs-tabs .tab_list a
+{
+    color: #000;
+
+    border: 1px solid #000;
+    background: 000;
+}
+
+.body_white .programs-tabs .tab_list a.active
+{
+    color: #000;
+
+    background: #ccc;
+}
+
+.body_white.no-touch .service1-tabs .tab_list a:hover,
+.body_white.no-touch .btn3:hover,
+.body_white.no-touch .programs-tabs .tab_list a:hover
+{
+    color: #000;
+
+    border-color: #ccc;
+    background: #ccc;
+}
+
+.body_white .programs-tabs .tab_list a:after
+{
+    border-top-color: #ccc;
+}
+
+.body_white .attendance-text1 p
+{
+    color: #000;
+}
+
+.body_white .attendance h1
+{
+    color: #000;
+}
+
+.body_white .attendance-list span
+{
+    color: #000;
+}
+
+.body_white .attendance-list b
+{
+    color: #000;
+}
+
+.body_white .attendance-list i
+{
+    color: #000;
+    font-size: 14px;
+}
+
+.body_white .attendance-list li:after
+{
+    background: #000;
+}
+
+.body_white .attendance-btn1
+{
+    color: #000;
+
+    border-color: #000;
+}
+
+.body_white .attendance-btn3
+{
+    color: #000;
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .main-header-menuToggle:after
+{
+    background-image: url('../img/menu1Black.svg');
+}
+
+.body_white .main-header-menuToggle.active:after
+{
+    background-image: url(../img/close1Black.svg);
+}
+
+.body_white .main-header-menuToggle.active
+{
+    color: #000;
+
+    background: #fff;
+}
+
+.body_white .main-header-menuToggle
+{
+    color: #000;
+}
+
+.body_white .main-header-nav
+{
+    background: #fff;
+}
+
+.body_white .main-header-nav-link-wrap2 a
+{
+    background: #fff;
+}
+
+.body_white .main-header-nav-link-wrap3
+{
+    border-left: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .main-header-nav-link-wrap3 .size a{
+    color: #000;
+}
+
+.body_white .main-header-nav-link-wrap4
+{
+    border-left: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .main-header-nav-link-wrap1
+{
+    background: #fff;
+}
+
+.body_white .main-header-nav-link-wrap2
+{
+    border-left: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .main-header-nav-mobile-block
+{
+    border-bottom: 1px solid #000;
+}
+
+.body_white .main-header-menuToggle
+{
+    background: #fff;
+}
+
+.body_white .main-header-form-search input
+{
+    border-color: #000;
+}
+
+.body_white .section-wrap1
+{
+    background: #fff;
+}
+
+.body_white .menu-btn
+{
+    border: 1px solid #000;
+    background-color: #000;
+    background-image: url(../img/menu1.svg);
+}
+
+.body_white .certificates h1
+{
+    color: #000;
+}
+
+.body_white .certificates-text1 p
+{
+    color: #000;
+}
+
+.body_white .toTop-icon
+{
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+.body_white .certificates-item h3
+{
+    color: #000;
+}
+
+.body_white .certificates-item-btn
+{
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .certificates-filter
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .clinic-title h1
+{
+    color: #000;
+}
+
+.body_white .clinic-btn-print
+{
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.body_white .clinic-map-info
+{
+    background: #fff;
+}
+
+.body_white .clinic-map-info-title h2
+{
+    color: #000;
+}
+
+.body_white .clinic-map-info-title a
+{
+    color: #000;
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .clinic-map-info h3
+{
+    color: #000;
+}
+
+.body_white .clinic-map-info-item1
+{
+    color: #000;
+}
+
+.body_white .clinic-map-info-item1 span
+{
+    color: #000;
+}
+
+.body_white .clinic-map-info-item1 a
+{
+    color: #000;
+}
+
+.body_white .clinic-map-info-item1 i
+{
+    color: #000;
+}
+
+.body_white .clinic-map-info-list2 li
+{
+    color: #000;
+}
+
+.body_white .clinic-text1
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .clinic-text1-title h2
+{
+    color: #000;
+}
+
+.body_white .clinic-tab-item span
+{
+    color: #000;
+
+    border-radius: 50px;
+}
+
+.clinic-tab-item.active span > span
+{
+    color: #000;
+
+    background: transparent;
+}
+
+.body_white .clinic-tab-item span > span
+{
+    color: inherit;
+}
+
+.body_white .clinic-tab_list
+{
+    background: #fff;
+}
+
+.body_white .clinic-text1 p
+{
+    color: #000;
+}
+
+.body_white .clinic-doctors h2
+{
+    color: #000;
+}
+
+.body_white .swiper-button-prev-style2,
+.body_white .swiper-button-next-style2
+{
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+.body_white .doctors-item-text1
+{
+    background: rgba(0,0,0,,.8);
+}
+
+.body_white .doctors-item-text2
+{
+    border: 1px solid #000;
+    border-top: none;
+    background: #fff;
+}
+
+.body_white .doctors-item-text2 h3
+{
+    color: #000;
+}
+
+.body_white .doctors-item-text2 span
+{
+    color: #000;
+}
+
+.body_white .doctors-item-text2 b
+{
+    color: #000;
+}
+
+.body_white .clinic-doctors-btn-wrap a
+{
+    color: #000;
+}
+
+.body_white .clinic-reviews h2
+{
+    color: #000;
+}
+
+.body_white .reviews-item-text1 span
+{
+    color: #000;
+}
+
+.body_white .reviews-item-text1 b
+{
+    color: #000;
+}
+
+.body_white .reviews-item-text2
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .reviews-item-text2 p
+{
+    color: #000;
+}
+
+.body_white .reviews-item2
+{
+    color: #000;
+}
+
+.body_white .reviews .reviews-item .text-btn.active:after,
+.body_white .clinic-reviews .text-btn.active:after
+{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .btn3
+{
+    color: #000;
+
+    border-color: #000;
+    background: #fff;
+}
+
+.body_white .clinic-reviews-btn-wrap .reviews-btn
+{
+    color: #000;
+}
+
+.body_white .clinic-text2-wrap p
+{
+    color: #000;
+}
+
+.body_white .clinic-photo h2
+{
+    color: #000;
+}
+
+.body_white .clinic-photo-btn-wrap
+{
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .btn5
+{
+    color: #000;
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .clinic-administration h2
+{
+    color: #000;
+}
+
+.body_white .clinics-filter
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .clinics h1
+{
+    color: #000;
+}
+
+.body_white .clinics-filter-radio-wrap
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .clinics-filter-radio-wrap label span
+{
+    color: #000;
+
+    background: transparent;
+}
+
+.body_white .clinics-filter-radio-wrap input:checked ~ span
+{
+    color: #000;
+
+    background: #ccc;
+}
+
+.body_white .company h1
+{
+    color: #000;
+}
+
+.body_white .company-text1 p
+{
+    color: #000;
+}
+
+.body_white .company-text1 a
+{
+    color: #000;
+}
+
+.body_white.no-touch .company-text1 a:hover,
+.body_white.no-touch .jobs-list li a:hover,
+.body_white.no-touch .search-item p a:hover
+{
+    color: #000;
+
+    text-decoration: underline;
+}
+
+.body_white .company-text2
+{
+    color: #000;
+}
+
+.body_white .contact1-title1 h2
+{
+    color: #000;
+}
+
+.body_white .contact1-title1 a
+{
+    color: #000;
+}
+
+.body_white .contact1-title1 a:after
+{
+    background: #000;
+}
+
+.body_white .contact1-text h3
+{
+    color: #000;
+}
+
+.body_white .contact1-list2 h4
+{
+    color: #000;
+}
+
+.body_white .contact1-list2 span
+{
+    color: #000;
+}
+
+.body_white .contact1-list2 a
+{
+    color: #000;
+}
+
+.body_white .contact1-title2 h2
+{
+    color: #000;
+}
+
+.body_white .contact1-item3
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .contact1-item-text-wrap h3
+{
+    color: #000;
+}
+
+.body_white .contact1-item-text-wrap b
+{
+    color: #000;
+}
+
+.body_white .contact1-item-text-wrap p
+{
+    color: #000;
+}
+
+.body_white .contact1-list4 b
+{
+    color: #000;
+}
+
+.body_white .contact1-list4 a
+{
+    color: #000;
+}
+
+.body_white .corporate h1
+{
+    color: #000;
+}
+
+.body_white .corporate-text1 p
+{
+    color: #000;
+}
+
+.body_white .corporate-select-wrap
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .corporate-item-text1
+{
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .corporate-item-text2 h3
+{
+    color: #000;
+}
+
+.body_white .costsection-list2 a
+{
+    color: #000;
+}
+
+.body_white .costsection-list2 a:after
+{
+    background: #fff;
+}
+
+.body_white .costsection h1
+{
+    color: #000;
+}
+
+.body_white .costsection-item h3
+{
+    color: #000;
+}
+
+.body_white .costsection-filter:before
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .costsection-search-wrap input
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .costsection-search-wrap button
+{
+    background-image: url('../img/search-btn_white.svg');
+}
+
+.body_white .costsection-radio-wrap
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .costsection-label span
+{
+    color: #000;
+}
+
+.body_white .costsection-label input:checked ~ span
+{
+    color: #000;
+
+    background-color: #ccc;
+}
+
+.body_white .costsection-search-wrap input::-webkit-input-placeholder
+{
+    color: #000;
+}
+
+.body_white .costsection-search-wrap input:-ms-input-placeholder
+{
+    color: #000;
+}
+
+.body_white .costsection-search-wrap input::-ms-input-placeholder
+{
+    color: #000;
+}
+
+.body_white .costsection-search-wrap input::placeholder
+{
+    color: #000;
+}
+
+.body_white .credit h1
+{
+    color: #000;
+}
+
+.body_white .credit-text1 p
+{
+    color: #000;
+}
+
+.body_white .credit-item
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .credit-item h3
+{
+    color: #000;
+}
+
+.body_white .credit-item p
+{
+    color: #000;
+}
+
+.body_white .creditFeedback h1
+{
+    color: #000;
+}
+
+.body_white .creditFeedback-container-text h3
+{
+    color: #000;
+}
+
+.body_white .creditFeedback-container-text ul li
+{
+    color: #000;
+}
+
+.body_white .creditFeedback-container-text span
+{
+    color: #000;
+}
+
+.body_white .creditFeedback-container-text b
+{
+    color: #000;
+}
+
+.body_white .creditFeedback-img
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .creditFeedback-form
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .creditFeedback-form h2
+{
+    color: #000;
+}
+
+.body_white label span
+{
+    color: #000;
+}
+
+.body_white input
+{
+    color: #000;
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .label-checkbox i
+{
+    width: 16px;
+    height: 16px;
+
+    border-width: 3px;
+    border-color: #000;
+}
+
+.body_white .input-checkbox:checked ~ .housecall-form-wrap2 i,
+.body_white .input-checkbox:checked ~ .reviews-feedback-form-wrap3 .label-checkbox i,
+.body_white .input-checkbox:checked ~ .label-checkbox i
+{
+    border-color: #000;
+    background: #000;
+}
+
+.body_white .input-checkbox:checked ~ .housecall-form-wrap2 .btn2,
+.body_white .input-checkbox:checked ~ .housecall-captcha-wrap .btn2,
+.body_white .input-checkbox:checked ~ .reviews-feedback-form-wrap3 .btn2,
+.body_white .input-checkbox:checked ~ .vacancy-form-wrap .btn2,
+.body_white .input-checkbox:checked ~ .creditFeedback-form-wrap .btn2
+{
+    color: #000;
+
+    border-color: #000;
+    background-color: #fff;
+}
+
+.body_white .directory-slider h2
+{
+    color: #000;
+}
+
+.body_white .directory-list a
+{
+    color: #000;
+}
+
+.body_white .directory-slider .swiper-pagination .swiper-pagination-bullet:after
+{
+    border: 1px solid #000;
+    background: #000;
+}
+
+.body_white .directory h1
+{
+    color: #000;
+}
+
+.body_white .directory-filter
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .directory-filter .tab_list
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .directory-filter .tab_list a
+{
+    color: #000;
+}
+
+.body_white .directory-filter .tab_list a.active
+{
+    color: #000;
+
+    background: #ccc;
+}
+
+.body_white .service1-text1 h1
+{
+    color: #000;
+}
+
+.body_white .service1-text1-wrap p
+{
+    color: #000;
+}
+
+.body_white .service1-tabs-wrap p
+{
+    color: #000;
+}
+
+.body_white .service1-reception
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .service1-reception h2
+{
+    color: #000;
+}
+
+.body_white .service1-reception-text p
+{
+    color: #000;
+}
+
+.body_white .service1-tab-list a
+{
+    color: #000;
+}
+
+.body_white .service1-tab-list li:after
+{
+    background: #fff;
+}
+
+.body_white .disease-wrap h2
+{
+    color: #000;
+}
+
+.body_white .disease-item
+{
+    margin-right: 1px;
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .disease-text h3
+{
+    color: #000;
+}
+
+.body_white .disease-text p
+{
+    color: #000;
+}
+
+.body_white .doctor-certificates-item p
+{
+    color: #000;
+}
+
+.body_white .disease-link-wrap
+{
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .service1-action
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .service1-action-img b
+{
+    color: #000;
+
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .service1-action-text-btn-wrap
+{
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .service1-action-text h2
+{
+    color: #000;
+}
+
+.body_white .service1-action-text b
+{
+    color: #000;
+}
+
+.body_white .service1-action-text p
+{
+    color: #000;
+}
+
+.body_white .service1-info
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .service1-info h3
+{
+    color: #000;
+}
+
+.body_white .service1-list2 a
+{
+    color: #000;
+}
+
+.body_white .service1-nav
+{
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.body_white .service1-tab-link-wrap a
+{
+    color: #000;
+}
+
+.body_white .service1-tabs .service1-tab_list
+{
+    border-left: 2px solid #fff;
+}
+
+.body_white .service1-tabs .service1-tab_list a
+{
+    color: #000;
+
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: #fff;
+}
+
+.body_white.no-touch .service1-tabs .service1-tab_list a:hover,
+.body_white .service1-tabs .service1-tab_list a.active
+{
+    color: #000;
+
+    background: #ccc;
+}
+
+.body_white .service1-tabs .service1-tab_list a:after
+{
+    border-top-color: #ccc;
+}
+
+.body_white .doctor h1
+{
+    color: #000;
+}
+
+.body_white .doctor-info-title span
+{
+    color: #000;
+}
+
+.body_white .doctor-info-text-wrap1 b
+{
+    color: #000;
+}
+
+.body_white .doctor-info-text-wrap1 li
+{
+    color: #000;
+}
+
+.body_white .doctor-info-text-wrap2 h2
+{
+    color: #000;
+}
+
+.body_white .doctor-info-text-wrap2 b
+{
+    color: #000;
+}
+
+.body_white .doctor-info-text-wrap2 span
+{
+    color: #000;
+}
+
+.body_white .doctor-info-text-wrap3 p
+{
+    color: #000;
+}
+
+.body_white .doctor-reviews-link
+{
+    color: #000;
+}
+
+.body_white .doctor-specialization h2
+{
+    color: #000;
+}
+
+.body_white .doctor-specialization h3
+{
+    color: #000;
+}
+
+.body_white .doctor-specialization-list li
+{
+    color: #000;
+}
+
+.body_white .doctor-specialization-list li b
+{
+    color: #000;
+}
+
+.body_white .doctor-reviews h2
+{
+    color: #000;
+}
+
+.body_white .doctor-regalia-text-wrap h3
+{
+    color: #000;
+}
+
+.body_white .doctor-regalia-list li
+{
+    color: #000;
+}
+
+.body_white .doctor-regalia h2
+{
+    color: #000;
+}
+
+.body_white .doctor-certificates h2
+{
+    color: #000;
+}
+
+.body_white .doctor-text-wrap h2
+{
+    color: #000;
+}
+
+.body_white .doctor-text p
+{
+    color: #000;
+}
+
+.body_white .doctor-cost h2
+{
+    color: #000;
+}
+
+.body_white .doctor-form p
+{
+    color: #000;
+}
+
+.body_white .doctor-info-text-wrap4 p
+{
+    color: #000;
+}
+
+.body_white .doctor-info-text-wrap1 p
+{
+    color: #000;
+}
+
+.body_white .doctor-info-text-wrap2 b i
+{
+    color: #000;
+}
+
+.body_white .doctor-form
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .doctor-info-title:after
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .doctors h1
+{
+    color: #000;
+}
+
+.body_white .doctors-filter
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .doctors-filter-radio-wrap
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .doctors-filter-radio-wrap input:checked ~ span
+{
+    color: #000;
+
+    background: #ccc;
+}
+
+.body_white .doctors-item-text1
+{
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .faq h1
+{
+    color: #000;
+}
+
+.body_white .faq-filter
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .faq-list-wrap h3
+{
+    color: #000;
+}
+
+.body_white .faq-item .block_toggle p
+{
+    color: #000;
+}
+
+.body_white .faq-item .open_toggle
+{
+    color: #000;
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .health h1
+{
+    color: #000;
+}
+
+.body_white .health-subtitle
+{
+    color: #000;
+}
+
+.body_white .health-subtitle:after
+{
+    background: #000;
+}
+
+.body_white .health-btn-wrap:after
+{
+    background: #000;
+}
+
+.body_white .health-list a
+{
+    color: #000;
+}
+
+.body_white .health-link-wrap a
+{
+    color: #000;
+}
+
+.body_white .health-question h2
+{
+    color: #000;
+}
+
+.body_white .questions-item h3 i
+{
+    color: #000;
+}
+
+.body_white .questions-item h3 b
+{
+    color: #000;
+}
+
+.body_white .health-link-wrap a
+{
+    color: #000;
+}
+
+.body_white .questions-item span
+{
+    color: #000;
+}
+
+.body_white .health-problem h2
+{
+    color: #000;
+}
+
+.body_white .questions-item p
+{
+    color: #000;
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .health-problem-list
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .health-problem-list a
+{
+    color: #000;
+}
+
+.body_white .health-informations h2
+{
+    color: #000;
+}
+
+.body_white .publications-item:after
+{
+    background: #000;
+}
+
+.body_white .publications-item-text h3
+{
+    color: #000;
+}
+
+.body_white .publications-item-text p
+{
+    color: #000;
+}
+
+.body_white .publications-item-text-info span
+{
+    color: #000;
+}
+
+.body_white .publications-item-text-info b
+{
+    color: #000;
+}
+
+.body_white .housecall h1
+{
+    color: #000;
+}
+
+.body_white .housecall-text p
+{
+    color: #000;
+}
+
+.body_white .text-btn:before
+{
+    background: #000;
+}
+
+.body_white .text-btn i
+{
+    border-top-color: #000;
+}
+
+.body_white .text-btn span
+{
+    color: #000;
+}
+
+.body_white .text-btn:after
+{
+    background: #fff;
+}
+
+.body_white .housecall-form-wrap1
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .housecall-form h3
+{
+    color: #000;
+}
+
+.body_white .textarea
+{
+    color: #000;
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .information h1
+{
+    color: #000;
+}
+
+.body_white .information-item
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .information-item-text-wrap1
+{
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .information-item:after
+{
+    background: #fff;
+}
+
+.body_white .information-item-text-wrap2 h2
+{
+    color: #000;
+}
+
+.body_white .information-item-text-wrap2 p
+{
+    color: #000;
+}
+
+.body_white .pagination-list li
+{
+    color: #000;
+}
+
+.body_white .pagination-list li.active a
+{
+    color: #000;
+}
+
+.body_white .pagination-list a:after
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .pagination-list a
+{
+    color: #000;
+}
+
+.body_white .jobs h1
+{
+    color: #000;
+}
+
+.body_white .jobs-text1 p
+{
+    color: #000;
+}
+
+.body_white .jobs-text-container2 p
+{
+    color: #000;
+}
+
+.body_white .jobs-text-container2 ul li
+{
+    color: #000;
+}
+
+.body_white .jobs-list-wrap h2
+{
+    color: #000;
+}
+
+.body_white .jobs-list li a
+{
+    color: #000;
+}
+
+.body_white .partnership h1
+{
+    color: #000;
+}
+
+.body_white .partnership-text1 p
+{
+    color: #000;
+}
+
+.body_white .partnership-item h3
+{
+    color: #000;
+}
+
+.body_white .partnership-text2 p
+{
+    color: #000;
+}
+
+.body_white .program h1
+{
+    color: #000;
+}
+
+.body_white .program-text-container1 p
+{
+    color: #000;
+}
+
+.body_white .program-text-container1 h2
+{
+    color: #000;
+}
+
+.body_white .program-text-container1 h3
+{
+    color: #000;
+}
+
+.body_white .program-text-container1 ul li
+{
+    color: #000;
+}
+
+.body_white .program-text-container1 h3
+{
+    color: #000;
+}
+
+.body_white .program-text-container1 p b
+{
+    color: #000;
+}
+
+.body_white .program-list-wrap h2
+{
+    color: #000;
+}
+
+.body_white .program-item h3
+{
+    color: #000;
+}
+
+.body_white .program-item p
+{
+    color: #000;
+}
+
+.body_white .program-item-btn-wrap span
+{
+    color: #000;
+
+    border-color: #000;
+}
+
+.body_white .program-item-btn-wrap a
+{
+    color: #000;
+}
+
+.body_white .program-item
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .program .row div:first-child
+{
+    border-left-color: #000;
+}
+
+.body_white .program .row div
+{
+    border-left-color: #000;
+}
+
+.body_white .program .row div:last-child
+{
+    border-right-color: #000;
+}
+
+.body_white .program .row
+{
+    border-bottom-color: #000;
+}
+
+.body_white .program .row-1
+{
+    border-top: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .program .row b
+{
+    color: #000;
+}
+
+.body_white .program .row span
+{
+    color: #000;
+}
+
+.body_white .program .row:nth-child(2n)
+{
+    background: #fff;
+}
+
+.body_white .programs-text2 p
+{
+    color: #000;
+}
+
+.body_white .programs-text2 ul li
+{
+    color: #000;
+}
+
+.body_white .publication h1
+{
+    color: #000;
+}
+
+.body_white .publication p
+{
+    color: #000;
+}
+
+.body_white .publication h3
+{
+    color: #000;
+}
+
+.body_white .publications-title h1
+{
+    color: #000;
+}
+
+.body_white .publications-link
+{
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.body_white .questions-title h1
+{
+    color: #000;
+}
+
+.body_white .questions-filter
+{
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.body_white .reviews-radio-wrap1
+{
+    background: #fff;
+}
+
+.body_white label span
+{
+    border: 1px solid transparent;
+}
+
+.body_white .reviews-radio-wrap1 label input:checked ~ span
+{
+    color: #000;
+
+    border-color: #000;
+    background: #fff;
+}
+
+.body_white .vacancy-form h2
+{
+    color: #000;
+}
+
+.body_white .vacancy-form
+{
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.body_white .vacancy-select-wrap span
+{
+    color: #000;
+}
+
+.body_white .questions .textarea-wrap span
+{
+    color: #000;
+}
+
+.body_white .reviews-feedback h2
+{
+    color: #000;
+}
+
+.body_white .reviews-feedback-form
+{
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.body_white .reviews-textarea-wrap textarea
+{
+    color: #000;
+
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.body_white .reviews-textarea-wrap span
+{
+    color: #000;
+}
+
+.body_white .reviews-feedback-checkbox-wrap .radio-label span
+{
+    color: #000;
+}
+
+.body_white .reviews h1
+{
+    color: #000;
+}
+
+.body_white .reviews-filter
+{
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.body_white .rights h1
+{
+    color: #000;
+}
+
+.body_white .rights-text1 p
+{
+    color: #000;
+}
+
+.body_white .rights-text2-wrap h3
+{
+    color: #000;
+}
+
+.body_white .rights-text2 p
+{
+    color: #000;
+}
+
+.body_white .rules-text3 p
+{
+    color: #000;
+}
+
+.body_white .rights-text2 p a
+{
+    color: #000;
+}
+
+.body_white .rules-img3 span
+{
+    color: #000;
+}
+
+.body_white .search h1
+{
+    color: #000;
+}
+
+.body_white .search-form
+{
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.body_white .search-form p
+{
+    color: #000;
+}
+
+.body_white .search-form p b
+{
+    color: #000;
+}
+
+.body_white .search-item-link a
+{
+    color: #000;
+}
+
+.body_white .search-item p
+{
+    color: #000;
+}
+
+.body_white .search-item:after
+{
+    background: #fff;
+}
+
+.body_white .search-item p a
+{
+    color: #000;
+}
+
+.body_white .cost1 h2
+{
+    color: #000;
+}
+
+.body_white .cost1-list li:before
+{
+    background: #000;
+}
+
+.body_white .cost1-list i
+{
+    color: #000;
+}
+
+.body_white .cost1-list b
+{
+    color: #000;
+}
+
+.body_white .cost1-list span
+{
+    color: #000;
+    font-size: 16px;
+}
+
+.body_white .service1-results:after
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .service1-results h2
+{
+    color: #000;
+}
+
+.body_white .service1-results-text p
+{
+    color: #000;
+}
+
+.body_white .service1-results-img-container b
+{
+    color: #000;
+}
+
+.body_white .service1-other-item
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .service1-other h3
+{
+    color: #000;
+}
+
+.body_white .service1-other-item h4
+{
+    color: #000;
+}
+
+.body_white .service1-other-item b
+{
+    color: #000;
+}
+
+.body_white .service1-other-item p
+{
+    color: #000;
+}
+
+.body_white .service1-doctors
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .service1-doctors-slider
+{
+    border-color: #000;
+}
+
+.body_white .service1-doctors h3
+{
+    color: #000;
+}
+
+.body_white .service1-doctors-text h4
+{
+    color: #000;
+}
+
+.body_white .service1-doctors-text p
+{
+    color: #000;
+}
+
+.body_white .service1-doctors-link-wrap a
+{
+    color: #000;
+}
+
+.body_white .service1-doctors-link-wrap a:hover
+{
+    text-decoration: underline;
+}
+
+.body_white .social h1
+{
+    color: #000;
+}
+
+.body_white .social-text p
+{
+    color: #000;
+}
+
+.body_white .solutions-text1 p
+{
+    color: #000;
+}
+
+.body_white .solutions-list li a
+{
+    color: #000;
+}
+
+.body_white .solutions-list li a:hover
+{
+    color: #000;
+}
+
+.body_white .solutions-text2 p
+{
+    color: #000;
+}
+
+.body_white .solutions .tab_list1 li a
+{
+    color: #000;
+
+    border-color: #000;
+    background: #fff;
+}
+
+.body_white.no-touch .solutions .tab_list1 li a:hover,
+.body_white .solutions .tab_list1 li a.active
+{
+    color: #000;
+
+    background: #ccc;
+}
+
+.body_white .stock-timer-wrap i
+{
+    color: #000;
+}
+
+.body_white .stock h1
+{
+    color: #000;
+}
+
+.body_white .stock-filter
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .stock-radio-wrap
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .stock-radio-wrap input:checked ~ span
+{
+    color: #000;
+
+    border-color: #ccc;
+    background: #ccc;
+}
+
+.body_white .vacancy h1
+{
+    color: #000;
+}
+
+.body_white .vacancy-item h2
+{
+    color: #000;
+}
+
+.body_white .vacancy-item li
+{
+    color: #000;
+}
+
+.body_white .vacancy-item2 p span
+{
+    color: #000;
+}
+
+.body_white .vacancy-item2 p b
+{
+    color: #000;
+}
+
+.body_white .vacancy-item2 p a
+{
+    color: #000;
+}
+
+.body_white .jq-file
+{
+    border-color: #000;
+    background: #fff;
+}
+
+.body_white .jq-file__name
+{
+    color: #000;
+}
+
+.body_white .jq-file__name:after
+{
+    color: #000;
+}
+
+.body_white .videos h1
+{
+    color: #000;
+}
+
+.body_white .videos-filter
+{
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .videos-item-wrap:before
+{
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .videos-item-text
+{
+    border: 1px solid #000;
+    border-top: none;
+    background: #fff;
+}
+
+.body_white .videos-item-text h3
+{
+    color: #000;
+}
+
+.body_white .videos-filter-radio-wrap
+{
+    border: 1px solid #000;
+    background: transparent;
+}
+
+.body_white .videos-filter-radio-wrap input:checked ~ span
+{
+    color: #000;
+
+    border-color: #ccc;
+    background: #ccc;
+}
+
+.body_white.no-touch .main-header-link1-list a:hover,
+.body_white.no-touch .main-header-form-search button:hover,
+.body_white.no-touch .main-header-link-list a:hover,
+.body_white.no-touch .btn1:hover,
+.body_white.no-touch .swiper-button-prev-style1:hover,
+.body_white.no-touch .swiper-button-next-style1:hover,
+.body_white.no-touch .main-footer-social-list a:hover,
+.body_white.no-touch .main-footer-share-item:hover,
+.body_white.no-touch .main-footer-subscribe-btn-wrap a:hover,
+.body_white.no-touch .main-footer-versions-item a:hover,
+.body_white.no-touch .fixed-header-feedback a:hover,
+.body_white.no-touch .breadcrumbs-list a:hover,
+.body_white.no-touch .text-btn:hover span,
+.body_white.no-touch .swiper-button-prev-style2:hover,
+.body_white.no-touch .swiper-button-next-style2:hover,
+.body_white.no-touch .btn2:hover,
+.body_white.no-touch .rules-info-link-item a:hover,
+.body_white.no-touch .swiper-button-prev-style3:hover,
+.body_white.no-touch .swiper-button-next-style3:hover,
+.body_white.no-touch .service1-list1 a:hover,
+.body_white.no-touch .publications-link:hover,
+.body_white.no-touch .pagination-list a:hover,
+.body_white.no-touch .publications-item:hover,
+.body_white.no-touch .clinic-btn-print:hover,
+.body_white.no-touch .clinic-map-info-title a:hover,
+.body_white.no-touch .btn5:hover,
+.body_white.no-touch .attendance-btn3:hover,
+.body_white.no-touch .directory-slider .swiper-pagination .swiper-pagination-bullet:hover,
+.body_white.doctor-certificates-img:hover
+{
+    opacity: 1;
+}
+
+.body_white.no-touch .banner-list a:hover,
+.body_white.no-touch .banner-link-wrap1 a:hover,
+.body_white.no-touch .main-footer-list a:hover,
+.body_white.no-touch .main-footer-list1 a:hover,
+.body_white.no-touch .main-footer-list2 a:hover,
+.body_white.no-touch .main-footer-wrap4 span a:hover,
+.body_white.no-touch .service1-tab-list a:hover,
+.body_white.no-touch .service1-tab-link-wrap a:hover,
+.body_white.no-touch .section-list1 a:hover,
+.body_white.no-touch .cost1-list li:hover i,
+.body_white.no-touch .service1-list2 a:hover,
+.body_white.no-touch .costsection-list2 a:hover,
+.body_white.no-touch .programs-item-btn-wrap a:hover,
+.body_white.no-touch .program-item-btn-wrap a:hover,
+.body_white.no-touch .clinic-doctors-btn-wrap a:hover,
+.body_white.no-touch .attendance-list li:hover span,
+.body_white.no-touch .directory-list a:hover,
+.body_white.no-touch .health-list a:hover,
+.body_white.no-touch .health-question-link-wrap a:hover,
+.body_white.no-touch .action-programs-item-wrap:hover p,
+.body_white.no-touch .doctor-reviews-link:hover,
+.body_white.no-touch .health-link-wrap a:hover
+{
+    color: #000;
+
+    text-decoration: underline;
+}
+
+.body_white .main-header-form-search input::-webkit-input-placeholder
+{
+    color: #000;
+}
+
+.body_white .main-header-form-search input:-ms-input-placeholder
+{
+    color: #000;
+}
+
+.body_white .main-header-form-search input::-ms-input-placeholder
+{
+    color: #000;
+}
+
+.body_white .main-header-form-search input::placeholder
+{
+    color: #000;
+}
+
+.body_white .fixed-header-search-form input::-webkit-input-placeholder
+{
+    color: #000;
+}
+
+.body_white .fixed-header-search-form input:-ms-input-placeholder
+{
+    color: #000;
+}
+
+.body_white .fixed-header-search-form input::-ms-input-placeholder
+{
+    color: #000;
+}
+
+.body_white .fixed-header-search-form input::placeholder
+{
+    color: #000;
+}
+
+.body_white ::-webkit-input-placeholder
+{
+    color: #000 !important;
+}
+
+.body_white :-moz-placeholder
+{
+    color: #000 !important;
+}
+
+.body_white ::-moz-placeholder
+{
+    color: #000 !important;
+}
+
+.body_white :-ms-input-placeholder
+{
+    color: #000 !important;
+}
+
+
+.body_white .action-other .stock-item
+{
+    width: calc(100% - 1px);
+}
+
+.body_white .action-clinics-slider .clinics-item
+{
+    width: calc(100% - 1px);
+}
+
+.body_white .clinic-doctors-slider .doctors-item
+{
+    width: calc(100% - 1px);
+}
+
+.body_white .doctor-reviews-slider .reviews-item,
+.body_white .clinic-reviews .reviews-item
+{
+    width: calc(100% - 1px);
+}
+
+.body_white .clinic-administration-slider .administration-item
+{
+    width: calc(100% - 1px);
+}
+
+.body_white .fixed-header-list a
+{
+    color: #000;
+}
+
+
+
+
+.body_white.no-touch .main-header-link1-list a:hover,
+.body_white.no-touch .main-header-form-search button:hover,
+.body_white.no-touch .main-header-link-list a:hover,
+.body_white.no-touch .swiper-button-prev-style1:hover,
+.body_white.no-touch .swiper-button-next-style1:hover,
+.body_white.no-touch .main-footer-social-list a:hover,
+.body_white.no-touch .main-footer-subscribe-btn-wrap a:hover,
+.body_white.no-touch .main-footer-versions-item a:hover,
+.body_white.no-touch .fixed-header-feedback a:hover,
+.body_white.no-touch .breadcrumbs-list a:hover,
+.body_white.no-touch .text-btn:hover span,
+.body_white.no-touch .swiper-button-prev-style2:hover,
+.body_white.no-touch .swiper-button-next-style2:hover,
+.body_white.no-touch .swiper-button-prev-style3:hover,
+.body_white.no-touch .swiper-button-next-style3:hover,
+.body_white.no-touch .service1-list1 a:hover,
+.body_white.no-touch .publications-link:hover,
+.body_white.no-touch .pagination-list a:hover,
+.body_white.no-touch .publications-item:hover,
+.body_white.no-touch .clinic-btn-print:hover,
+.body_white.doctor-certificates-img:hover,
+.body_white .clinic-reviews-btn-wrap .reviews-btn:hover
+{
+    text-decoration: underline;
+}
+
+.body_middle .main-header-link1 b:hover
+{
+    text-decoration: underline;
+}
+
+.body_white.no-touch .btn1:hover,
+.body_white.no-touch .btn2:hover,
+.body_white.no-touch .attendance-btn3:hover,
+.body_white .attendance-btn1:hover,
+.body_white.no-touch .clinic-map-info-title a:hover,
+.body_white.no-touch .btn5:hover,
+.body_white.no-touch .directory-slider .swiper-pagination .swiper-pagination-bullet:hover:after
+{
+    color: #000;
+
+    border-color: transparent;
+    background: #ccc;
+}
+
+.body_white.no-touch .rules-info-link-item a:hover i,
+.body_white.no-touch .rules-info-link-item a:hover span
+{
+    text-decoration: underline;
+}
+
+.achievement-item-btn-wrap
+{
+    background: rgba(255,255,255,.8);
+}
+
+.body_white .clinic-tab_list
+{
+    border: 1px solid #000;
+}
+
+.body_white .clinic-tab-item.active > span,
+.body_white .clinic-tab-item:hover > span
+{
+    color: #000;
+
+    background: #ccc;
+}
+
+.clinic-tab-item.active i path,
+.clinic-tab-item:hover i path
+{
+    fill: #000;
+}
+
+.body_white .faq-item .open_toggle:hover
+{
+    color: #000;
+
+    border-color: transparent;
+    background: #ccc;
+}
+
+.body_white .health-problem-list a:hover
+{
+    text-decoration: underline;
+}
+
+.body_white.no-touch .publications-item
+{
+    color: #000;
+}
+
+.body_white .videos-filter-radio-wrap label
+{
+    background: transparent;
+}
+
+.body_white .btn4
+{
+    color: #000;
+
+    border-color: #000;
+}
+
+.body_white.no-touch .btn4:hover
+{
+    color: #000;
+
+    border-color: #ccc;
+    background-color: #ccc;
+}
+
+.body_white .main-header-nav-link-wrap1 a
+{
+    color: #000;
+}
+
+.body_white .main-header-nav-link-wrap4 a
+{
+    color: #000;
+}
+
+.body_white .main-header-nav-link-wrap2 a
+{
+    color: #000;
+}
+
+.body_white .service1-list1 a
+{
+    color: #000;
+}
+
+.body_white .service1-tabs .service1-tab_list li
+{
+    border-right-color: #000;
+}
+
+.body_white .radio-label i
+{
+    width: 16px;
+    height: 16px;
+
+    border-width: 3px;
+    border-color: #000;
+}
+
+.body_white .radio-label input:checked ~ i
+{
+    border-color: #000;
+    background: #000;
+}
+
+.body_white .reviews-feedback-form-wrap2 label input
+{
+    color: #000;
+
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.body_white .cost1-list li:nth-last-child(1):after
+{
+    background: #000;
+}
+
+.body_white .main-header-link-item-2 a:after {
+  background-image: url("../img/main-header-link-item-2Black.svg");
+}
+
+.body_white .main-header-link-item-4 a:after {
+  background-image: url("../img/main-header-link-item-4Black.svg");
+}
+
+.body_white .main-header-link1 b:after{
+    background-image: url("../img/arrow1Black.png")
+}
+
+.body_white .fixed-header-menu-toggle{
+    color: #000;
+}
+
+.body_white .fixed-header-menu-toggle:after{
+    background-image: url("../img/menu1Black.svg")
+}
+
+.body_white .fixed-header-menu-toggle.active:after{
+    background-image: url("../img/close1Black.svg")
+}
+
+.body_white .fixed-header-search-form button{
+    background-image: url(../img/search-btn_black.svg);
+}

@@ -1,0 +1,647 @@
+body{
+    min-width: 1360px;
+}
+
+@media only screen and (max-width: 1919px)
+{
+    .submenu-container li
+    {
+        width: 32%;
+    }
+
+    .submenu{
+        margin-left: -1.333%;
+    }
+
+    .submenu li {
+        margin-left: 1.333%;
+    }
+}
+
+@media only screen and (max-width: 1900px)
+{
+    .videos-filter-select-wrap
+    {
+        max-width: 500px;
+    }
+
+    .information-item
+    {
+        width: 48%;
+    }
+
+    .information-item-11,
+    .information-item-12,
+    .information-item-13,
+    .information-item-14,
+    .information-item-15
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1800px)
+{
+    .service1-tab-list a
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        min-height: 50px;
+        padding: 0;
+
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .administration-list{
+        margin-left: -6.625%;
+    }
+
+    .administration-item
+    {
+        width: 24.5%;
+        margin-top: 10px;
+
+        margin-left: 6.625%;
+    }
+
+    .administration-list
+    {
+        margin-top: -10px;
+    }
+
+    .programs-item
+    {
+        width: 48%;
+    }
+
+    .program-list
+    {
+        margin-top: -36px;
+    }
+
+    .program-item
+    {
+        width: 48%;
+        margin-top: 36px;
+    }
+
+    .program-item-4
+    {
+        display: block;
+    }
+
+    .stock-list{
+        margin-left: -2.333%;
+    }
+
+    .stock-item
+    {
+        width: 31%;
+
+        margin-left: 2.333%;
+    }
+}
+
+@media only screen and (max-width: 1750px)
+{
+    .certificates-item
+    {
+        max-width: 460px;
+    }
+
+    .certificates-item-9,
+    .certificates-item-10,
+    .certificates-item-11,
+    .certificates-item-12
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1700px)
+{
+    .videos-filter-select-wrap
+    {
+        width: 48%;
+        max-width: none;
+    }
+
+    .videos-filter-radio-wrap
+    {
+        margin-top: 20px;
+
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .stock-select-wrap
+    {
+        width: 100%;
+        max-width: 490px;
+    }
+
+    .health-informations-list .publications-item
+    {
+        width: 48%;
+    }
+
+    .health-informations-list .publications-item:nth-child(6),
+    .health-informations-list .publications-item:nth-child(5)
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1650px)
+{
+    .service1-results-text
+    {
+        width: 100%;
+        margin-top: 40px;
+
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .service1-results-img
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .contact1-item3
+    {
+        width: 32%;
+        margin-top: 23px;
+    }
+
+    .contact1-list3
+    {
+        max-height: 1060px;
+        margin-top: -23px;
+    }
+
+    .administration-list{
+        margin-left: -2.333%;
+    }
+
+    .administration-item
+    {
+        width: 31%;
+
+        margin-left: 2.333%;
+    }
+
+    .administration-item-13,
+    .administration-item-14,
+    .administration-item-15,
+    .administration-item-16
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1600px)
+{
+    .rules-wrap2 .text1
+    {
+        display: none;
+    }
+
+    .rules-wrap2 .text2
+    {
+        display: block;
+    }
+
+    .rules-img3
+    {
+        max-width: 368px;
+    }
+
+    .rules-text-cotaniner2
+    {
+        padding: 40px;
+        padding-right: 0;
+    }
+
+    .rules-text3
+    {
+        width: calc(100% - 400px);
+    }
+
+    .videoPoster:after
+    {
+        background-size: 200px;
+    }
+
+    .service1-reception-text
+    {
+        width: 100%;
+
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .service1-reception-img
+    {
+        max-width: none;
+        margin-bottom: 40px;
+    }
+
+    .service1-reception-img img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .health-problem
+    {
+        max-width: 400px;
+    }
+
+    .health-problem-list
+    {
+        padding: 40px 25px;
+    }
+
+    .health-question
+    {
+        width: calc(100% - 440px);
+    }
+}
+
+@media only screen and (max-width: 1550px)
+{
+    .vacancy-select-wrap
+    {
+        max-width: none;
+    }
+
+    .banner-tab-slider
+    {
+        padding: 20px;
+    }
+
+    .banner-wrap1
+    {
+        padding-bottom: 20px;
+    }
+
+    .banner-item
+    {
+        padding: 20px;
+    }
+
+    .banner-info h2
+    {
+        font-size: 22px;
+    }
+
+    .banner-wrap1 .swiper-button-prev-style1,
+    .swiper-container-rtl .swiper-button-next-style1
+    {
+        left: 20px;
+    }
+
+    .banner-wrap1 .swiper-button-next-style1,
+    .swiper-container-rtl .swiper-button-prev-style1
+    {
+        left: 55px;
+    }
+
+    .main-footer-social-wrap
+    {
+        max-width: none;
+        margin-top: 15px;
+    }
+
+    .main-footer-social
+    {
+        margin-left: auto;
+    }
+
+    .costsection-item-2
+    {
+        padding-right: 0;
+    }
+
+    .publications-item-text p span
+    {
+        display: none;
+    }
+
+    .publications-item-text h3 span
+    {
+        display: none;
+    }
+
+    .service1-wrap1
+    {
+        width: calc(100% - 390px);
+    }
+
+    .reviews-select-wrap
+    {
+        width: 48%;
+    }
+
+    .reviews-input-wrap
+    {
+        width: 100%;
+        margin-top: 18px;
+    }
+
+    .jobs-list li
+    {
+        width: 48%;
+        padding-right: 0;
+    }
+
+    .jobs-list li:last-child
+    {
+        margin-right: 0;
+    }
+
+    .vacancy-form
+    {
+        padding: 50px;
+    }
+
+    .vacancy-form .label
+    {
+        max-width: none;
+    }
+
+    .clinics-item
+    {
+        width: 32%;
+    }
+
+    .clinics-filter
+    {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .clinics-filter-radio-wrap
+    {
+        margin-right: 0;
+    }
+
+    .clinics-filter-select-wrap
+    {
+        width: calc(100% - 603px);
+        max-width: none;
+    }
+
+    .doctors-item
+    {
+        width: 30%;
+    }
+
+    .doctors-item-10,
+    .doctors-item-11,
+    .doctors-item-12,
+    .doctors-item-13,
+    .doctors-item-14,
+    .doctors-item-15
+    {
+        display: none;
+    }
+
+    .doctor-info-text-wrap3 p,
+    .doctor-info-text-wrap4 p
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (max-width: 1500px)
+{
+    .rules-info-link-item
+    {
+        width: 100%;
+    }
+
+    .corporate-list{
+        margin-left: -3.333%;
+    }
+
+    .corporate-item
+    {
+        width: 30%;
+        margin-left: 3.333%;
+    }
+
+    .creditFeedback-form
+    {
+        padding: 30px 47px;
+    }
+
+    .creditFeedback-form .label
+    {
+        max-width: 600px;
+    }
+
+    .creditFeedback-form-wrap
+    {
+        max-width: 600px;
+    }
+
+    .clinic-photo-container2
+    {
+        max-width: 185px;
+    }
+
+    .clinic-photo-container1
+    {
+        width: calc(100% - 200px);
+    }
+
+    .clinic-photo-wrap1-hidden
+    {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1450px)
+{
+    .publication-info-wrap1 .publication-img
+    {
+        max-width: 456px;
+    }
+
+    .publication-info-wrap3 .publication-img
+    {
+        max-width: 469px;
+    }
+
+    .publication-info-wrap6 .publication-img
+    {
+        max-width: 419px;
+    }
+
+    .company-img1
+    {
+        max-width: 380px;
+    }
+
+    .company-text1
+    {
+        width: calc(100% - 429px);
+    }
+
+    .company-img2
+    {
+        margin-right: 0;
+        margin-left: 49px;
+    }
+
+    .stock-list{
+        margin-left: -2%;
+    }
+
+    .stock-item
+    {
+        width: 48%;
+
+        margin-left: 2%;
+    }
+
+    .stock-item-9,
+    .stock-item-10,
+    .stock-item-11,
+    .stock-item-12
+    {
+        display: none;
+    }
+
+    .stock-select-wrap1
+    {
+        width: calc(100% - 300px);
+        max-width: none;
+    }
+
+    .stock-select-wrap2
+    {
+        max-width: none;
+        margin-top: 20px;
+    }
+
+    .clinic-map-wrap
+    {
+        height: 689px;
+    }
+
+    .clinic-map-info
+    {
+        top: auto;
+
+        max-width: none;
+        padding: 10px;
+    }
+
+    .doctor-info-text-wrap2 b
+    {
+        font-size: 24px;
+
+        margin-right: 10px;
+    }
+
+    .doctor-info-text-wrap2 span
+    {
+        font-size: 24px;
+
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 1400px)
+{
+    .services1-item
+    {
+        width: 30%;
+        margin-top: 50px;
+    }
+
+    .services1-list
+    {
+        margin-top: -50px;
+    }
+
+    .main-footer-list1 a span
+    {
+        display: none;
+    }
+
+    .costsection-select-wrap
+    {
+        max-width: 221px;
+        margin-right: 0;
+    }
+
+    .costsection-search-wrap
+    {
+        width: calc(100% - 600px);
+    }
+
+    .housecall-form-wrap1
+    {
+        padding: 40px;
+    }
+
+    .videos-item
+    {
+        width: 32%;
+    }
+
+    .videos-item-17
+    {
+        display: block;
+    }
+
+    .videos-item-18
+    {
+        display: block;
+    }
+
+    .solutions-info
+    {
+        width: calc(100% - 350px);
+    }
+}
+
+@media  (min-width: 1359px)and (max-width: 1450px)
+{
+    .clinic-map-info
+    {
+        top: 0;
+
+        max-width: 655px;
+        padding: 10px;
+    }
+    .clinic-map-wrap
+    {
+        height: 380px;
+    }
+}
+
+@media only screen and (min-width: 1359px)
+{
+    .main-header-nav
+    {
+        display: block !important;
+    }
+}

@@ -1,0 +1,1 @@
+<a href="#" class="js-appointment-btn btn1" onclick="gtag('event','Open',{'event_category':'AppointmentForm','event_label': 'Click-button-zapis-na-priem-header'});ym(2120464,'reachGoal','Appointment-Form-Header-Open'); return true;">Записаться на прием</a>

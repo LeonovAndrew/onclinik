@@ -1,0 +1,57 @@
+.rules-info-link-item.pdf a:after {
+    background: url(../img/rules-info-link-item-1.svg) center no-repeat;
+}
+
+.rules-info-link-item.msword a:after {
+    background: url(../img/rules-info-link-item-2.svg) center no-repeat;
+}
+
+.rules-info-link-item.vndmsexcel a:after {
+    background: url(../img/rules-info-link-item-3.svg) center no-repeat;
+}
+
+.cost1-list i a {
+    color: inherit;
+}
+
+.preloader-wrap {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.preloader {
+    width: 64px;
+    height: 64px;
+    background: url(../img/preloader.gif) center no-repeat;
+}
+
+.map-wrap #clinics-map {
+    width: 100%;
+    height: 600px;
+}
+
+.letter {
+    width: 35px;
+    height: 35px;
+    background-color: #0a9beb;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    padding-bottom: 2px;
+}

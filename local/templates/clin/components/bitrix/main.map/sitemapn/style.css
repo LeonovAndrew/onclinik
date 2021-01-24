@@ -1,0 +1,32 @@
+ul.map-level-0 a {
+	font-weight: bold;
+}
+
+ul.map-level-1 a, ul.map-level-2 a, ul.map-level-3 a {
+	font-weight: normal;
+}
+
+.map-columns td {
+	vertical-align: top;
+}
+
+
+
+/*
+ul.map-level-0 a {
+	padding: 10px 20px;
+	background-color: #0a9beb;
+	display: inline-block;
+	margin-bottom: 10px;
+	min-width: 150px;
+	text-align: center;
+	color: #fff;
+}
+ul.map-level-0 {
+	!*min-width: 700px;*!
+	list-style-position: inside;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	column-count: 3;
+	list-style-type: decimal;
+}*/

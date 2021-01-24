@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="EmulateIE7"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<style type="text/css">
+		body {
+			margin:0;
+			padding:0;
+		}
+		#map {
+			border:none;
+			padding:0;
+			margin:0;
+			width:100%;
+			height:288px;
+		}
+	</style>
+	<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAmKJH21EpbA5lX1Q2OXr82hTKqSGuWz_YB9I3dmInZwK54EyqVhRccBDn_a1c8BZaqIOSGFJz_T3XxA" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+
+
+	function initialize() {
+		if (GBrowserIsCompatible()) {
+			////координаты центра карты
+			var center1=55.761600;
+			var center2=37.561677;
+			////кординаты объекта
+			var object1=55.75913;
+			var object2=37.561677;
+			var map = new GMap2(document.getElementById("map"));
+			map.setCenter(new GLatLng(center1,center2), 15); //загрузка карты
+			map.addControl(new GLargeMapControl()); //загрузка полосы масштаба
+
+
+			var baseIcon = new GIcon();
+			baseIcon.iconSize = new GSize(42, 40);
+			baseIcon.iconAnchor = new GPoint(1, 39); //координаты точки соприкосновения с объектом на карте
+
+
+			function createMarker(point) {
+				var letteredIcon = new GIcon(baseIcon);
+				letteredIcon.image = "../../_images/map.png";
+
+				markerOptions = { icon:letteredIcon };
+				var marker = new GMarker(point, markerOptions);
+
+				return marker;
+			}
+
+
+			var latlng = new GLatLng(object1,object2);
+			map.addOverlay(createMarker(latlng));
+
+
+		}
+	}
+	</script>
+</head>
+<body onload="initialize()" onunload="GUnload()">
+<div id="map"></div>
+</body>
+</html>

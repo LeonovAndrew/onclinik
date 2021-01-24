@@ -1,0 +1,1 @@
+<b>Согласно положениям приказа Рособрнадзора № 785 файлы документов и их копий, размещаемых на официальном сайте образовательной организации, предоставляются в форматах Portable Document Files (.pdf), Microsoft Word / Microsofr Excel (.doc, .docx, .xls, .xlsx), Open Document Files (.odt, .ods).</b>

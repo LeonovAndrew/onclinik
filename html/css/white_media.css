@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1359px)
+{
+    .body_white .main-header-form-search input
+    {
+        border-right: none;
+    }
+
+    .banner .tab_list
+    {
+        width: calc(100% + 2px);
+        margin-left: -1px;
+    }
+
+    .body_white .main-header-link1
+    {
+        border-right-color: #000;
+    }
+}
+
+
+@media only screen and (max-width: 1000px)
+{
+    .body_white .achievement-item
+    {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .body_white .main-header-nav-link-wrap2 a:after{
+        background-image: url("../img/main-header-link-item-4Black.svg");
+    }
+}

@@ -1,0 +1,6550 @@
+@media only screen and (max-width: 1919px)
+{
+    .submenu-container li
+    {
+        width: 32%;
+    }
+
+    .submenu{
+        margin-left: -1.333%;
+    }
+
+    .submenu li {
+        margin-left: 1.333%;
+    }
+}
+
+@media only screen and (max-width: 1900px)
+{
+    .videos-filter-select-wrap
+    {
+        max-width: 500px;
+    }
+
+    .information-item
+    {
+        width: 48%;
+    }
+
+    .information-item-11,
+    .information-item-12,
+    .information-item-13,
+    .information-item-14,
+    .information-item-15
+    {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 1800px)
+{
+
+    .service1-tab-list a
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        min-height: 50px;
+        padding: 0;
+
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .administration-list{
+        margin-left: -6.625%;
+    }
+
+    .administration-item
+    {
+        width: 24.5%;
+        margin-top: 10px;
+
+        margin-left: 6.625%;
+    }
+
+    .administration-list
+    {
+        margin-top: -10px;
+    }
+
+    .programs-item
+    {
+        width: 48%;
+    }
+
+    .program-list
+    {
+        margin-top: -36px;
+    }
+
+    .program-item
+    {
+        width: 48%;
+        margin-top: 36px;
+    }
+
+    .program-item-4
+    {
+        display: block;
+    }
+
+    .stock-list{
+        margin-left: -2.333%;
+    }
+
+    .stock-item
+    {
+        width: 31%;
+
+        margin-left: 2.333%;
+    }
+}
+
+@media only screen and (max-width: 1750px)
+{
+    .certificates-item
+    {
+        max-width: 460px;
+    }
+
+    .certificates-item-9,
+    .certificates-item-10,
+    .certificates-item-11,
+    .certificates-item-12
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1700px)
+{
+    .videos-filter-select-wrap
+    {
+        width: 48%;
+        max-width: none;
+    }
+
+    .videos-filter-radio-wrap
+    {
+        margin-top: 20px;
+
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .stock-select-wrap
+    {
+        width: 100%;
+        max-width: 490px;
+    }
+
+    .health-informations-list .publications-item
+    {
+        width: 48%;
+    }
+
+    .health-informations-list .publications-item:nth-child(6),
+    .health-informations-list .publications-item:nth-child(5)
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1650px)
+{
+    .service1-results-text
+    {
+        width: 100%;
+        margin-top: 40px;
+
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .service1-results-img
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .contact1-item3
+    {
+        width: 32%;
+        margin-top: 23px;
+    }
+
+    .contact1-list3
+    {
+        max-height: 1060px;
+        margin-top: -23px;
+    }
+
+    .administration-list{
+        margin-left: -2.333%;
+    }
+
+    .administration-item
+    {
+        width: 31%;
+        margin-left: 2.333%;
+    }
+
+    .administration-item-13,
+    .administration-item-14,
+    .administration-item-15,
+    .administration-item-16
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1600px)
+{
+    .rules-wrap2 .text1
+    {
+        display: none;
+    }
+
+    .rules-wrap2 .text2
+    {
+        display: block;
+    }
+
+    .rules-img3
+    {
+        max-width: 368px;
+    }
+
+    .rules-text-cotaniner2
+    {
+        padding: 40px;
+        padding-right: 0;
+    }
+
+    .rules-text3
+    {
+        width: calc(100% - 400px);
+    }
+
+    .videoPoster:after
+    {
+        background-size: 200px;
+    }
+
+    .service1-reception-text
+    {
+        width: 100% !important;
+
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .service1-reception-img
+    {
+        max-width: none;
+        margin-bottom: 40px;
+    }
+
+    .service1-reception-img img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .health-problem
+    {
+        max-width: 400px;
+    }
+
+    .health-problem-list
+    {
+        padding: 40px 25px;
+    }
+
+    .health-question
+    {
+        width: calc(100% - 440px);
+    }
+}
+
+@media only screen and (max-width: 1550px)
+{
+    .vacancy-select-wrap
+    {
+        max-width: none;
+    }
+
+    .banner-tab-slider
+    {
+        padding: 20px;
+    }
+
+    .banner-wrap1
+    {
+        padding-bottom: 20px;
+    }
+
+    .banner-item
+    {
+        padding: 20px;
+    }
+
+    .banner-info h2
+    {
+        font-size: 22px;
+    }
+
+    .banner-wrap1 .swiper-button-prev-style1,
+    .swiper-container-rtl .swiper-button-next-style1
+    {
+        left: 20px;
+    }
+
+    .banner-wrap1 .swiper-button-next-style1,
+    .swiper-container-rtl .swiper-button-prev-style1
+    {
+        left: 55px;
+    }
+
+    .main-footer-social-wrap
+    {
+        max-width: none;
+        margin-top: 15px;
+    }
+
+    .main-footer-social
+    {
+        margin-left: auto;
+    }
+
+    .costsection-item-2
+    {
+        padding-right: 0;
+    }
+
+    .publications-item-text p span
+    {
+        display: none;
+    }
+
+    .publications-item-text h3 span
+    {
+        display: none;
+    }
+
+    .service1-wrap1
+    {
+        width: calc(100% - 390px);
+    }
+
+    .reviews-select-wrap
+    {
+        width: 48%;
+    }
+
+    .reviews-input-wrap
+    {
+        width: 100%;
+        margin-top: 18px;
+    }
+
+    .jobs-list li
+    {
+        width: 48%;
+        padding-right: 0;
+    }
+
+    .jobs-list li:last-child
+    {
+        margin-right: 0;
+    }
+
+    .vacancy-form
+    {
+        padding: 50px;
+    }
+
+    .vacancy-form .label
+    {
+        max-width: none;
+    }
+
+    .clinics-item
+    {
+        width: calc(33.33% - 20px);
+    }
+
+    .clinics-filter
+    {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .clinics-filter-radio-wrap
+    {
+        margin-right: 0;
+    }
+
+    .clinics-filter-select-wrap
+    {
+        width: calc(100% - 603px);
+        max-width: none;
+    }
+
+    .doctors-item
+    {
+        width: calc(33.333% - 20px);
+    }
+
+    .doctors-item-10,
+    .doctors-item-11,
+    .doctors-item-12,
+    .doctors-item-13,
+    .doctors-item-14,
+    .doctors-item-15
+    {
+        display: none;
+    }
+
+    .doctor-info-text-wrap3 p,
+    .doctor-info-text-wrap4 p
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (max-width: 1500px)
+{
+    .rules-info-link-item
+    {
+        width: 100%;
+    }
+
+    .corporate-list{
+        margin-left: -3.333%;
+    }
+
+    .corporate-item
+    {
+        width: 30%;
+        margin-left: 3.333%;
+    }
+
+    .creditFeedback-form
+    {
+        padding: 30px 47px;
+    }
+
+    .creditFeedback-form .label
+    {
+        max-width: 600px;
+    }
+
+    .creditFeedback-form-wrap
+    {
+        max-width: 600px;
+    }
+
+    .clinic-photo-container2
+    {
+        max-width: 185px;
+    }
+
+    .clinic-photo-container1
+    {
+        width: calc(100% - 200px);
+    }
+
+    .clinic-photo-wrap1-hidden
+    {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1450px)
+{
+    .publication-info-wrap1 .publication-img
+    {
+        max-width: 456px;
+    }
+
+    .publication-info-wrap3 .publication-img
+    {
+        max-width: 469px;
+    }
+
+    .publication-info-wrap6 .publication-img
+    {
+        max-width: 419px;
+    }
+
+    .company-img1
+    {
+        max-width: 380px;
+    }
+
+    .company-text1
+    {
+        width: calc(100% - 429px);
+    }
+
+    .company-img2
+    {
+        margin-right: 0;
+        margin-left: 49px;
+    }
+
+    .stock-list{
+        margin-left: -2%;
+    }
+
+    .stock-item
+    {
+        width: 48%;
+
+        margin-left: 2%;
+    }
+
+    .stock-item-9,
+    .stock-item-10,
+    .stock-item-11,
+    .stock-item-12
+    {
+        display: none;
+    }
+
+    .stock-select-wrap1
+    {
+        width: calc(100% - 300px);
+        max-width: none;
+    }
+
+    .stock-select-wrap2
+    {
+        max-width: none;
+        margin-top: 20px;
+    }
+
+    .clinic-map-wrap
+    {
+        height: 689px;
+    }
+
+    .clinic-map-info
+    {
+        top: auto;
+
+        max-width: none;
+        padding: 10px;
+    }
+
+    .doctor-info-text-wrap2 b
+    {
+        font-size: 24px;
+
+        margin-right: 10px;
+    }
+
+    .doctor-info-text-wrap2 span
+    {
+        font-size: 24px;
+
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 1400px)
+{
+    .services1-item
+    {
+        width: 30%;
+        margin-top: 50px;
+    }
+
+    .services1-list
+    {
+        margin-top: -50px;
+    }
+
+    .main-footer-list1 a span
+    {
+        display: none;
+    }
+
+    .costsection-select-wrap
+    {
+        max-width: 221px;
+        margin-right: 0;
+    }
+
+    .costsection-search-wrap
+    {
+        width: calc(100% - 600px);
+    }
+
+    .housecall-form-wrap1
+    {
+        padding: 40px;
+    }
+
+    .videos-item
+    {
+        width: 32%;
+    }
+
+    .videos-item-17
+    {
+        display: block;
+    }
+
+    .videos-item-18
+    {
+        display: block;
+    }
+
+    .solutions-info
+    {
+        width: calc(100% - 350px);
+    }
+
+    .action-info-time{
+        margin-bottom: 0;
+    }
+
+    .action-info-img{
+        padding-top: 30px;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1359px)
+{
+    .service1-action.promo-action
+    {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    /* .service1-action.promo-action .promo-ends
+    {
+        position: absolute;
+        top: 10px;
+        left: 0;
+
+        display: flex;
+
+        width: calc(100% - 334px);
+        padding: 0 10px;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    } */
+
+    .service1-action.promo-action .promo-ends{
+        padding: 10px;
+    }
+
+    .service1-action.promo-action .promo-ends > b
+    {
+        padding-right: 15px;
+    }
+
+    .service1-action.promo-action .promo-ends .service1-action-timer-wrap
+    {
+        position: static;
+    }
+
+    .service1-action.promo-action .service1-action-img
+    {
+        order: 0;
+    }
+
+    .service1-action.promo-action .service1-action-text
+    {
+        padding: 30px 0 10px;
+    }
+
+    .service1-wrap2 .service1-action-slider1
+    {
+        display: none;
+    }
+    .main-header-list a
+    {
+        padding: 17.5px 5px;
+    }
+
+    /* .main-header-wrap2
+    {
+        padding: 32px 2.5%;
+    } */
+
+    .banner-wrap1
+    {
+        max-width: none;
+
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .banner-list
+    {
+        max-width: none;
+    }
+
+    .banner-wrap2
+    {
+        width: 100%;
+    }
+
+    .banner-item
+    {
+        padding: 60px 20px;
+    }
+
+    .main-footer-list-wrap
+    {
+        width: 30%;
+        max-width: none;
+
+        text-align: center;
+    }
+
+    .main-footer-list-wrap1
+    {
+        -webkit-box-ordinal-group: -2;
+        -ms-flex-order: -3;
+        order: -3;
+    }
+
+    .main-footer-list-wrap1 .main-footer-list
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .main-footer-list-wrap2
+    {
+        -webkit-box-ordinal-group: -1;
+        -ms-flex-order: -2;
+        order: -2;
+    }
+
+    .main-footer-list-wrap2 .main-footer-list
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .main-footer-list1
+    {
+        width: 30%;
+
+        text-align: center;
+
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .main-footer-list-wrap3
+    {
+        width: 100%;
+        margin: 35px 0;
+    }
+
+    .main-footer-list-wrap3 .main-footer-list
+    {
+        width: 48%;
+        max-width: none;
+    }
+
+    .main-footer-list1 li
+    {
+        margin-bottom: 10px;
+    }
+
+    .main-footer-social
+    {
+        max-width: none;
+
+        text-align: center;
+    }
+
+    .main-footer-social-wrap
+    {
+        width: 48%;
+        margin-top: 0;
+    }
+
+    .main-footer-social-list
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .main-footer-contacts
+    {
+        width: 48%;
+        max-width: none;
+
+        text-align: center;
+    }
+
+    .main-footer-contacts .btn1
+    {
+        max-width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .contact1-wrap2
+    {
+        width: 100%;
+    }
+
+    .menu-btn
+    {
+        display: block;
+    }
+
+    .contact1-container
+    {
+        position: relative;
+    }
+
+    .section-wrap1
+    {
+        position: absolute;
+        z-index: 19;
+        top: 43px;
+        left: -320px;
+
+        max-width: 280px;
+        margin-top: 0;
+        padding: 20px;
+        padding-top: 0;
+
+        -webkit-transition: left .3s;
+                transition: left .3s;
+
+        background-color: #fff;
+        -webkit-box-shadow: 0 -5px 20px rgba(0, 0, 0, .05);
+                box-shadow: 0 -5px 20px rgba(0, 0, 0, .05);
+    }
+
+    .section-wrap1.active
+    {
+        left: -30px;
+    }
+
+    .contact1-title1 a
+    {
+        display: none;
+    }
+
+    .contact1-title1
+    {
+        padding-left: 60px;
+    }
+
+    .contact1-text
+    {
+        max-width: none;
+
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .contact1-map-wrap
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .contact1-map-wrap .link
+    {
+        display: inline-block;
+    }
+
+    .contact1-list2
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        margin-top: -20px;
+
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .contact1-list2 li
+    {
+        width: 48%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .rules-wrap2
+    {
+        width: 100%;
+    }
+
+    .rules-wrap2 h1
+    {
+        padding-left: 60px;
+    }
+
+    .rules-wrap2 .text-btn
+    {
+        display: block;
+    }
+
+    .rules-text1
+    {
+        width: 100%;
+    }
+
+    .rules-img1
+    {
+        margin-right: auto;
+        margin-bottom: 40px;
+        margin-left: auto;
+    }
+
+    .rules-text-cotaniner1
+    {
+        margin-bottom: 40px;
+    }
+
+    .rules-text-wrap1
+    {
+        margin-bottom: 40px;
+    }
+
+    .rules-wrap2 .text2
+    {
+        margin-top: 40px;
+    }
+
+    .rules-container-btn
+    {
+        overflow: hidden;
+
+        max-height: 400px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .rules-container-btn.active
+    {
+        max-height: 8000px;
+        padding-bottom: 60px;
+    }
+
+    .rules-text-cotaniner2
+    {
+        overflow: hidden;
+
+        max-height: 650px;
+        margin-bottom: 20px;
+        padding: 50px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .rules-text-cotaniner2.active
+    {
+        max-height: 8000px;
+        padding-bottom: 170px;
+    }
+
+    .rules-text2
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .rules-img2
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .rules-text3
+    {
+        width: 100%;
+    }
+
+    .rules-img3
+    {
+        max-width: 573px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /*    .rules-text-list1   {        display: none;    }*/
+
+    .rules-text-list12
+    {
+        display: block;
+    }
+
+    .rules-img3
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+
+        text-align: center;
+    }
+
+    .rules-text-img4
+    {
+        margin-top: 40px;
+    }
+
+    .rules
+    {
+        padding-bottom: 80px;
+    }
+
+    .service1-wrap1
+    {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .service1-action
+    {
+        display: none;
+    }
+
+    .service1-action1
+    {
+        position: relative;
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .service1-action-img
+    {
+        width: 100%;
+
+        margin-bottom: 0;
+    }
+
+    .service1-action-text
+    {
+        /* width: calc(100% - 334px); */
+        width: 100%;
+        padding: 10px;
+        padding-top: 50px;
+    }
+
+    .service1-feedback
+    {
+        display: none;
+    }
+
+    .service1-btn-block-wrap
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 650px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .service1-btn-block-wrap.active
+    {
+        max-height: 8000px;
+        padding-bottom: 130px;
+    }
+
+    .service1-btn-block-wrap .text-btn
+    {
+        display: block;
+    }
+
+    .service1-reception
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 650px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .service1-reception.active
+    {
+        max-height: 8000px;
+        padding-bottom: 150px;
+    }
+
+    .service1-reception .text-btn
+    {
+        display: block;
+    }
+
+    .service1-wrap2
+    {
+        max-width: none;
+    }
+
+    .service1-nav
+    {
+        display: none;
+    }
+
+    .service1-info
+    {
+        display: none;
+    }
+
+    .service1-doctors-img
+    {
+        text-align: left;
+    }
+
+    .cost1-list span
+    {
+        margin-right: 0;
+    }
+
+    .service1
+    {
+        padding-bottom: 40px;
+    }
+
+    .cost1
+    {
+        margin-bottom: 0;
+    }
+
+    .contact1
+    {
+        padding-bottom: 80px;
+    }
+
+    .service1-action-slider
+    {
+        display: none;
+    }
+
+    .service1-action-slider1
+    {
+        display: block;
+    }
+
+    .programs-body .program-wrap2 .service1-action-slider1,
+    .programs-body .programs-wrap2 .service1-action-slider1,
+    .service1-wrap1 .service1-action-slider1
+    {
+        display: block;
+    }
+
+    .service1 .service1-wrap1 .service1-action-slider1{
+        /*display: none;*/
+    }
+
+    .service1-action-timer-wrap
+    {
+        position: absolute;
+        top: 10px;
+        left: 343px;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .service1-action-slider .service1-action-text
+    {
+        padding-top: 60px;
+    }
+
+    .service1-doctors-services-style .service1-doctors-link-wrap
+    {
+        text-align: right;
+    }
+
+    .costsection-item-1
+    {
+        width: 48%;
+        max-width: none;
+    }
+
+    .costsection-item-2
+    {
+        width: 48%;
+    }
+
+    .costsection-item-2 .costsection-list2
+    {
+        width: 100%;
+    }
+
+    .costsection-search-wrap
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .costsection-select-wrap
+    {
+        width: calc(100% - 400px);
+        max-width: none;
+    }
+
+    .costsection
+    {
+        padding-bottom: 80px;
+    }
+
+    .publications
+    {
+        padding-bottom: 80px;
+    }
+
+    .publication
+    {
+        padding-bottom: 80px;
+    }
+
+    .publications-title
+    {
+        padding-left: 60px;
+    }
+
+    .publications-wrap2
+    {
+        width: 100%;
+    }
+
+    .publication h1
+    {
+        padding-left: 60px;
+    }
+
+    .publication-wrap2
+    {
+        width: 100%;
+    }
+
+    .publication-info-wrap1 .publication-img
+    {
+        max-width: 228px;
+    }
+
+    .publication-info-wrap3 .publication-img
+    {
+        max-width: 302px;
+    }
+
+    .publication-info-wrap6 .publication-img
+    {
+        max-width: 345px;
+    }
+
+    .publications-item-text p span
+    {
+        display: inline;
+    }
+
+    .publications-item-text h3 span
+    {
+        display: inline;
+    }
+
+    .administration
+    {
+        padding-bottom: 80px;
+    }
+
+    .administration h1
+    {
+        padding-left: 60px;
+    }
+
+    .administration-wrap2
+    {
+        width: 100%;
+    }
+
+    .housecall
+    {
+        padding-bottom: 80px;
+    }
+
+    .housecall h1
+    {
+        padding-left: 60px;
+    }
+
+    .housecall-wrap2
+    {
+        width: 100%;
+    }
+
+    .corporate
+    {
+        padding-bottom: 80px;
+    }
+
+    .corporate h1
+    {
+        padding-left: 60px;
+    }
+
+    .corporate-wrap2
+    {
+        width: 100%;
+    }
+
+    .partnership
+    {
+        padding-bottom: 80px;
+    }
+
+    .partnership h1
+    {
+        padding-left: 60px;
+    }
+
+    .partnership-wrap2
+    {
+        width: 100%;
+    }
+
+    .rights
+    {
+        padding-bottom: 80px;
+    }
+
+    .rights h1
+    {
+        padding-left: 60px;
+    }
+
+    .rights-wrap2
+    {
+        width: 100%;
+    }
+
+    .rights .rules-text-cotaniner2
+    {
+        max-height: inherit;
+        margin-bottom: 0;
+        padding: 50px;
+    }
+
+    .rights-text-btn-wrap
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 400px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .rights-text-btn-wrap.active
+    {
+        max-height: 8000px;
+        padding-bottom: 150px;
+    }
+
+    .rights-text-btn-wrap .text-btn
+    {
+        display: block;
+    }
+
+    .agreement
+    {
+        padding-bottom: 80px;
+    }
+
+    .agreement h1
+    {
+        padding-left: 60px;
+    }
+
+    .agreement-wrap2
+    {
+        width: 100%;
+    }
+
+    .company
+    {
+        padding-bottom: 80px;
+    }
+
+    .company h1
+    {
+        padding-left: 60px;
+    }
+
+    .company-wrap2
+    {
+        width: 100%;
+    }
+
+    .social
+    {
+        padding-bottom: 80px;
+    }
+
+    .social h1
+    {
+        padding-left: 60px;
+    }
+
+    .social-wrap2
+    {
+        width: 100%;
+    }
+
+    .social-list
+    {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .social-text
+    {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .reviews
+    {
+        padding-bottom: 80px;
+    }
+
+    .reviews h1
+    {
+        padding-left: 60px;
+    }
+
+    .reviews-wrap2
+    {
+        width: 100%;
+    }
+
+    .jobs-wrap2
+    {
+        width: 100%;
+    }
+
+    .jobs
+    {
+        padding-bottom: 80px;
+    }
+
+    .jobs h1
+    {
+        padding-left: 60px;
+    }
+
+    .vacancy
+    {
+        padding-bottom: 80px;
+    }
+
+    .vacancy h1
+    {
+        padding-left: 60px;
+    }
+
+    .vacancy-wrap2
+    {
+        width: 100%;
+    }
+
+    .programs
+    {
+        padding-bottom: 80px;
+    }
+
+    .programs h1
+    {
+        padding-left: 60px;
+    }
+
+    .programs-wrap2
+    {
+        width: 100%;
+    }
+
+    .creditFeedback
+    {
+        padding-bottom: 80px;
+    }
+
+    .creditFeedback h1
+    {
+        padding-left: 60px;
+    }
+
+    .creditFeedback-wrap2
+    {
+        width: 100%;
+    }
+
+    .section-wrap1-banner
+    {
+        display: none;
+    }
+
+    .clinics
+    {
+        padding-bottom: 80px;
+    }
+
+    .credit
+    {
+        padding-bottom: 80px;
+    }
+
+    .credit h1
+    {
+        padding-left: 60px;
+    }
+
+    .credit-wrap2
+    {
+        width: 100%;
+    }
+
+    .program
+    {
+        padding-bottom: 80px;
+    }
+
+    .program-wrap2
+    {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .program-wrap1
+    {
+        display: none;
+    }
+
+    .videos
+    {
+        padding-bottom: 80px;
+    }
+
+    .information h1
+    {
+        padding-left: 60px;
+    }
+
+    .information
+    {
+        padding-bottom: 80px;
+    }
+
+    .information-wrap2
+    {
+        width: 100%;
+    }
+
+    .search
+    {
+        padding-bottom: 80px;
+    }
+
+    .certificates h1
+    {
+        padding-left: 60px;
+    }
+
+    .certificates
+    {
+        padding-bottom: 80px;
+    }
+
+    .certificates-wrap2
+    {
+        width: 100%;
+    }
+
+    .questions-title .btn3
+    {
+        display: none;
+    }
+
+    .questions
+    {
+        padding-bottom: 80px;
+    }
+
+    .questions-title
+    {
+        padding-left: 60px;
+    }
+
+    .questions-wrap2
+    {
+        width: 100%;
+    }
+
+    .main-header-wrap3 .main-header-form-search
+    {
+        display: block;
+
+        width: calc(100% - 148px);
+    }
+
+    .main-header-nav
+    {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+
+        display: none;
+
+        padding: 20px;
+        padding-bottom: 30px;
+        /*background-color: #0a9beb;*/
+
+        background-color: #f3fafe;
+        -webkit-box-shadow: 0 5px 8px -5px rgba(0, 0, 0, .38);
+                box-shadow: 0 5px 8px -5px rgba(0, 0, 0, .38);
+    }
+    .main-header-list a
+    {
+        color: #364e5b;
+
+        background-color: #f3fafe;
+    }
+    .main-header-list a:hover
+    {
+        color: #0a9beb!important;
+
+        background-color: rgba(0,0,0,0)!important;;;
+    }
+
+    .main-header-form-search input
+    {
+        height: 50px;
+    }
+
+    .main-header-wrap3
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        background-color: #0a9beb;
+
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .main-header-menuToggle
+    {
+        display: block;
+    }
+
+    .main-header-list li
+    {
+        width: 48%;
+
+        -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+    }
+
+    .main-header-list a
+    {
+        display: inline-block;
+
+        padding: 14px 0;
+    }
+
+    .main-header-wrap1 .main-header-form-search
+    {
+        display: none;
+    }
+
+    .main-header-link-wrap
+    {
+        width: 83%;
+        max-width: none;
+    }
+
+    .main-header-link1
+    {
+        width: 17%;
+
+        border-right: 1px solid #fff;
+    }
+
+    .main-header-link1 b
+    {
+        display: block;
+
+        padding: 12px 5px;
+        padding-right: 25px;
+
+        text-align: center;
+    }
+
+    .main-header-link1 b:after
+    {
+        right: 10px;
+    }
+
+    .faq-wrap2
+    {
+        width: 100%;
+    }
+
+    .faq
+    {
+        padding-bottom: 80px;
+    }
+
+    .faq h1
+    {
+        padding-left: 60px;
+    }
+
+    .programs-body .programs-wrap1
+    {
+        display: none;
+    }
+
+    .programs-body .programs-wrap2
+    {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .programs-body .programs h1
+    {
+        padding-left: 0;
+    }
+
+    .disease-body .service1-reception,
+    .service1-wrap1 .service1-reception
+    {
+        max-height: none;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+    }
+
+    .directory
+    {
+        padding-bottom: 80px;
+    }
+
+    .health-question
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .health-problem
+    {
+        max-width: none;
+    }
+
+    .health-problem-list
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        margin-top: -8px;
+
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .health-problem-list li
+    {
+        width: 30%;
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+
+    .health
+    {
+        padding-bottom: 80px;
+    }
+
+    .action
+    {
+        padding-bottom: 80px;
+    }
+
+    .action-info-img
+    {
+        float: none;
+
+        width: 100%;
+        min-height: inherit;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-left: auto;
+
+        background: none;
+    }
+
+    .action-info-img img
+    {
+        display: inline-block;
+    }
+
+    .action-info-text
+    {
+        width: 100%;
+    }
+
+    .action-paragraph1
+    {
+        display: none;
+    }
+
+    .action-info-time
+    {
+        display: none;
+    }
+
+    .action-info-time1
+    {
+        display: flex;
+
+        justify-content: space-between;
+    }
+
+    .action-info-time b
+    {
+        margin-right: 0;
+    }
+
+    .doctor h1
+    {
+        padding-left: 60px;
+    }
+
+    .doctor
+    {
+        padding-bottom: 80px;
+    }
+
+    .doctor-wrap2
+    {
+        width: 100%;
+    }
+
+
+    .submenu-container
+    {
+        display: none;
+    }
+
+    .action-info-wrap
+    {
+        max-height: 800px;
+    }
+
+    .action-info-wrap .text-btn
+    {
+        width: 100%;
+    }
+
+    .action-info-wrap.active .action-info-img
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .service1-action-slider{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1350px)
+{
+    .search-form p
+    {
+        width: 100%;
+        margin-top: 19px;
+
+        text-align: right;
+    }
+
+    .search-input-wrap
+    {
+        max-width: none;
+    }
+}
+
+@media only screen and (max-width: 1300px)
+{
+    .service1-results-img-container
+    {
+        width: 48%;
+        max-width: none;
+    }
+
+    .publications .section-wrap1
+    {
+        max-width: 280px;
+    }
+}
+
+@media only screen and (max-width: 1240px)
+{
+    .clinic-photo-container1
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .clinic-photo-container2
+    {
+            flex-direction: row;
+
+        max-width: none;
+
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .clinic-photo-wrap
+    {
+        width: 24%;
+    }
+}
+
+@media only screen and (max-width: 1200px)
+{
+    .main-footer-certificates-item
+    {
+        width: 31%;
+    }
+
+    .main-footer-versions-list
+    {
+        display: none;
+    }
+
+    .main-footer-wrap4 .main-footer-versions-list
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        max-width: 350px;
+    }
+
+	.main-footer-wrap4 {
+	    padding-bottom: 45px
+	}
+
+    .main-footer-versions-item-1
+    {
+        display: none;
+    }
+
+    .main-footer-versions-item-2
+    {
+        display: block;
+		margin-left: 20px;
+    }
+	
+	.made_by {
+		/*margin-right: 50px;*/
+		margin-left: 30px;
+	}
+
+    .main-footer-versions-item-3
+    {
+        display: block;
+    }
+
+	.main-footer-wrap4 {
+	    align-items: baseline;
+	}
+
+    .main-footer-list2
+    {
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+	width: 100%;
+    }
+
+    .fixed-header-list li
+    {
+        width: 48%;
+
+        -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+    }
+
+    .fixed-header-list a
+    {
+        display: inline-block;
+
+        padding: 14px 0;
+    }
+
+    .fixed-header-list
+    {
+        padding: 20px;
+
+        background-color: #f3fafe;
+        -webkit-box-shadow: 0 5px 8px -5px rgba(0, 0, 0, .38);
+                box-shadow: 0 5px 8px -5px rgba(0, 0, 0, .38);
+    }
+    .fixed-header-list a
+    {
+        color: #364e5b;
+    }
+    .doctors-filter-select-wrap
+    {
+        width: 100%;
+        margin-bottom: 26px;
+    }
+
+    .doctors-filter-input-wrap
+    {
+        width: 100%;
+    }
+
+    .directory-slider .directory-list:nth-child(3)
+    {
+        display: none;
+    }
+
+    .directory-slider .directory-list
+    {
+        width: 48%;
+    }
+
+    #directory-tab2 .directory-list
+    {
+        width: 48%;
+    }
+
+    #directory-tab2 .directory-list:nth-child(3)
+    {
+        display: none;
+    }
+
+    .health-list
+    {
+        width: 48%;
+    }
+
+    .health-list:nth-child(3)
+    {
+        display: none;
+    }
+
+    .doctor-specialization-list li
+    {
+        width: 48%;
+    }
+
+    .health-btn-wrap .btn2
+    {
+        display: inline-block;
+    }
+
+    .health-btn-wrap
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1150px)
+{
+    .publications-item
+    {
+        width: 100%;
+    }
+
+    .publications-item-9,
+    .publications-item-10,
+    .publications-item-11,
+    .publications-item-12
+    {
+        display: none;
+    }
+
+    .reviews-filter
+    {
+        padding: 25px;
+    }
+
+    .reviews-select-wrap
+    {
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .reviews-input-wrap
+    {
+        margin-top: 0;
+    }
+
+    .reviews-item
+    {
+        width: 100%;
+    }
+
+    .reviews-item-7,
+    .reviews-item-8,
+    .reviews-item-9,
+    .reviews-item-10,
+    .reviews-item-11,
+    .reviews-item-12
+    {
+        display: none;
+    }
+
+    .reviews-wrap-btn1
+    {
+        width: 100%;
+        margin-top: 40px;
+
+        text-align: center;
+
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .reviews-feedback-form
+    {
+        padding: 35px;
+    }
+
+    .reviews-feedback-form-wrap1
+    {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .reviews-feedback-form-wrap2
+    {
+        width: 100%;
+    }
+
+    .reviews-feedback-checkbox-container
+    {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .reviews .reviews-radio-wrap1 label span span
+    {
+        font-size: 14px;
+
+        display: inline;
+    }
+
+    .reviews .reviews-radio-wrap1 label span
+    {
+        font-size: 0;
+    }
+
+    .reviews .reviews-radio-wrap1 label span i
+    {
+        font-size: 14px;
+    }
+
+    .directory-slider .swiper-pagination
+    {
+        margin-top: -10px;
+    }
+
+    .directory-slider .swiper-pagination .swiper-pagination-bullet
+    {
+        width: 7.1428%;
+        margin-top: 10px;
+    }
+
+    .directory-slider .swiper-button-prev-style2,
+    .directory-slider .swiper-button-next-style2
+    {
+        top: 164px;
+    }
+
+    .health-problem-list li
+    {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 1100px)
+{
+    .information-item
+    {
+        width: 100%;
+    }
+
+    .information-item-text-wrap1
+    {
+        top: auto;
+
+        padding: 14px 5px;
+
+        opacity: 1;
+    }
+
+    .information-item-7,
+    .information-item-8,
+    .information-item-9,
+    .information-item-10
+    {
+        display: none;
+    }
+
+    .popup-videos
+    {
+        width: 97%;
+        max-width: none;
+    }
+
+    .clinic-tour .btn5
+    {
+        font-size: 16px;
+
+        padding: 9px 25px;
+    }
+
+    .directory-input-wrap
+    {
+        width: 100%;
+        margin-top: 30px;
+
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .directory-filter .tab_list
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .doctor-info-text-wrap2 b
+    {
+        display: none;
+
+        margin-right: 0;
+    }
+
+    .doctor-info-text-wrap2 span
+    {
+        display: none;
+    }
+
+    .doctor-info-text-wrap2 h2 b
+    {
+        display: inline;
+    }
+
+    .doctor-info-text-wrap2 .btn3
+    {
+        margin-top: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .doctor-info-text
+    {
+        width: 100%;
+    }
+
+    .doctor-info-img
+    {
+        float: none;
+
+        width: 100%;
+        max-width: 500px;
+        margin-right: auto;
+        margin-bottom: 40px;
+        margin-left: auto;
+    }
+
+    .doctor-regalia-wrap1
+    {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .doctor-regalia-wrap2
+    {
+        max-width: none;
+    }
+
+    .doctor-regalia-text-wrap
+    {
+        margin-bottom: 25px;
+    }
+
+    .solutions-slider
+    {
+        display: block;
+    }
+
+    .solutions-info-wrap > .solutions-list
+    {
+        display: none;
+    }
+
+    .solutions-list
+    {
+        width: 100%;
+    }
+
+    .doctor-info-title:after
+    {
+        width: 100%;
+    }
+
+    .doctor-info-text-wrap3 p:after
+    {
+        right: auto;
+        left: 0;
+    }
+
+    .doctor-info-text-wrap1
+    {
+        padding-left: 20px;
+    }
+
+    .doctor-info-text-wrap2
+    {
+        padding-left: 20px;
+    }
+
+    .doctor-info
+    {
+        max-height: 1600px;
+    }
+
+    .doctor-info .text-btn
+    {
+        width: 100%;
+    }
+
+    .doctor-info-img
+    {
+        min-height: inherit;
+
+        background: none;
+    }
+
+    .doctor-info-img img
+    {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 1050px)
+{
+    .publications-title h1
+    {
+        font-size: 22px;
+    }
+
+    .fixed-header-wrap2
+    {
+        display: none;
+    }
+
+    .fixed-header-tel-wrap span
+    {
+        display: none;
+    }
+
+    .fixed-header-menu-toggle
+    {
+        font-size: 0;
+
+        width: 61px;
+        height: 40px;
+        padding: 0;
+    }
+
+    .fixed-header-feedback a
+    {
+        padding: 12px 5px;
+    }
+
+    .fixed-header-search-form input
+    {
+        padding: 9px 15px;
+        padding-left: 58px;
+    }
+
+    .fixed-header-search-form
+    {
+        width: calc(100% - 523px);
+    }
+
+    .fixed-header-menu-toggle:after
+    {
+        left: 50%;
+
+        -webkit-transform: translateY(-50%) translateX(-50%);
+                transform: translateY(-50%) translateX(-50%);
+    }
+
+    .service1-other h3
+    {
+        font-size: 22px;
+
+        padding-right: 80px;
+    }
+
+    .service1-text1 h1
+    {
+        font-size: 22px;
+    }
+
+    .service1-tabs .service1-tab_list a
+    {
+        font-size: 13px;
+        line-height: 20px;
+
+        min-height: 60px;
+    }
+
+    .service1-tab-list
+    {
+        width: 48%;
+    }
+
+    .service1-tab-list:nth-child(2)
+    {
+        display: none;
+    }
+
+    .rules-wrap2 h1
+    {
+        font-size: 22px;
+    }
+
+    .contact1-title1 h2
+    {
+        font-size: 22px;
+
+        margin-bottom: 25px;
+    }
+
+    .section-wrap1
+    {
+        top: 38px;
+    }
+
+    .costsection h1
+    {
+        font-size: 22px;
+    }
+
+    .publication h1
+    {
+        font-size: 22px;
+    }
+
+    .administration h1
+    {
+        font-size: 22px;
+    }
+
+    .housecall h1
+    {
+        font-size: 22px;
+    }
+
+    .corporate h1
+    {
+        font-size: 22px;
+    }
+
+    .partnership h1
+    {
+        font-size: 22px;
+    }
+
+    .rights h1
+    {
+        font-size: 22px;
+    }
+
+    .agreement h1
+    {
+        font-size: 22px;
+    }
+
+    .company h1
+    {
+        font-size: 22px;
+    }
+
+    .reviews h1
+    {
+        font-size: 22px;
+    }
+
+    .jobs h1
+    {
+        font-size: 22px;
+    }
+
+    .jobs-list li
+    {
+        width: 100%;
+    }
+
+    .jobs-img1
+    {
+        max-width: none;
+        margin-bottom: 20px;
+
+        text-align: center;
+
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .jobs-text1
+    {
+        width: 100%;
+    }
+
+    .jobs-text-container1
+    {
+        padding-right: 0;
+    }
+
+    .vacancy h1
+    {
+        font-size: 22px;
+    }
+
+    .programs h1
+    {
+        font-size: 22px;
+    }
+
+    .creditFeedback h1
+    {
+        font-size: 22px;
+    }
+
+    .clinics h1
+    {
+        font-size: 22px;
+    }
+
+    .credit h1
+    {
+        font-size: 22px;
+    }
+
+    .program h1
+    {
+        font-size: 22px;
+    }
+
+    .videos h1
+    {
+        font-size: 22px;
+    }
+
+    .information h1
+    {
+        font-size: 22px;
+    }
+
+    .search h1
+    {
+        font-size: 22px;
+    }
+
+    .certificates h1
+    {
+        font-size: 22px;
+    }
+
+    .questions-title h1
+    {
+        font-size: 22px;
+    }
+
+    .doctors h1
+    {
+        font-size: 22px;
+    }
+
+    .faq h1
+    {
+        font-size: 22px;
+    }
+
+    .stock h1
+    {
+        font-size: 22px;
+    }
+
+    .clinic-title h1
+    {
+        font-size: 22px;
+    }
+
+    .attendance h1
+    {
+        font-size: 22px;
+    }
+
+    .directory h1
+    {
+        font-size: 22px;
+    }
+
+    .health h1
+    {
+        font-size: 22px;
+    }
+
+    .health-subtitle
+    {
+        font-size: 18px;
+    }
+
+    .action h1
+    {
+        font-size: 22px;
+    }
+
+    .doctor h1
+    {
+        font-size: 22px;
+    }
+
+    .health h1
+    {
+        margin-bottom: 25px;
+    }
+
+    .health-subtitle
+    {
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .main-footer-share-wrap span
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .main-footer-share-wrap
+    {
+        max-width: 230px;
+    }
+
+    #map
+    {
+        position: relative;
+    }
+
+    #map:after
+    {
+        position: absolute;
+        top: 38px;
+        right: 0;
+        bottom: 81px;
+        left: 40px;
+
+        content: '';
+    }
+
+    #map1
+    {
+        position: relative;
+    }
+
+    #map1:after
+    {
+        position: absolute;
+        top: 38px;
+        right: 0;
+        bottom: 81px;
+        left: 40px;
+
+        content: '';
+    }
+
+    .clinic #map:after
+    {
+        display: none;
+    }
+
+    .administration-item-feedback
+    {
+        top: auto;
+
+        height: 55px;
+        padding: 5px;
+
+        opacity: 1;
+
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .administration-filter
+    {
+        padding: 25px;
+    }
+
+    .housecall-form .btn2
+    {
+        display: none;
+    }
+
+    .housecall-captcha-wrap .btn2
+    {
+        display: inline-block;
+    }
+
+    .housecall-captcha-wrap
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        margin-top: 15px;
+
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .housecall-text
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 350px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .housecall-text.active
+    {
+        max-height: 8000px;
+        padding-bottom: 150px;
+    }
+
+    .housecall-text .text-btn
+    {
+        display: block;
+    }
+
+    .corporate-list{
+        margin-left: -3%;
+    }
+
+    .corporate-item
+    {
+        width: 47%;
+        margin-left: 3%;
+    }
+
+    .corporate-item-text1
+    {
+        top: auto;
+
+        padding: 5px;
+
+        opacity: 1;
+    }
+
+    .corporate-item-7,
+    .corporate-item-8,
+    .corporate-item-9,
+    .corporate-item-10,
+    .corporate-item-11,
+    .corporate-item-12
+    {
+        display: none;
+    }
+
+    .partnership-item-1
+    {
+        width: 48%;
+    }
+
+    .partnership-item-2
+    {
+        width: 48.8%;
+    }
+
+    .company-img1
+    {
+        max-width: none;
+    }
+
+    .company-text1
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .company-img2
+    {
+        float: none;
+
+        width: 100%;
+        max-width: 359px;
+        margin-top: 15px;
+        margin-right: auto;
+        margin-bottom: 15px;
+        margin-left: auto;
+    }
+
+    .social-list
+    {
+        margin-top: -20px;
+    }
+
+    .social-item
+    {
+        width: 100%;
+        margin-top: 20px;
+
+        text-align: center;
+    }
+
+    .programs-item
+    {
+        width: 100%;
+    }
+
+    .programs-item-7,
+    .programs-item-8,
+    .programs-item-9,
+    .programs-item-10,
+    .programs-item-11,
+    .programs-item-12
+    {
+        display: none;
+    }
+
+    .programs-text2
+    {
+        display: none;
+    }
+
+    .clinics-filter-select-wrap
+    {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .clinics-filter-radio-wrap
+    {
+        max-width: none;
+    }
+
+    .clinics-item
+    {
+        width: calc(50% - 20px);
+    }
+
+    .clinics-item-9,
+    .clinics-item-10,
+    .clinics-item-11,
+    .clinics-item-12
+    {
+        display: none;
+    }
+
+    .clinics-item-text-wrap1
+    {
+        top: auto;
+
+        padding: 10px;
+
+        opacity: 1;
+    }
+
+    .credit-text1
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 350px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .credit-text1.active
+    {
+        max-height: 8000px;
+        padding-bottom: 150px;
+    }
+
+    .credit-text1 .text-btn
+    {
+        display: block;
+    }
+
+    .program-text-container1
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 350px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .program-text-container1.active
+    {
+        max-height: 8000px;
+        padding-bottom: 150px;
+    }
+
+    .program-text-container1 .text-btn
+    {
+        display: block;
+    }
+
+    .program-item
+    {
+        width: 100%;
+    }
+
+    .program-item-3
+    {
+        display: none;
+    }
+
+    .program-item-4
+    {
+        display: none;
+    }
+
+    .program .row-1
+    {
+        display: none;
+    }
+
+    .program-table
+    {
+        display: none;
+    }
+
+    .program-list2-wrap
+    {
+        display: block;
+    }
+
+    .videos-filter-select-wrap
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .videos-filter-radio-wrap
+    {
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .videos-item
+    {
+        width: 48%;
+    }
+
+    .search-list
+    {
+        padding-left: 14px;
+    }
+
+    .certificates-list
+    {
+        width: 100%;
+        max-width: 455px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .certificates-item-6,
+    .certificates-item-7,
+    .certificates-item-8
+    {
+        display: none;
+    }
+
+    .programs-text3
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 600px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .programs-text3.active
+    {
+        max-height: 8000px;
+        padding-bottom: 130px;
+    }
+
+    .programs-text3 .text-btn
+    {
+        display: block;
+    }
+
+    .programs-text3 p
+    {
+        margin-bottom: 30px;
+    }
+
+    .programs-text3 ul li
+    {
+        padding-left: 0;
+    }
+
+    .achievement-item-2
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .achievement-item-1
+    {
+        margin-bottom: 15px;
+    }
+
+    .achievement-item-btn-wrap
+    {
+        top: auto;
+
+        padding: 14px 5px;
+
+        opacity: 1;
+    }
+
+    .doctors-item
+    {
+        width: calc(50% - 20px);
+    }
+
+    .doctors-item-text1
+    {
+        top: auto;
+
+        padding: 8px 5px;
+
+        opacity: 1;
+    }
+
+    .doctors-item-9
+    {
+        display: none;
+    }
+
+    .stock-btn
+    {
+        top: auto;
+
+        padding: 10px 5px;
+
+        opacity: 1;
+    }
+
+    .disease-item-hidden
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        margin-top: 15px;
+    }
+
+    .disease-link-wrap
+    {
+        top: auto;
+
+        padding: 14px 5px;
+
+        opacity: 1;
+    }
+
+    .health-informations-list .publications-item
+    {
+        width: 100%;
+    }
+
+    .health-informations-list .publications-item:nth-child(3),
+    .health-informations-list .publications-item:nth-child(4)
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 950px)
+{
+    .main-footer-certificates-item i
+    {
+        top: 0;
+        left: 50%;
+
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
+    .main-footer-certificates-item
+    {
+        padding-top: 100px;
+        padding-left: 0;
+
+        text-align: center;
+    }
+
+    .contact1-item3
+    {
+        width: 48.7%;
+    }
+
+    .contact1-list3
+    {
+        margin-bottom: 35px;
+    }
+
+    .questions-select-wrap
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .questions-input-wrap
+    {
+        width: 100%;
+    }
+
+    .questions-item-6,
+    .questions-item-7,
+    .questions-item-8,
+    .questions-item-9
+    {
+        display: none;
+    }
+
+    .questions .reviews-radio-wrap1 label span span
+    {
+        font-size: 14px;
+
+        display: inline;
+    }
+
+    .questions .reviews-radio-wrap1 label span
+    {
+        font-size: 0;
+    }
+
+    .questions .reviews-radio-wrap1 label span i
+    {
+        font-size: 14px;
+    }
+
+    .stock-list{
+        margin-left: 0;
+    }
+
+    .stock-item
+    {
+        width: 100%;
+
+        margin-left: 0;
+    }
+
+    .stock-item-6,
+    .stock-item-7,
+    .stock-item-8
+    {
+        display: none;
+    }
+
+    .stock-list
+    {
+        width: 100%;
+        max-width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .clinic-text1
+    {
+        padding: 20px;
+    }
+
+    .clinic-text1-title h2
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .clinic-tab_list
+    {
+        max-width: none;
+    }
+
+    .main-header-link-item
+    {
+        width: 13%;
+    }
+
+    .main-header-link-item-3
+    {
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width: 900px)
+{
+    .main-header-link-item-4 a
+    {
+        font-size: 0;
+
+        width: 11px;
+        height: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0;
+    }
+
+    .main-header-link-item-4 a:after
+    {
+        left: 50%;
+
+        -webkit-transform: translateY(-50%) translateX(-50%);
+                transform: translateY(-50%) translateX(-50%);
+    }
+
+    .main-header-link-wrap
+    {
+        width: 80%;
+    }
+
+    .main-header-link-item-1
+    {
+        width: 14%;
+    }
+
+    .main-header-link-item-2
+    {
+        width: 18%;
+    }
+
+    .main-header-link-item-3
+    {
+        width: 46%;
+    }
+
+    .main-header-link-item-4
+    {
+        width: 10%;
+    }
+
+    .main-header-link-item-5
+    {
+        width: 10%;
+    }
+
+    .main-header-link1
+    {
+        width: 20%;
+    }
+
+    .services1 h2
+    {
+        font-size: 23px;
+
+        margin-bottom: 45px;
+    }
+
+    .services1-item p
+    {
+        font-size: 14px;
+    }
+
+    .publication-info-wrap1 .publication-img
+    {
+        max-width: none;
+        margin: 0;
+        margin-bottom: 30px;
+
+        text-align: center;
+
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .publication-info-wrap1 .publication-img img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .publication-info-wrap3 .publication-img
+    {
+        max-width: none;
+        margin: 0;
+        margin-bottom: 30px;
+
+        text-align: center;
+    }
+
+    .publication-info-wrap3 .publication-img img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .publication-info-wrap5
+    {
+        margin-top: -30px;
+    }
+
+    .publication-info-wrap5 .publication-img
+    {
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+
+        text-align: center;
+    }
+
+    .publication-info-wrap5 .publication-img img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .publication-info-wrap6 .publication-img
+    {
+        max-width: none;
+        margin: 0;
+        margin-bottom: 30px;
+
+        text-align: center;
+
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .publication-info-wrap6 .publication-img img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .administration-list{
+        margin-left: -2%;
+    }
+
+    .administration-item
+    {
+        width: 48%;
+
+        margin-left: 2%;
+    }
+
+    .administration-item-9,
+    .administration-item-10,
+    .administration-item-11,
+    .administration-item-12
+    {
+        display: none;
+    }
+
+    .action .service1-feedback-wrap
+    {
+        position: absolute;
+        right: 0;
+        bottom: -244px;
+        left: 0;
+
+        max-width: none;
+        padding: 40px 15px;
+
+        -webkit-box-shadow: none;
+                box-shadow: none;
+    }
+
+    .action .service1-feedback
+    {
+        position: relative;
+
+        min-height: 400px;
+        margin-bottom: 300px;
+        padding: 0;
+
+        background-image: url('../img/service1-feedback-bg-mob.png');
+        background-position: top center;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 850px)
+{
+    .attendance-text1 img
+    {
+        float: none;
+
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .service1-text1-wrap img
+    {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .service1-text1-wrap
+    {
+        max-height: 750px;
+    }
+
+    .main-header-feedback-wrap
+    {
+        width: 100%;
+        max-width: 390px;
+    }
+
+    .main-header-tel-wrap
+    {
+        max-width: 160px;
+    }
+
+    .main-header-tel-wrap a
+    {
+        font-size: 20px;
+    }
+
+    .banner-item
+    {
+        padding: 20px;
+    }
+
+    .banner-info h2
+    {
+        font-size: 19px;
+        line-height: 28px;
+    }
+
+    .banner-price-new
+    {
+        font-size: 36px;
+
+        margin-right: 16px;
+    }
+
+    .service1-text1-wrap img
+    {
+        float: none;
+    }
+
+    .action-programs-item-wrap p
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .action-programs-item-wrap
+    {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .action-programs-item-wrap b
+    {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px)
+{
+    .fixed-header-search-form
+    {
+        display: none;
+    }
+
+    .fixed-header-list-wrap
+    {
+        overflow: auto;
+
+        height: calc(100vh - 40px);
+    }
+
+    .videoPoster:after
+    {
+        background-size: 80px;
+    }
+
+    .partnership-list
+    {
+        margin-top: -20px;
+    }
+
+    .partnership-item
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .partnership-item img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .clinic-title h1
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .solutions-info
+    {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .solutions-slider h2
+    {
+        display: block;
+    }
+
+    .solutions-slider .swiper-button-prev-style2,
+    .solutions-slider .swiper-button-next-style2
+    {
+        top: 0;
+    }
+
+    .solutions-slider .swiper-button-prev-style2,
+    .solutions-slider .swiper-container-rtl .swiper-button-next-style2
+    {
+        right: auto;
+        left: 0;
+    }
+
+
+    .rules-wrap2 .left{
+        max-width: calc(50% - 15px);
+    }
+}
+
+@media only screen and (max-width: 750px)
+{
+    .main-header-logo
+    {
+        max-width: 200px;
+    }
+
+    .main-footer-subscribe-btn-wrap a
+    {
+        padding-right: 111px;
+    }
+
+    .reviews-feedback-form-wrap3
+    {
+        padding-left: 0;
+    }
+
+    .reviews-feedback-checkbox-container
+    {
+        max-width: none;
+        margin-bottom: 40px;
+    }
+
+    .reviews-feedback-btn-wrap
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .credit-item
+    {
+        width: 100%;
+        margin-top: 13px;
+        padding: 30px 18px;
+    }
+
+    .credit-list
+    {
+        margin-top: -13px;
+    }
+
+    .credit-btn-wrap
+    {
+        text-align: center;
+    }
+
+    .programs .clinics-filter-radio-wrap
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .programs .clinics-filter-select-wrap
+    {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .stock-select-wrap
+    {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 20px;
+
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .stock-radio-wrap
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .stock-filter
+    {
+        padding: 15px 10px;
+    }
+
+    .attendance-btn2-wrap
+    {
+        width: 100%;
+        margin-bottom: 30px;
+
+        text-align: center;
+
+        -webkit-box-ordinal-group: -1;
+        -ms-flex-order: -2;
+        order: -2;
+    }
+
+    .attendance-list span
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .attendance-list li
+    {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .attendance-list b
+    {
+        margin-right: 5px;
+    }
+
+    .attendance-list li.attendance-item-hidden1
+    {
+        display: none;
+    }
+
+    .directory-specialization-tabs-title h2
+    {
+        font-size: 30px;
+
+        width: 100%;
+        margin-bottom: 15px;
+
+        text-align: center;
+    }
+
+    .directory-specialization-tabs-title .btn2
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .health-problem-list li
+    {
+        width: 100%;
+    }
+
+    .health-problem-list li:nth-child(18),
+    .health-problem-list li:nth-child(17),
+    .health-problem-list li:nth-child(16),
+    .health-problem-list li:nth-child(15),
+    .health-problem-list li:nth-child(14),
+    .health-problem-list li:nth-child(13),
+    .health-problem-list li:nth-child(12)
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px)
+{
+
+
+    .programs-tabs
+    {
+        margin-bottom: 0;
+    }
+
+    .costsection-list1
+    {
+
+    }
+
+    .main-header-link1
+    {
+        width: 50%;
+    }
+
+    .main-header-link-item
+    {
+        display: none;
+    }
+
+    .main-header-link-item-6
+    {
+        display: block;
+
+        width: 100%;
+    }
+
+    .main-header-link-wrap
+    {
+        width: 50%;
+    }
+
+    .main-header-link-item a:after
+    {
+        display: none;
+    }
+
+    .main-header-link1 b
+    {
+        padding: 10px 5px;
+    }
+
+    .main-header-link1 b:after
+    {
+        right: auto;
+        left: 50%;
+
+        -webkit-transform: translateX(60px) translateY(-50%);
+                transform: translateX(60px) translateY(-50%);
+    }
+
+    .main-header-link1.active b:after
+    {
+        -webkit-transform: translateX(60px) translateY(-50%) rotate(180deg);
+                transform: translateX(60px) translateY(-50%) rotate(180deg);
+    }
+
+    .main-header-link-item-6 a
+    {
+        padding: 5.5px 5px;
+
+        text-align: center;
+    }
+
+    .banner-item
+    {
+        padding: 15px 10px;
+        padding-bottom: 72px;
+    }
+
+    .banner-info
+    {
+        max-width: none;
+    }
+
+    .banner .swiper-pagination-style1
+    {
+        right: auto;
+        bottom: 32px;
+        left: 50%;
+
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
+    .banner-item
+    {
+        position: relative;
+    }
+
+    .banner-item i
+    {
+        -webkit-filter: blur(8px);
+                filter: blur(8px);
+    }
+
+    .main-footer-subscribe-btn-wrap
+    {
+        width: 100%;
+    }
+
+    .main-footer-subscribe-btn-wrap a
+    {
+        font-size: 12px;
+
+        display: block;
+
+        padding: 21px 10px;
+        padding-right: 60px;
+    }
+
+    .main-footer-share-wrap
+    {
+        margin-right: auto;
+        margin-bottom: 40px;
+        margin-left: auto;
+    }
+
+    .main-footer-share-wrap span
+    {
+        text-align: center;
+    }
+
+    .main-footer-wrap4 p
+    {
+        width: 100%;
+        margin-bottom: 20px;
+
+        text-align: center;
+    }
+
+    .main-footer-wrap4 .main-footer-versions-list
+    {
+        max-width: none;
+        padding-top: 20px;
+
+        border-top: 1px solid #ebf6fd;
+
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .main-footer-wrap4 span
+    {
+        width: 100%;
+        margin: 20px 0;
+
+        text-align: center;
+
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3;
+    }
+
+    .main-footer-list2
+    {
+        margin-top: 0;
+    }
+
+    .main-footer-versions-item-1
+    {
+        display: block;
+    }
+
+    .main-footer-versions-item-2
+    {
+        display: none;
+    }
+
+    .main-footer-versions-item-3
+    {
+        display: none;
+    }
+
+    .main-footer-wrap4
+    {
+        padding: 20px 0;
+    }
+
+    .breadcrumbs-wrap
+    {
+        display: none;
+    }
+
+    .breadcrumbs-wrap-mobile
+    {
+        display: block;
+    }
+
+    .contact1-wrap2 .breadcrumbs-wrap
+    {
+        margin-bottom: 0;
+    }
+
+    .section-wrap1
+    {
+        top: 4px;
+    }
+
+    .contact1-map-wrap .link
+    {
+        font-size: 16px;
+    }
+
+    .contact1-list2 li
+    {
+        width: 100%;
+    }
+
+    .contact1-item3
+    {
+        width: 100%;
+        min-height: 310px;
+        margin-top: 14px;
+    }
+
+    .contact1-list3
+    {
+        min-height: 1295px;
+        margin-top: -14px;
+    }
+
+    .section-wrap1.active
+    {
+        left: -10px;
+    }
+
+    .rules-text3 h3
+    {
+        font-size: 21px;
+    }
+
+    .rules-text-cotaniner2
+    {
+        padding: 40px 15px;
+    }
+
+    .rules-text-cotaniner3 h3
+    {
+        font-size: 20px;
+    }
+
+    .rules-text-cotaniner4 h2
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+    .rules-text-video
+    {
+        margin-bottom: 40px;
+    }
+
+    .rules-text-list3
+    {
+        margin-top: -40px;
+        margin-bottom: 40px;
+    }
+
+    .rules-text-item3
+    {
+        width: 100%;
+        margin-top: 40px;
+
+        text-align: center;
+    }
+
+    .service1-action.promo-action .service1-action-img
+    {
+        order: 0;
+    }
+
+    /* .service1-action-img img
+    {
+        display: block;
+
+        width: 100%;
+        max-width: none;
+        height: calc(100% - 50px);
+        max-height: none;
+
+        object-fit: cover;
+    } */
+
+    .service1-action-img:before
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        content: '';
+
+        background-color: rgba(255, 255, 255, .01);
+    }
+
+    .service1-action1
+    {
+        position: relative;
+    }
+
+    .service1-action
+    {
+        background-color: transparent;
+    }
+
+    .service1-action-text
+    {
+        position: relative;
+        z-index: 1;
+
+        width: 100%;
+        padding: 40px 20px;
+        padding-bottom: 60px;
+    }
+
+    .service1-action-timer-wrap
+    {
+        z-index: 1;
+    }
+
+    .cost1-list i
+    {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .cost1-list li
+    {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .cost1-list b
+    {
+        margin-right: 8px;
+    }
+
+    .service1-tab-list
+    {
+        width: 100%;
+    }
+
+    .service1-tab-link-wrap
+    {
+        text-align: left;
+    }
+
+    .service1-tabs
+    {
+        display: none;
+    }
+
+    .service1-tabs-slider
+    {
+        display: block;
+    }
+
+    .cost1 h2
+    {
+        font-size: 20px;
+    }
+
+    .cost1-list b
+    {
+        font-size: 18px;
+    }
+
+    .cost1-list span
+    {
+        font-size: 16px;
+    }
+
+    .service1-results h2
+    {
+        font-size: 20px;
+    }
+
+    .service1-results
+    {
+        padding: 40px 20px;
+    }
+
+    .service1-results-img-container b
+    {
+        font-size: 13px;
+    }
+
+    .service1-doctors h3
+    {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .service1-doctors
+    {
+        padding: 40px 20px;
+    }
+
+    .service1-other h3
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .service1-other-slider
+    {
+        padding-bottom: 50px;
+    }
+
+    .service1-other-slider .swiper-button-next-style2,
+    .service1-other-slider .swiper-container-rtl .swiper-button-prev-style2
+    {
+        right: 50%;
+
+        -webkit-transform: translateX(40px) rotate(180deg);
+                transform: translateX(40px) rotate(180deg);
+    }
+
+    .service1-other-slider .swiper-button-prev-style2,
+    .service1-other-slider .swiper-button-next-style2
+    {
+        top: auto;
+        bottom: 0;
+    }
+
+    .service1-other-slider .swiper-button-prev-style2,
+    .service1-other-slider .swiper-container-rtl .swiper-button-next-style2
+    {
+        right: auto;
+        left: 50%;
+
+        -webkit-transform: translateX(-40px);
+                transform: translateX(-40px);
+    }
+
+    .service1-other-item
+    {
+        padding: 40px 20px;
+    }
+
+    .service1-other-item h4
+    {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .service1-action-timer-wrap
+    {
+        left: 50%;
+
+        width: 100%;
+
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .service1-action-slider .swiper-button-next-style2,
+    .service1-action-slider .swiper-container-rtl .swiper-button-prev-style2
+    {
+        right: 16px;
+    }
+
+    .service1-action-slider .swiper-button-prev-style2,
+    .service1-action-slider .swiper-container-rtl .swiper-button-next-style2
+    {
+        right: auto;
+        left: 16px;
+    }
+
+    .service1-action-slider .service1-action-text
+    {
+        padding-top: 70px;
+    }
+
+    .service1-reception
+    {
+        padding: 40px 20px;
+    }
+
+    .cost1-slider
+    {
+        display: block;
+    }
+
+    .service1-reception h2
+    {
+        font-size: 20px;
+    }
+
+    .service1-tabs-slider-services-style .swiper-button-prev-style2,
+    .service1-tabs-slider-services-style .swiper-button-next-style2
+    {
+        top: 8px;
+
+        background-color: #fff;
+        background-image: url('../img/arrow5.png');
+    }
+
+    .service1-tabs-slider-services-style .swiper-button-next-style2,
+    .service1-tabs-slider-services-style .swiper-container-rtl .swiper-button-prev-style2
+    {
+        right: 16px;
+
+        -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+    }
+
+    .service1-tabs-slider-services-style .swiper-button-prev-style2,
+    .service1-tabs-slider-services-style .swiper-container-rtl .swiper-button-next-style2
+    {
+        right: auto;
+        left: 16px;
+
+        -webkit-transform: none;
+                transform: none;
+    }
+
+    .cost1-slider .service1-tab-link-wrap
+    {
+        text-align: right;
+    }
+
+    .service1-doctors-services-style
+    {
+        padding-top: 0;
+    }
+
+    .service1-doctors-services-style h3
+    {
+        margin-right: -20px;
+        margin-left: -20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+
+        text-align: center;
+
+        background-color: #fff;
+    }
+
+    .service1-doctors-services-style .swiper-button-prev-style2,
+    .service1-doctors-services-style .swiper-button-next-style2
+    {
+        top: -71px;
+    }
+
+    .service1-doctors-services-style .swiper-button-next-style2,
+    .service1-doctors-services-style .swiper-container-rtl .swiper-button-prev-style2
+    {
+        right: 0;
+    }
+
+    .service1-doctors-services-style .swiper-button-prev-style2,
+    .service1-doctors-services-style .swiper-container-rtl .swiper-button-next-style2
+    {
+        right: auto;
+        left: 0;
+    }
+
+    .service1-doctors-services-style .service1-doctors-link-wrap a
+    {
+        font-size: 12px;
+    }
+
+    .cost1-slider .service1-tab-link-wrap a
+    {
+        font-size: 12px;
+    }
+
+    .service1-reception-text p
+    {
+        margin-bottom: 20px;
+    }
+
+    .costsection-select-wrap
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .costsection-item
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .costsection-item:last-child
+    {
+        margin-bottom: 0;
+    }
+
+    .costsection-item h3
+    {
+        margin-bottom: 20px;
+    }
+
+    .pagination-list
+    {
+        margin-right: auto;
+    }
+
+    .service1-action-text
+    {
+        padding-top: 70px;
+    }
+
+    .housecall-form-wrap1
+    {
+        padding: 20px 10px;
+    }
+
+    .housecall-captcha
+    {
+        width: 100%;
+    }
+
+    .g-recaptcha div
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .housecall-captcha-wrap .btn2
+    {
+        margin-top: 27px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .label-checkbox span
+    {
+        font-size: 10px;
+    }
+
+    .corporate-select-wrap
+    {
+        padding: 30px 15px;
+    }
+
+    .corporate-list{
+        margin-left: 0;
+    }
+
+    .corporate-item
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .rights .rules-text-cotaniner2
+    {
+        padding: 40px 15px;
+    }
+
+    .service1-action-text-btn-wrap
+    {
+        z-index: 999;
+        top: auto;
+        bottom: 0;
+
+        padding: 5px;
+
+        opacity: 1;
+    }
+
+    .jobs-list
+    {
+        padding-left: 0;
+    }
+
+    .vacancy-form
+    {
+        padding: 30px 10px;
+    }
+
+    .vacancy .label-checkbox span
+    {
+        font-size: 13px;
+    }
+
+    .vacancy-captcha
+    {
+        max-width: none;
+        margin-bottom: 20px;
+    }
+
+    .g-recaptcha
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .vacancy-form-wrap .btn2
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .programs-text1
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 300px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .programs-text1.active
+    {
+        max-height: 8000px;
+        padding-bottom: 130px;
+    }
+
+    .programs-text1 .text-btn
+    {
+        display: block;
+    }
+
+    .programs-tabs
+    {
+        display: none;
+    }
+
+    .programs-item
+    {
+        padding: 30px 20px;
+    }
+
+    .programs-slider
+    {
+        display: block;
+    }
+
+    .creditFeedback-form-wrap .btn2
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .creditFeedback-container-text
+    {
+        padding-left: 0;
+    }
+
+    .creditFeedback-img
+    {
+        padding: 5px;
+
+        text-align: center;
+    }
+
+    .creditFeedback-form
+    {
+        padding: 30px 10px;
+    }
+
+    .creditFeedback .label-checkbox span
+    {
+        font-size: 13px;
+    }
+
+    .search-list
+    {
+        padding-left: 0;
+    }
+
+    .search-item
+    {
+        margin-bottom: 10px;
+    }
+
+    .search-form
+    {
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .search-item-link a
+    {
+        font-size: 19px;
+    }
+
+    .search-item p
+    {
+        font-size: 14px;
+    }
+
+    .search-btn-wrap
+    {
+        margin-top: 30px;
+    }
+
+    .questions-filter
+    {
+        padding: 20px 10px;
+    }
+
+    .questions-item h3
+    {
+        margin-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .questions-item h3 i
+    {
+        font-size: 21px;
+    }
+
+    .questions-item span
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .questions-item p
+    {
+        font-size: 15px;
+        line-height: 20px;
+
+        padding: 20px 10px;
+
+        letter-spacing: .5px;
+    }
+
+    .questions-item
+    {
+        margin-bottom: 25px;
+    }
+
+    .doctors-filter
+    {
+        padding: 15px 10px;
+    }
+
+    .doctors-filter-radio-wrap
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .programs-body .programs-tabs
+    {
+        display: block;
+    }
+
+    .clinic-tab-item span
+    {
+        font-size: 0;
+    }
+
+    .clinic-tab-item.active span
+    {
+        font-size: 10px;
+
+        padding-left: 30px;
+    }
+
+    .clinic-tab_list
+    {
+        max-width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .clinic-reviews-btn-wrap
+    {
+        display: none;
+    }
+
+    .clinic-reviews-slider
+    {
+        margin-bottom: 0;
+    }
+
+    .disease-body .service1-action-slider .service1-action-text
+    {
+        padding-top: 150px;
+    }
+
+    .disease-body .service1-action-slider .swiper-button-prev-style2,
+    .disease-body .service1-action-slider .swiper-button-next-style2
+    {
+        top: 80px;
+    }
+
+    .disease-body .service1-action-timer-wrap
+    {
+        top: 67px;
+    }
+
+    .service1-action-img b
+    {
+        font-size: 34px;
+
+        padding: 5px 14px;
+
+        border-radius: 0 0 29px 29px;
+    }
+
+    .service1-tab-list:nth-child(2)
+    {
+        display: block;
+    }
+
+    .directory-slider .directory-list:nth-child(2)
+    {
+        display: none;
+    }
+
+    .directory-slider .directory-list
+    {
+        width: 100%;
+    }
+
+    #directory-tab2 .directory-list:nth-child(3)
+    {
+        display: block;
+    }
+
+    #directory-tab2 .directory-list
+    {
+        width: 100%;
+    }
+
+    .directory-list
+    {
+        margin-top: 10px;
+    }
+
+    .directory-list-wrap
+    {
+        margin-top: -10px;
+    }
+
+    .directory-list li
+    {
+        margin-bottom: 10px;
+    }
+
+    .directory-list a
+    {
+        font-size: 17px;
+    }
+
+    .directory-slider h2
+    {
+        font-size: 84px;
+        line-height: 84px;
+    }
+
+    .health-list
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .health-list-wrap
+    {
+        margin-top: -10px;
+    }
+
+    .health-list li
+    {
+        margin-bottom: 10px;
+    }
+
+    .health-list a
+    {
+        font-size: 17px;
+    }
+
+    .health-list:nth-child(2)
+    {
+        display: none;
+    }
+
+    .action-clinics h2,
+    .action-other h2
+    {
+        font-size: 20px;
+
+        width: 100%;
+        max-width: 304px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 40px;
+
+        text-align: center;
+    }
+
+    .action .swiper-button-prev-style2,
+    .action .swiper-container-rtl .swiper-button-next-style2
+    {
+        left: 0;
+    }
+
+    .action .swiper-button-prev-style2,
+    .action .swiper-button-next-style2
+    {
+        top: -66px;
+    }
+
+    .action-clinics .swiper-button-prev-style2,
+    .action-clinics .swiper-button-next-style2
+    {
+        top: -76px;
+    }
+
+    .doctor-specialization-list li
+    {
+        width: 100%;
+    }
+
+    .doctor-regalia
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 700px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .doctor-regalia.active
+    {
+        max-height: 8000px;
+        padding-bottom: 150px;
+    }
+
+    .doctor-regalia .text-btn
+    {
+        display: block;
+    }
+
+    .solutions-text2
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 300px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .solutions-text2.active
+    {
+        max-height: 8000px;
+        padding-bottom: 130px;
+    }
+
+    .solutions-text2 .text-btn
+    {
+        display: block;
+    }
+
+
+    .main-header-nav-mobile-block
+    {
+        display: flex;
+
+        justify-content: center;
+        align-items: stretch;
+        align-content: stretch;
+        flex-wrap: wrap;
+    }
+
+    .main-header-nav-mobile-block > *
+    {
+        flex-grow: 1;
+    }
+}
+
+@media only screen and (max-width: 700px)
+{
+    .main-header-nav-link-wrap2
+    {
+        width: 10%;
+
+        background-color: #0a9beb;
+    }
+    .main-header-nav-link-wrap2 a
+    {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .main-header-nav-link-wrap1
+    {
+        width: 10%;
+
+        background-color: #0a9beb;
+    }
+    .main-header-nav-link-wrap1 a
+    {
+        color: #fff;
+
+        opacity: 1;
+    }
+    .main-header-nav-link-wrap3
+    {
+        position: relative;
+
+        display: flex;
+
+        width: 42%;
+
+        background-color: #0a9beb;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .main-header-nav-link-wrap3 .colors
+    {
+        display: flex;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .main-header-nav-link-wrap3 .colors button + button
+    {
+        margin-left: 3px;
+    }
+
+    .main-header-nav-link-wrap3 .colors button
+    {
+        color: #fff;
+        font: 14px/28px 'Gerbera';
+
+        min-width: 26px;
+        padding: 0 4px;
+
+        text-align: center;
+
+        opacity: 1 !important;
+        border: 1px solid #ccc;
+        background: #0a9beb;
+    }
+
+    .main-header-nav-link-wrap3 .colors button:hover,
+    .main-header-nav-link-wrap3 .colors button.active
+    {
+        text-decoration: underline;
+    }
+
+    .main-header-nav-link-wrap3 .colors button.color2
+    {
+        color: #000;
+
+        background: #fff;
+    }
+
+    .main-header-nav-link-wrap3 .colors button.color3
+    {
+        color: #fff;
+
+        background: #000;
+    }
+
+    .main-header-nav-link-wrap3 .colors button.color4
+    {
+        color: #a9dd38;
+
+        background: #3b2716;
+    }
+
+    .main-header-nav-link-wrap3 .size
+    {
+        display: flex;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .main-header-nav-link-wrap3 .size button
+    {
+        color: #fff;
+        font: 14px/30px 'Gerbera';
+
+        min-width: 26px;
+        margin-left: 3px;
+        padding: 0;
+
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+        opacity: 1 !important;
+        border: none;
+        background: none;
+    }
+
+    .main-header-nav-link-wrap3 .size button:hover,
+    .main-header-nav-link-wrap3 .size button.active
+    {
+        text-decoration: underline;
+    }
+
+    .main-header-nav-link-wrap3 .size button.middle
+    {
+        font-size: 21px;
+        font-weight: 700;
+
+        text-transform: uppercase;
+    }
+
+    .main-header-nav-link-wrap4
+    {
+        width: 38%;
+
+        text-align: center;
+
+        background: #e02015;
+    }
+
+    .main-header-nav-link-wrap4 a
+    {
+        color: #fff;
+        font-size: 13px;
+        line-height: 50px;
+        padding: 0px;
+        text-transform: uppercase;
+    }
+
+    .main-header-nav-link-wrap2 a
+    {
+        font-size: 0;
+
+        padding: 17px 10px;
+    }
+
+    .main-header-nav-link-wrap1 a
+    {
+        padding: 17px 10px;
+    }
+    .main-header-nav-link-wrap2 a:after
+    {
+        position: absolute;
+        top: 25px;
+        left: 100px;
+
+        width: 11px;
+        height: 14px;
+
+        content: '';
+        -webkit-transform: translateY(-50%) translateX(-90px);
+                transform: translateY(-50%) translateX(-90px);
+
+        background: url(../img/main-header-link-item-4-fff.svg) center no-repeat;
+        background-size: contain;
+    }
+
+	.service1-action.promo-action .promo-ends
+	{
+		width: 100%;
+		/* background-color: #f3fafe; */
+		text-align: center;
+	}
+   /* .service1-action.promo-action .promo-ends
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: auto;
+
+        width: auto;
+
+        text-align: right;
+
+        justify-content: flex-end;
+        z-index: 3;
+    }
+	*/
+
+    .service1-action.promo-action .promo-ends > b
+    {
+        /*display: none;*/
+    }
+
+    .service1-action.promo-action .service1-action-timer-wrap
+    {
+        width: auto;
+        padding-right: 0;
+
+        -webkit-transform: translateX(0);
+                transform: translate(0);
+    }
+
+    .service1-action.promo-action .service1-action-timer .clock-text-wrap span
+    {
+        font-size: 25px;
+    }
+
+    .service1-action-slider .swiper-button-prev-style2,
+    .service1-action-slider .swiper-button-next-style2
+    {
+        top: 70px;
+    }
+
+    .service1-action.promo-action .service1-action-img b
+    {
+        font-size: 30px;
+    }
+
+    .cost1-list i,
+    .cost1-list a{
+        width: calc(100% - 140px);
+    }
+    .cost1-list b{
+        margin-right: 0;
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 650px)
+{
+    .main-header-container
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .main-header-wrap1
+    {
+        width: 100%;
+    }
+
+    .main-header-feedback-wrap
+    {
+        display: none;
+    }
+
+    .main-header-wrap2
+    {
+        width: 100%;
+        max-width: 200px;
+        padding: 12px;
+        padding-right: 0;
+        padding-left: 10px;
+    }
+
+    .main-header-wrap3 .main-header-form-search
+    {
+        display: none;
+    }
+
+    .main-header-wrap3
+    {
+        width: 100%;
+        max-width: 135px;
+
+        background-color: transparent;
+    }
+
+    .main-header-menuToggle
+    {
+        color: #0a9beb;
+
+        padding-right: 10px;
+
+        background-color: transparent;
+    }
+
+    .main-header-menuToggle:after
+    {
+        background-image: url('../img/menu2.svg');
+    }
+
+    .main-header-menuToggle.active
+    {
+        background-color: #f3fafe;
+    }
+
+    .main-header-menuToggle.active:after
+    {
+        background-image: url('../img/close2.svg');
+    }
+
+    .main-header-wrap3
+    {
+        position: static;
+    }
+
+    .main-header-nav
+    {
+        padding: 0;
+
+        background-color: #f3fafe;
+    }
+
+    .main-header-list a
+    {
+        color: #143341;
+
+        padding: 10px 0;
+
+        background-color: transparent;
+    }
+
+    .main-header-list li
+    {
+        text-align: center;
+    }
+
+    .fixed-header-list
+    {
+        padding: 0;
+
+        background-color: #f3fafe;
+        -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, .31);
+                box-shadow: 0 2px 8px rgba(0, 0, 0, .31);
+    }
+
+    .fixed-header-list li
+    {
+        text-align: center;
+    }
+
+    .fixed-header-list a
+    {
+        color: #143341;
+
+        padding: 10px 0;
+
+        background-color: transparent;
+    }
+
+    .services1-list
+    {
+        display: none;
+    }
+
+    .services1-slider
+    {
+        display: block;
+    }
+
+    .publications-item-img
+    {
+        max-width: 119px;
+    }
+
+    .publications-item-text
+    {
+        width: calc(100% - 136px);
+    }
+
+    .publications-item-text h3
+    {
+        font-size: 11px;
+
+        min-height: inherit;
+        margin-bottom: 0;
+    }
+
+    .publications-item-text p
+    {
+        font-size: 9px;
+        line-height: 1.4;
+
+        min-height: inherit;
+        margin-bottom: 0;
+    }
+
+    .publications-item-text-info span
+    {
+        font-size: 8px;
+    }
+
+    .publications-item-text p span
+    {
+        display: none;
+    }
+
+    .publications-item-text-info b
+    {
+        font-size: 8px;
+    }
+
+    .publications-item-7,
+    .publications-item-8
+    {
+        display: none;
+    }
+
+    .publications-list
+    {
+        margin-bottom: 30px;
+    }
+
+    .pagination-list li
+    {
+        font-size: 11px;
+    }
+
+    .pagination-list
+    {
+        max-width: 179px;
+    }
+
+    .pagination-list li:first-child,
+    .pagination-list li:last-child
+    {
+        width: 14px;
+    }
+
+    .administration-list{
+        margin-left: 0;
+    }
+
+    .administration-item
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .administration-item-7,
+    .administration-item-8
+    {
+        display: none;
+    }
+
+    .reviews-container-btn .pagination-wrap
+    {
+        max-width: none;
+    }
+
+    .reviews-radio-wrap1
+    {
+        margin-top: 40px;
+        margin-right: auto;
+        margin-left: auto;
+
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .reviews-filter
+    {
+        padding: 10px;
+    }
+
+    .reviews-feedback-form
+    {
+        padding: 10px;
+    }
+
+    .clinics-list{
+        margin-left: 0;
+    }
+
+    .clinics-item
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .clinics-item-title-wrap1 h3
+    {
+        margin-bottom: 10px;
+    }
+
+    .clinics-item-title
+    {
+        margin-bottom: 20px;
+    }
+
+    .clinics-item-text-wrap2 ul li
+    {
+        margin-bottom: 17px;
+    }
+
+    .clinics-item-text-wrap2 ul
+    {
+        margin-bottom: 20px;
+    }
+
+    .clinics-filter
+    {
+        padding: 20px 10px;
+    }
+
+    .clinics-filter-radio-wrap label span
+    {
+        font-size: 12px;
+    }
+
+    .achievement-wrap1 h2
+    {
+        font-size: 20px;
+
+        margin-bottom: 80px;
+    }
+
+    .clinic-map-info-title h2
+    {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .clinic-map-info-title a
+    {
+        margin-right: auto;
+        margin-left: auto;
+
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .clinic-map-info-list2
+    {
+        padding-left: 25px;
+    }
+
+    .clinic-map-info-item1
+    {
+        padding-left: 30px;
+    }
+
+    .health-informations-list .publications-item:nth-child(3),
+    .health-informations-list .publications-item:nth-child(4)
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .health-informations h2,
+    .health-problem h2,
+    .health-question h2
+    {
+        font-size: 22px;
+    }
+
+    .health-problem-list a
+    {
+        font-size: 16px;
+    }
+
+    .health-link-wrap a
+    {
+        font-size: 15px;
+    }
+
+    .doctor .swiper-button-prev-style2,
+    .doctor .swiper-container-rtl .swiper-button-next-style2
+    {
+        right: auto;
+        left: 0;
+    }
+
+    .doctor-certificates h2,
+    .doctor-reviews h2
+    {
+        width: 100%;
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 40px;
+
+        text-align: center;
+    }
+
+    .doctor-certificates .swiper-button-prev-style2,
+    .doctor-certificates .swiper-button-next-style2
+    {
+        top: -90px;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .doctor-reviews-slider .reviews-item:after,
+    .reviews .reviews-item:after,
+    .clinic-reviews .reviews-item:after
+    {
+        display: none;
+    }
+
+    .doctor-reviews-slider .reviews-item
+    {
+        max-height: 250px;
+        padding-bottom: 100px;
+    }
+
+    .reviews .reviews-item,
+    .clinic-reviews .reviews-item
+    {
+        max-height: 250px;
+        padding-bottom: 87px;
+    }
+
+    .videos-item
+    {
+        width: 100%;
+    }
+
+    .action-info-time
+    {
+        padding: 15px 10px;
+		margin-bottom: 0px;
+    }
+
+    .action-info-time > b
+    {
+        font-size: 15px;
+
+        width: 100%;
+        max-width: 130px;
+    }
+
+    .action .service1-feedback
+    {
+        display: none;
+    }
+
+    .banner-wrap1
+    {
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0;
+    }
+
+    .banner-tab-slider
+    {
+        padding: 20px 40px;
+    }
+
+    .banner-wrap1 .swiper-button-prev-style1,
+    .swiper-container-rtl .swiper-button-next-style1
+    {
+        left: 40px;
+    }
+
+    .banner-wrap1 .swiper-button-next-style1,
+    .swiper-container-rtl .swiper-button-prev-style1
+    {
+        left: 75px;
+    }
+
+    .main-footer-list-wrap
+    {
+        text-align: left;
+    }
+
+    .main-footer-list-wrap1
+    {
+        width: 48%;
+    }
+
+    .main-footer-list-wrap2
+    {
+        width: 48%;
+    }
+
+    .main-footer-list-wrap .main-footer-list
+    {
+        margin-left: 0;
+    }
+
+    .main-footer-list1
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        width: 100%;
+        margin-bottom: 20px;
+
+        text-align: left;
+
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+        order: 0;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .main-footer-list1 li
+    {
+        width: 48%;
+    }
+
+    .main-footer-certificates-item
+    {
+        display: block;
+
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .main-footer-certificates-list
+    {
+        max-width: 180px;
+        margin-top: -30px;
+    }
+
+    .main-footer-list2 li
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 5px;
+
+        text-align: center;
+    }
+
+    .main-footer-list2 li:last-child
+    {
+        margin-bottom: 0;
+    }
+
+    .main-footer-list2 li:after
+    {
+        display: none;
+    }
+
+    .partnership-text2
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 300px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .partnership-text2.active
+    {
+        max-height: 8000px;
+        padding-bottom: 130px;
+    }
+
+    .partnership-text2 .text-btn
+    {
+        display: block;
+    }
+
+    .company-text-container
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 1800px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .company-text-container.active
+    {
+        max-height: 8000px;
+        padding-bottom: 130px;
+    }
+
+    .company-text-container .text-btn
+    {
+        display: block;
+    }
+
+    .social-btn-text-wrap
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 1200px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .social-btn-text-wrap.active
+    {
+        max-height: 8000px;
+        padding-bottom: 130px;
+    }
+
+    .social-btn-text-wrap .text-btn
+    {
+        display: block;
+    }
+
+    .reviews-item-text2
+    {
+        padding: 10px;
+    }
+
+    .reviews-item-text2 p:after
+    {
+        display: none;
+    }
+
+    .reviews-item-text2 p:before
+    {
+        display: none;
+    }
+
+    .reviews-item-text1
+    {
+        padding-left: 0;
+    }
+
+    .reviews-item-text1 span
+    {
+        font-size: 21px;
+
+        margin-right: 5px;
+    }
+
+    .reviews-item-text1 b
+    {
+        font-size: 15px;
+    }
+
+    .reviews-item-text2 p
+    {
+        font-size: 15px;
+        line-height: 24px;
+
+        margin-bottom: 40px;
+    }
+
+    .reviews-item2
+    {
+        font-size: 17px;
+    }
+
+    .reviews .label-checkbox span
+    {
+        font-size: 13px;
+    }
+
+    .videos-filter
+    {
+        padding: 20px 10px;
+    }
+
+    .videos-filter-radio-wrap label
+    {
+        width: 33.333%;
+        margin-top: 15px;
+
+        background-color: #fff;
+    }
+
+    .videos-filter-radio-wrap label:nth-child(1)
+    {
+        border-radius: 300px 0 0 300px;
+    }
+
+    .videos-filter-radio-wrap label:nth-child(3)
+    {
+        border-radius: 0 300px 300px 0;
+    }
+
+    .videos-filter-radio-wrap label:nth-child(4)
+    {
+        border-radius: 300px 0 0 300px;
+    }
+
+    .videos-filter-radio-wrap label:nth-child(5)
+    {
+        border-radius: 0 300px 300px 0;
+    }
+
+    .videos-filter-radio-wrap
+    {
+        margin-top: -15px;
+
+        background-color: transparent;
+    }
+
+    .information-item-img-wrap
+    {
+        max-width: none;
+    }
+
+    .information-item-img
+    {
+        overflow: hidden;
+
+        max-height: 300px;
+    }
+
+    .information-item-img img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .information-item-text-wrap2
+    {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .information-item-5,
+    .information-item-6
+    {
+        display: none;
+    }
+
+    .certificates-text1
+    {
+        position: relative;
+
+        overflow: hidden;
+
+        max-height: 300px;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+
+        -webkit-transition: max-height .3s, padding-bottom .3s;
+                transition: max-height .3s, padding-bottom .3s;
+    }
+
+    .certificates-text1.active
+    {
+        max-height: 8000px;
+        padding-bottom: 130px;
+    }
+
+    .certificates-text1 .text-btn
+    {
+        display: block;
+    }
+
+    .certificates-filter
+    {
+        padding: 20px 10px;
+    }
+
+    .certificates-item-img1
+    {
+        max-width: none;
+
+        text-align: center;
+    }
+
+    .certificates-item-img-wrap
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        max-width: 304px;
+        margin-right: auto;
+        margin-left: auto;
+
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .certificates-item-4,
+    .certificates-item-5
+    {
+        display: none;
+    }
+
+    .programs-text3 h3
+    {
+        font-size: 22px;
+    }
+
+    .doctors-list{
+        margin-left: 0;
+    }
+
+    .doctors-item
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .doctors-item-6,
+    .doctors-item-7,
+    .doctors-item-8
+    {
+        display: none;
+    }
+
+    .faq-item .block_toggle
+    {
+        padding: 26px 15px;
+    }
+
+    .faq-item .open_toggle
+    {
+        padding: 19px 60px 19px 15px;
+    }
+
+    .faq-filter
+    {
+        padding: 15px 10px;
+    }
+
+    .stock-img-wrap i
+    {
+        font-size: 34px;
+    }
+
+    .clinic-administration
+    {
+        margin-top: 50px;
+    }
+
+    .clinic-tour
+    {
+        margin-bottom: 0;
+    }
+
+    .disease-wrap h2
+    {
+        width: 100%;
+        max-width: 380px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 40px;
+
+        text-align: center;
+    }
+
+    .disease-slider .swiper-button-prev-style2,
+    .disease-slider .swiper-container-rtl .swiper-button-next-style2
+    {
+        right: auto;
+        left: 0;
+    }
+
+    .disease-slider .swiper-button-prev-style2,
+    .disease-slider .swiper-button-next-style2
+    {
+        top: -91px;
+    }
+
+    .disease-item-hidden
+    {
+        display: none;
+    }
+
+    .directory-filter
+    {
+        padding: 20px 10px;
+    }
+
+    .directory-slider .swiper-pagination .swiper-pagination-bullet
+    {
+        width: 14.28571%;
+    }
+
+    .directory-slider .swiper-button-prev-style2,
+    .directory-slider .swiper-button-next-style2
+    {
+        top: 260px;
+    }
+
+    .service1-feedback-wrap h2
+    {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .health-btn-wrap .health-link-wrap
+    {
+        width: 100%;
+        margin-top: 15px;
+
+        text-align: center;
+    }
+
+    .health-btn-wrap .btn2
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .action-info-img p
+    {
+        padding: 8px 20px;
+    }
+
+    .action-info-img p span
+    {
+        font-size: 20px;
+    }
+
+    .action-info-img p b
+    {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 550px)
+{
+    .fixed-header-tel-wrap
+    {
+        max-width: 157px;
+        padding: 0;
+    }
+
+    .toTop-wrap
+    {
+        display: block;
+    }
+
+    .program-item
+    {
+        padding: 20px;
+    }
+
+    .program-item-btn
+    {
+        width: 100%;
+        margin-bottom: 20px;
+
+        text-align: right;
+
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .program-item-btn-wrap span
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .attendance-btn3-wrap
+    {
+        width: 100%;
+        margin-bottom: 30px;
+
+        text-align: center;
+
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .attendance-btn1-wrap
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 520px)
+{
+    .program-item2:after
+    {
+        display: block;
+
+        width: 100%;
+        height: 1px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+
+        content: ' ';
+
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(184, 226, 249, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    }
+
+    .clinic-tab-item span span
+    {
+        display: none;
+    }
+
+    .clinic-text2-wrap table td{
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .service1-text1-wrap
+		{
+        max-height: 390px;
+    }
+
+	.contact1-map {
+		display: block;
+	}
+
+	.rules-text-list1 {
+		margin-left: 20px;
+	}
+
+	.load_more_service {
+
+	}
+
+	.programs-body .program-wrap2 .service1-action-slider1, .programs-body .programs-wrap2 .service1-action-slider1, .service1-wrap1 .service1-action-slider1 {
+
+	}
+
+    .fixed-header-feedback a span
+    {
+        display: none;
+    }
+
+    .fixed-header-feedback
+    {
+        max-width: 103px;
+    }
+
+    .fixed-header-tel-wrap a
+    {
+        font-size: 18px;
+    }
+
+    .fixed-header-tel-wrap
+    {
+        max-width: 142px;
+    }
+
+    .fixed-header-menu-toggle
+    {
+        width: 40px;
+    }
+
+    .main-footer-social-wrap
+    {
+        width: 100%;
+        max-width: 240px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .main-footer-social
+    {
+        max-width: 240px;
+    }
+
+    .main-footer-contacts
+    {
+        width: 100%;
+        max-width: 240px;
+        margin-right: auto;
+        margin-bottom: 35px;
+        margin-left: auto;
+    }
+
+    .programs-item-btn-wrap a
+    {
+        margin-bottom: 30px;
+        margin-left: 90px;
+
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .programs-item-btn-wrap
+    {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+
+    .programs-item-btn-wrap span
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .achievement-item-2
+    {
+        display: none;
+    }
+
+    .achievement-item-text
+    {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .main-header-list a
+    {
+        font-size: 14px;
+    }
+
+    .achievement-item-img-wrap
+    {
+        width: 100%;
+        max-width: 350px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .achievement-item-img-wrap .achievement-item-img{
+        height: auto;
+    }
+
+    .achievement-item-img-wrap .achievement-item-img img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .achievement-item-text{
+        max-height: none;
+    }
+
+    .stock-timer-wrap
+    {
+        padding: 5px 15px;
+    }
+
+    .stock-text
+    {
+        padding: 15px;
+    }
+
+    .stock-timer-wrap i
+    {
+        width: 100%;
+        max-width: 115px;
+    }
+
+    .clinic .swiper-button-prev-style2,
+    .swiper-container-rtl .swiper-button-next-style2
+    {
+        right: auto;
+        left: 0;
+    }
+
+    .clinic-doctors h2,
+    .clinic-reviews h2
+    {
+        font-size: 20px;
+
+        margin-bottom: 44px;
+        padding: 0 40px;
+
+        text-align: center;
+    }
+
+    .clinic-photo-slider-wrap
+    {
+        display: block;
+    }
+
+    .clinic-photo
+    {
+        display: none;
+    }
+
+    .disease-text
+    {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .disease-img-wrap
+    {
+        max-width: none;
+    }
+
+    .disease-img-wrap img
+    {
+        width: 100%;
+    }
+
+    .doctor-info-title span
+    {
+        font-size: 18px;
+    }
+
+    .doctor-info-text-wrap3 p,
+    .doctor-info-text-wrap4 p
+    {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .doctor-reviews-link
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .doctor-reviews-btn-wrap .btn3
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .doctor-info-text-wrap2 h2
+    {
+        font-size: 18px;
+    }
+
+    .doctor-info-text-wrap2 h2 b
+    {
+        font-size: 21px;
+    }
+
+    .main-header-list li,
+    .fixed-header-list li
+    {
+        width: 100%;
+    }
+
+
+    .service1-action-timer-wrap
+    {
+        padding-right: 10px;
+
+        /*text-align: right;*/
+    }
+
+    .service1-action-timer .clock-text-wrap span
+    {
+        font-size: 30px;
+    }
+
+
+    .clinic .swiper-button-prev-style2{
+        right: 42px;
+        left: auto;
+    }
+}
+
+@media only screen and (max-width: 479px)
+{
+    .main-header-nav-link-wrap1
+    {
+        width: 18%;
+    }
+
+    .main-header-nav-link-wrap2
+    {
+        width: 18%;
+    }
+
+    .main-header-nav-link-wrap3
+    {
+        width: 64%;
+    }
+
+    .main-header-nav-link-wrap4
+    {
+        width: 100%;
+
+        border-top: 1px solid #000;
+        border-left: none !important;
+    }
+
+
+    .publications-item-text{
+        padding: 0;
+    }
+
+    .rules-wrap2 .left{
+        width: 100%;
+        max-width: none;
+        float: none;
+        margin-right: 0;
+    }
+
+
+    .questions-input-wrap input{
+        width: calc(100% - 75px);
+    }
+
+    .questions-input-wrap button{
+        width: 65px;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    .main-header-wrap2
+    {
+        max-width: 140px;
+    }
+
+    .main-header-link-item-6 a
+    {
+        font-size: 16px;
+    }
+
+    .banner-tab-slider
+    {
+        padding-bottom: 60px;
+    }
+
+    .banner-wrap1 .swiper-button-prev-style1,
+    .swiper-button-next-style1
+    {
+        bottom: 25px;
+    }
+
+    .banner-link-wrap1
+    {
+        padding-right: 0;
+        padding-left: 45px;
+
+        text-align: left;
+    }
+
+    .main-footer-subscribe-btn-wrap a
+    {
+        font-size: 10px;
+    }
+
+    .contact1-title1
+    {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .rules-wrap2 h1
+    {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .main-header-wrap2 .main-header-logo
+    {
+        line-height: 0;
+
+        display: inline-block;
+    }
+
+
+    .clinic-administration h2{
+        font-size: 23px;
+    }
+    .clinic-administration .swiper-button-prev-style2,
+    .clinic-administration .swiper-button-next-style2{
+        top: -70px;
+    }
+}
+
+@media  (min-width: 1359px)and (max-width: 1450px)
+{
+    .clinic-map-info
+    {
+        top: 0;
+
+        max-width: 655px;
+        padding: 10px;
+    }
+    .clinic-map-wrap
+    {
+        height: 380px;
+    }
+}
+
+@media only screen and (min-width: 1359px)
+{
+    .main-header-nav
+    {
+        display: block !important;
+    }
+}

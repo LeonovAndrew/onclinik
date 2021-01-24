@@ -1,0 +1,20 @@
+.white_tablet.body_white .main-header-form-search input
+{
+    border-right: none;
+}
+
+.white_tablet.banner .tab_list
+{
+    width: calc(100% + 2px);
+    margin-left: -1px;
+}
+
+.white_tablet.body_white .main-header-link1
+{
+    border-right-color: #000;
+}
+
+.white_tablet.body_white .achievement-item
+{
+    margin-right: 0;
+}

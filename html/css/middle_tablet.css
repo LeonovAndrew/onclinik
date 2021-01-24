@@ -1,0 +1,179 @@
+.media_tablet.body_middle .clinic-map-wrap
+{
+    height: 900px;
+}
+
+.media_tablet.body_middle .main-header-wrap3 .main-header-form-search
+{
+    display: block;
+
+    width: calc(100% - 168px);
+}
+
+.media_tablet.body_middle .main-header-link1
+{
+    width: 18%;
+}
+
+.media_tablet.body_middle .main-header-link-wrap
+{
+    width: 82%;
+}
+
+
+.media_tablet.body_middle .main-footer-subscribe-btn-wrap a
+{
+    padding-right: 60px;
+}
+
+.media_tablet.body_middle .main-footer-contacts .btn1
+{
+    max-width: none;
+}
+
+.media_tablet.body_middle .main-footer-wrap4 .main-footer-versions-list
+{
+    max-width: 420px;
+}
+
+.media_tablet.body_middle .main-footer-share-wrap
+{
+    max-width: 230px;
+}
+
+.media_tablet.body_middle .fixed-header-menu-toggle
+{
+    font-size: 0;
+}
+
+.media_tablet.body_middle .fixed-header-search-form
+{
+    width: calc(100% - 540px);
+}
+
+.media_tablet.body_middle .main-header-link-item a
+{
+    font-size: 16px;
+}
+
+.media_tablet.body_middle .main-header-link1 b
+{
+    font-size: 16px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+}
+
+.media_tablet.body_middle .main-footer-certificates-item
+{
+    padding-left: 0;
+}
+
+.media_tablet.body_middle .questions .reviews-radio-wrap1 label span
+{
+    font-size: 0;
+}
+
+.media_tablet.body_middle .questions .reviews-radio-wrap1 label span span
+{
+    font-size: 18px;
+}
+
+.media_tablet.body_middle .questions .reviews-radio-wrap1 label span i
+{
+    font-size: 18px;
+}
+
+.media_tablet.body_middle .main-header-link1
+{
+    width: 25%;
+}
+
+.media_tablet.body_middle .main-header-link-wrap
+{
+    width: 75%;
+}
+
+.media_tablet.body_middle .main-header-link-item-2 a
+{
+    padding-left: 5px;
+}
+
+.media_tablet.body_middle .main-header-link-item-2 a:after
+{
+    display: none;
+}
+
+.media_tablet.body_middle .main-header-link-item
+{
+    width: 20%;
+}
+
+.media_tablet.body_middle .main-header-link-item-2
+{
+    width: 17%;
+}
+
+.media_tablet.body_middle .main-header-link-item-3
+{
+    width: 44%;
+}
+
+.media_tablet.body_middle .main-header-link-item-4 a
+{
+    font-size: 0;
+}
+
+.media_tablet.body_middle .main-header-link-item-4
+{
+    width: 8%;
+}
+
+.media_tablet.body_middle .main-header-link-item-5
+{
+    width: 11%;
+}
+
+.media_tablet.body_middle .main-header-feedback-wrap
+{
+    width: calc(100% - 260px);
+}
+
+.media_tablet.body_middle .services1-item h3
+{
+    font-size: 25px;
+}
+
+.media_tablet.body_middle .services1-item p
+{
+    font-size: 22px;
+}
+
+.media_tablet.body_middle .main-footer-list2 a
+{
+    font-size: 19px;
+}
+
+.media_tablet.body_middle .services1 h2
+{
+    font-size: 34px;
+}
+
+.media_tablet.body_middle .main-footer-subscribe-btn-wrap a
+{
+    font-size: 20px;
+}
+
+.media_tablet.body_middle .action-programs-item-wrap p
+{
+    width: 100%;
+}
+
+.media_tablet.body_middle .attendance-list span
+{
+    width: 100%;
+}
+
+.media_tablet.body_middle .videos-filter-radio-wrap
+{
+    border-radius: 0;
+}

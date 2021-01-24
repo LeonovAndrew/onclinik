@@ -1,0 +1,3 @@
+<?
+$sSectionName="detskaya_klinika";
+?>

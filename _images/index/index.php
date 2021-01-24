@@ -1,0 +1,1 @@
+<a href="/klientam/korporativnym_klientam/" ><img src="/bitrix/templates/onclinic-landing-common/i/corporate.jpg" border="0" width="256" height="115"  /></a>

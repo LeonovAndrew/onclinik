@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1359px)
+{
+	.body_black .main-header-form-search input{
+		border-right: none;
+	}
+
+	.body_black .banner .tab_list{
+		width: calc(100% + 2px);
+		margin-left: -1px;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	.body_black .achievement-item{
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 479px)
+{
+    .body_green .main-header-nav-link-wrap4{
+        border-top-color: #a9dd38;
+    }
+}

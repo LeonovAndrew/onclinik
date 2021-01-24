@@ -1,0 +1,67 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Администрация", 
+		"/about/administration/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Публикации", 
+		"/about/publications/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Достижения", 
+		"/about/achievements/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Партнёры", 
+		"/about/partners/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Правовая информация", 
+		"/law-information/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Частным лицам", 
+		"/about/individuals/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/about/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Reviews", 
+		"/about/reviews/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Вакансии", 
+		"/about/jobs/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
