@@ -1,2 +1,0 @@
-<?php
-$MESS['size'] = 'A';

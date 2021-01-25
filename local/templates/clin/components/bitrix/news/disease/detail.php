@@ -40,9 +40,42 @@ $this->setFrameMode(true);
                     array(
                         'HIDE_ICONS' => 'Y'
                     )
-                );
-
-                $diseaseId = $APPLICATION->IncludeComponent(
+                );?>
+                <div class="section-wrap1 before_stale">
+                    <nav class="section-nav">
+                        <!--<h2><?php /*$APPLICATION->ShowTitle('patient_info_menu_title');*/?></h2>-->
+                        <?php
+                        $APPLICATION->IncludeComponent(
+                            "bitrix:menu",
+                            "right",
+                            array(
+                                "COMPONENT_TEMPLATE" => "left",
+                                "ROOT_MENU_TYPE" => "patient_info",
+                                "MENU_CACHE_TYPE" => "N",
+                                "MENU_CACHE_TIME" => "3600",
+                                "MENU_CACHE_USE_GROUPS" => "Y",
+                                "MENU_CACHE_GET_VARS" => "",
+                                "MAX_LEVEL" => "1",
+                                "CHILD_MENU_TYPE" => "",
+                                "USE_EXT" => "N",
+                                "DELAY" => "N",
+                                "ALLOW_MULTI_SELECT" => "N",
+                            )
+                        )
+                        ?>
+                        <!--<ul class="service1-list2">
+                <?/*foreach ($arResult["ANCHOR_MENU"] as $menus):*/?>
+                    <?/*if($menus["LINK"]!="#start"):*/?>
+                        <li>
+                            <a href="<?/*=$menus["LINK"]*/?>"><?/*=$menus["TEXT"]*/?></a>
+                        </li>
+                    <?/*endif;*/?>
+                <?/*endforeach;*/?>
+            </ul>-->
+                    </nav>
+                    <div class="menu-btn"></div>
+                </div>
+                <? $diseaseId = $APPLICATION->IncludeComponent(
                     'bitrix:news.detail',
                     '',
                     array(
@@ -87,10 +120,10 @@ $this->setFrameMode(true);
                 <?php $APPLICATION->showViewContent('stocks_mobile');?>
             </div>
 
-            <div class="service1-wrap2">
+            <div class="service1-wrap2 disease_detail">
                 <?php $APPLICATION->showViewContent('stocks_desktop');?>
                 <div class="service1-info">
-                    <h3><?php $APPLICATION->ShowTitle('patient_info_menu_title');?></h3>
+                    <!--<h3><?php /*$APPLICATION->ShowTitle('patient_info_menu_title');*/?></h3>-->
                     <?php
                     $APPLICATION->IncludeComponent(
                         "bitrix:menu",
