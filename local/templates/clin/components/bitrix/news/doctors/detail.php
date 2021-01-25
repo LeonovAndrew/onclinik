@@ -66,7 +66,7 @@ $this->setFrameMode(true);
                         'SECTION_ID' => $arResult['VARIABLES']['SECTION_ID'],
                         'SECTION_CODE' => $arResult['VARIABLES']['SECTION_CODE'],
                         'PROPERTY_CODE' => $arParams['PROPERTY_CODE'],
-                        'INCLUDE_IBLOCK_INTO_CHAIN' => $arParams['INCLUDE_IBLOCK_INTO_CHAIN'],
+                        'INCLUDE_IBLOCK_INTO_CHAIN' => "N",
                         'ADD_SECTIONS_CHAIN' => $arParams['ADD_SECTIONS_CHAIN'],
                         'ADD_ELEMENT_CHAIN' => $arParams['ADD_ELEMENT_CHAIN'],
                         'OTHER_NEWS_COUNT' => $arParams['OTHER_NEWS_COUNT'],
@@ -78,7 +78,6 @@ $this->setFrameMode(true);
                
 
                 <?php
-				$APPLICATION->showViewContent('offers');
                 $obDoctor = new Personal($doctorId);
                 $obReviews = $obDoctor->getReviews(20);
                 if (!$obReviews->isEmpty()) {
@@ -116,7 +115,9 @@ $this->setFrameMode(true);
                     );
                 }
 
-                $APPLICATION->showViewContent('specialization');                
+                $APPLICATION->showViewContent('specialization');
+
+                $APPLICATION->showViewContent('offers');
 
                 $APPLICATION->showViewContent('regalia');
 
@@ -141,6 +142,56 @@ $this->setFrameMode(true);
                     )
                 );
                 ?>
+
+
+                <div class="doctor_slider">
+                    <?
+
+                    $arSelectDir = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
+                    $arFilterDir = Array("IBLOCK_ID"=>$arParams['IBLOCK_ID'], "ID"=>$doctorId, "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
+                    $resDir = CIBlockElement::GetList(Array(), $arFilterDir, false, Array("nPageSize"=>50), $arSelectDir);
+                    while($obDir = $resDir->GetNextElement()){
+                        $arPropsDir = $obDir->GetProperties();
+                        $DIRECTION=$arPropsDir["DIRECTION"]["VALUE"];
+                    }
+                    if(count($DIRECTION)>0){
+                        $slidArr=array();
+                        $slidItem=array();
+                        $arSelect = Array("ID", "IBLOCK_ID", "NAME", "PREVIEW_PICTURE", "PREVIEW_PICTURE", "DETAIL_PAGE_URL", "PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
+                        $arFilter = Array("IBLOCK_ID"=>$arParams['IBLOCK_ID'], "!ID"=>$doctorId, "PROPERTY_DIRECTION"=>$DIRECTION, "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
+                        $res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>50), $arSelect);
+                        while($ob = $res->GetNextElement()){
+
+                            $arFields = $ob->GetFields();
+                            $arProps = $ob->GetProperties();
+
+                            $slidItem["NAME"]=$arFields["NAME"];
+                            $slidItem["IMG"]=CFile::GetPath($arFields["PREVIEW_PICTURE"]);
+                            $slidItem["URL"]=$arFields["DETAIL_PAGE_URL"];
+                            $slidArr[]=$slidItem;
+                        }
+                    }
+                    ?>
+                    <?if(count($slidArr)>0):?>
+                        <div class="slider_doctors_wrap">
+                            <?foreach ($slidArr as $slidItem):?>
+                            <div class="doctors_items_wrap">
+                                <a class="a_href_wrap" href="<?=$slidItem["URL"]?>">
+                                    <div class="href_wrap_item">
+                                        <div class="doctors_img_wrap">
+                                            <img src="<?=$slidItem["IMG"]?>" alt="<?=$slidItem["NAME"]?>">
+                                        </div>
+                                        <div class="doctors_name_wrap">
+                                            <?=$slidItem["NAME"]?>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <?endforeach;?>
+                        </div>
+
+                    <?endif;?>
+                </div>
             </div>
         </div>
     </div>

@@ -29,7 +29,7 @@ foreach ($arResult as $arItem) {
 
 	$arTabs['section'][$line]['items'][] = $arItem;
     $k++;
-	if ( $k ==11 ){
+	if ( $k == 8 ){
 		$k = 0;
 		$line++;
 	}

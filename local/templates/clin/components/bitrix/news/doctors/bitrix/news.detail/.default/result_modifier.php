@@ -65,3 +65,6 @@ if (!empty($arResult['PROPERTIES']['PRICE']['VALUE']) && $arResult['PROPERTIES']
 }
 
 $arResult['OFFERS'] = $obOffers->getList();
+
+
+
