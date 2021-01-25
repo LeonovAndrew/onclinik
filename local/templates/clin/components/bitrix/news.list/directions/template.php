@@ -20,6 +20,7 @@ $this->setFrameMode(true);
 <?php
 $isAjax = !empty($_REQUEST['ajax']) ? $_REQUEST['ajax'] : false;
 ?>
+
 	<?if ( !$isAjax ):?>
 		<h3><?php echo getMessage('NL_DIRECTIONS_TITLE');?></h3>
 	<?endif;?>
