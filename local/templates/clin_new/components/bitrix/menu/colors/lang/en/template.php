@@ -1,2 +1,0 @@
-<?php
-$MESS['color'] = 'C';
