@@ -181,22 +181,7 @@ $this->setFrameMode(true);
                 <div class="service1-feedback-wrap">
                     <h2>Запишитесь на консультацию к специалистам Он&nbsp;Клиник!</h2>
                     <p>Запись ведется по телефону <a href="tel:+74952668571">+7 495 266-85-71</a>. <br> Или заполните форму онлайн записи</p>
-                    <?php
-									$APPLICATION->IncludeComponent(
-										"bitrix:main.include",
-										"",
-										array(
-											"AREA_FILE_RECURSIVE" => "Y",
-											"AREA_FILE_SHOW" => "file",
-											"AREA_FILE_SUFFIX" => "",
-											"PATH" => "/include/order_direction.php"
-										),
-										false,
-										array(
-											'HIDE_ICONS' => 'Y'
-										)
-									);
-									?>
+                    <a href="#" class="btn1">Записаться на приём</a>
                 </div>
             </div>
             <?php

@@ -83,28 +83,6 @@ $curLang = MWI\Lang::getCurrent();
                         );
                         ?>
 					</div>
-					<div class="main-footer-list-wrap main-footer-list-wrap4">
-                        <?php
-                        $APPLICATION->IncludeComponent(
-                            'bitrix:menu',
-                            'bottom_section',
-                            array(
-                                'COMPONENT_TEMPLATE' => 'bottom_section',
-                                'ROOT_MENU_TYPE' => 'bottom_sec4',
-                                'MENU_CACHE_TYPE' => 'A',
-                                'MENU_CACHE_TIME' => '0',
-                                'MENU_CACHE_USE_GROUPS' => 'Y',
-                                'MENU_CACHE_GET_VARS' => '',
-                                'MAX_LEVEL' => '1',
-                                'CHILD_MENU_TYPE' => '',
-                                'USE_EXT' => 'N',
-                                'DELAY' => 'N',
-                                'ALLOW_MULTI_SELECT' => 'N',
-                                'TITLE' => getMessage('bottom_menu_sec4_title'),
-                            )
-                        );
-                        ?>
-					</div>
                     <?php
                     $APPLICATION->IncludeComponent(
                         'bitrix:menu',
@@ -200,17 +178,19 @@ $curLang = MWI\Lang::getCurrent();
 				<div class="main-footer-wrap3">
 					<div class="main-footer-share-wrap">
 						<span>Поделиться в социальных сетях</span>
-						<ul class="main-footer-share-list">
+                        <script src="https://yastatic.net/share2/share.js"></script>
+                        <div class="ya-share2" data-curtain data-color-scheme="blackwhite" data-services="vkontakte,facebook,odnoklassniki,telegram,whatsapp"></div>
+						<!--<ul class="main-footer-share-list">
 							<li>
-								<a onclick="Share.vkontakte('https://<?=$_SERVER['HTTP_HOST']?><?=$APPLICATION->GetCurDir()?>','<?$APPLICATION->ShowTitle();?>','<?$APPLICATION->ShowProperty('description');?>','')" class="main-footer-share-item main-footer-share-item-1" href="#" target="_blank" rel="nofollow noopener"></a>
+								<a onclick="Share.vkontakte('https://<?/*=$_SERVER['HTTP_HOST']*/?><?/*=$APPLICATION->GetCurDir()*/?>','<?/*$APPLICATION->ShowTitle();*/?>','<?/*$APPLICATION->ShowProperty('description');*/?>','')" class="main-footer-share-item main-footer-share-item-1" href="#" target="_blank" rel="nofollow noopener"></a>
 							</li>
 							<li>
-								<a onclick="Share.facebook('https://<?=$_SERVER['HTTP_HOST']?><?=$APPLICATION->GetCurDir()?>','<?$APPLICATION->ShowTitle();?>','<?$APPLICATION->ShowProperty('description');?>','')" class="main-footer-share-item main-footer-share-item-2" href="#" target="_blank" rel="nofollow noopener"></a>
+								<a onclick="Share.facebook('https://<?/*=$_SERVER['HTTP_HOST']*/?><?/*=$APPLICATION->GetCurDir()*/?>','<?/*$APPLICATION->ShowTitle();*/?>','<?/*$APPLICATION->ShowProperty('description');*/?>','')" class="main-footer-share-item main-footer-share-item-2" href="#" target="_blank" rel="nofollow noopener"></a>
 							</li>
 							<li>
-								<a onclick="Share.odnoklassniki('https://<?=$_SERVER['HTTP_HOST']?><?=$APPLICATION->GetCurDir()?>','<?$APPLICATION->ShowTitle();?>','<?$APPLICATION->ShowProperty('description');?>','')" class="main-footer-share-item main-footer-share-item-3" href="#" target="_blank" rel="nofollow noopener"></a>
+								<a onclick="Share.odnoklassniki('https://<?/*=$_SERVER['HTTP_HOST']*/?><?/*=$APPLICATION->GetCurDir()*/?>','<?/*$APPLICATION->ShowTitle();*/?>','<?/*$APPLICATION->ShowProperty('description');*/?>','')" class="main-footer-share-item main-footer-share-item-3" href="#" target="_blank" rel="nofollow noopener"></a>
 							</li>
-						</ul>
+						</ul>-->
 					</div>
 					<div class="main-footer-subscribe-btn-wrap">
 						<a href="#subscription_modal" class="modal_link"><?php echo getMessage('subscription_btn');?></a>
@@ -495,6 +475,7 @@ $curLang = MWI\Lang::getCurrent();
 	</div>
 
 </div>
+<div id="button-up"></div>
 <div class="hidden"></div>
 <?php
 $APPLICATION->IncludeComponent(

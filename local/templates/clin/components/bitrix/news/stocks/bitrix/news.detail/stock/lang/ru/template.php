@@ -12,5 +12,5 @@ $MESS['ND_DIRECTIONS_DOCTORS'] = 'Наши врачи';
 $MESS['ND_DIRECTIONS_DOCTOR_DETAIL'] = 'Подробнее о враче';
 $MESS['ND_DIRECTIONS_ALL_DOCTORS_DIRECTION'] = 'Все врачи направления';
 $MESS['PROMOTION_ENDS'] = 'До окончания акции:';
-$MESS['DISCOUNT'] = '-';
+$MESS['DISCOUNT'] = 'Скидка:';
 $MESS['to'] = 'до';

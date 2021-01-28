@@ -22,6 +22,6 @@ $MESS['ND_DIRECTIONS_ALL_DOCTORS_DIRECTION'] = 'Все врачи направл
 $MESS['ALL_DOCTORS_LINK'] = '/doctors/';
 $MESS['ALL_DOCTORS'] = 'Все врачи направления';
 $MESS['ND_DIRECTIONS_RECEPTION_TITLE'] = 'Как проходит прием';
-$MESS['before_expire'] = 'Акция действует:';
+$MESS['PROMOTION_ENDS'] = 'До окончания акции:';
 $MESS['to'] = 'до';
 $MESS['PRICE_TEXT'] = 'Во избежание возможных недоразумений, советуем уточнять стоимость услуг на день обращения в регистратуре или в колл-центре по многоканальному номеру телефона +7 495 223-22-22';

@@ -45,32 +45,6 @@
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
-.swiper-wrapper span{
-    color: #143341;
-    font-size: 18px;
-    font-weight: 500;
-
-    margin-bottom: 17px;
-
-    /*letter-spacing: -1px;*/
-    text-transform: uppercase;
-}
-.promo-ends .stock-timer {
-    color: #0a9beb;
-    font-size: 12px;
-
-    display: block;
-
-    margin-bottom: 13px;
-}
-.stock-timer {
-    color: #0a9beb;
-    font-size: 12px;
-
-    display: block;
-
-    
-}
 .swiper-container-android .swiper-slide,
 .swiper-wrapper {
   -webkit-transform: translate3d(0px, 0, 0);
