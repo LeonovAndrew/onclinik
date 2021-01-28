@@ -2,6 +2,7 @@
 $MESS['bottom_menu_sec1_title'] = 'О центре';
 $MESS['bottom_menu_sec2_title'] = 'Всё о здоровье';
 $MESS['bottom_menu_sec3_title'] = 'Правовая информация';
+$MESS['bottom_menu_sec4_title'] = 'Пациентам';
 $MESS['bottom_contacts_title'] = 'Контакты';
 $MESS['bottom_social_title'] = 'Мы в соцсетях';
 $MESS['multichannel'] = 'Многоканальный';

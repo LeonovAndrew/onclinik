@@ -76,10 +76,11 @@ $this->setFrameMode(true);
                 );
                 ?>
             </div>
-            <div class="service1-wrap2 direction__">
+            <div class="service1-wrap2">
                 <?php $APPLICATION->showViewContent('stocks_desktop');?>
+				<?php $APPLICATION->showViewContent('doctors_list');?>
                 <div class="service1-info">
-                    <!--<h3><?php /*$APPLICATION->ShowTitle('patient_info_menu_title');*/?></h3>-->
+                    <h3><?php $APPLICATION->ShowTitle('patient_info_menu_title');?></h3>
                     <?php
                     $APPLICATION->IncludeComponent(
                         "bitrix:menu",
@@ -100,10 +101,10 @@ $this->setFrameMode(true);
                     )
                     ?>
                 </div>
-                <?php $APPLICATION->showViewContent('doctors_list');?>
-                <!--<div class="service1-nav">
+                
+                <div class="service1-nav">
                     <?php
-/*                    $APPLICATION->IncludeComponent(
+                    $APPLICATION->IncludeComponent(
                         "bitrix:menu",
                         "right-anchor",
                         array(
@@ -120,8 +121,8 @@ $this->setFrameMode(true);
                             "ALLOW_MULTI_SELECT" => "N",
                         )
                     )
-                    */?>
-                </div>-->
+                    ?>
+                </div>
                 <?php
                 $APPLICATION->IncludeComponent(
                     "bitrix:main.include",
