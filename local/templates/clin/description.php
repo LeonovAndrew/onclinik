@@ -1,7 +1,7 @@
 <?
 $arTemplate = array (
-  'NAME' => 'On Clinic new',
-  'DESCRIPTION' => 'Основной новый шаблон',
+  'NAME' => 'On Clinic',
+  'DESCRIPTION' => 'Основной шаблон',
   'SORT' => '',
   'TYPE' => '',
 );

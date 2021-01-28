@@ -101,21 +101,6 @@ $this->setFrameMode(true);
 </div>
 
 <?php
-$this->setViewTarget('specialization');
-    if (!empty($arResult['PROPERTIES']['SPECIALIZATION']['~VALUE']['TEXT'])) {
-        ?>
-        <div class="doctor-specialization">
-            <h2><?php echo getMessage('SPECIALIZATION_TITLE');?></h2>
-            <?php
-            echo $arResult['PROPERTIES']['SPECIALIZATION']['~VALUE']['TEXT'];
-            ?>
-        </div>
-        <?php
-    }
-$this->endViewTarget();
-?>
-
-<?php
 $this->setViewTarget('offers');
     if (!empty($arResult['OFFERS'])) {
         ?>
@@ -134,8 +119,8 @@ $this->setViewTarget('offers');
 								<div>
 									<b><?php echo priceFormat($obOffer->discountPrice);?> ₽</b>
 									<span><?php echo priceFormat($obOffer->price);?> ₽</span>
-								</div>
-							   <?php
+                                </div>
+								<?php
                             } else {
                                 ?>
 								<div class="no_discount">
@@ -157,6 +142,23 @@ $this->setViewTarget('offers');
     }
 $this->endViewTarget();
 ?>
+
+<?php
+$this->setViewTarget('specialization');
+    if (!empty($arResult['PROPERTIES']['SPECIALIZATION']['~VALUE']['TEXT'])) {
+        ?>
+        <div class="doctor-specialization">
+            <h2><?php echo getMessage('SPECIALIZATION_TITLE');?></h2>
+            <?php
+            echo $arResult['PROPERTIES']['SPECIALIZATION']['~VALUE']['TEXT'];
+            ?>
+        </div>
+        <?php
+    }
+$this->endViewTarget();
+?>
+
+
 
 <?php
 $this->setViewTarget('regalia');

@@ -66,7 +66,7 @@ $this->setFrameMode(true);
 				);
                 ?>
                 <h1><?php echo $APPLICATION->ShowTitle(false);?></h1>
-                <div class="credit-text1 show_slow">
+                <div class="credit-text1 ">
                     <?php
                     $APPLICATION->IncludeFile(
                         SITE_DIR . "/include/payment/credit/text.php",
@@ -77,11 +77,6 @@ $this->setFrameMode(true);
                         )
                     );
                     ?>
-                </div>
-                <div class="text-btn t_credit">
-                    <i></i>
-                    <span>Показать</span>
-                    <span>Скрыть</span>
                 </div>
                 <?php
 				$APPLICATION->IncludeComponent(

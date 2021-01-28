@@ -49,10 +49,8 @@ $isVisually = MWI\Version::isVisually();
 		Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/assets/libs/fancybox/jquery.fancybox.css");
 		Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/assets/css/normalize.css");
 		Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/assets/css/fonts.css");
+		Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/assets/css/main.css");
 
-		Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/assets/css/slick.css");
-
-        Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/assets/css/main.css");
         Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/assets/css/autocomplete.css");
         Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . "/assets/css/custom.css");
         Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/assets/css/print.css');
@@ -75,7 +73,6 @@ $isVisually = MWI\Version::isVisually();
         //Asset::getInstance()->addJs('https://www.google.com/recaptcha/api.js');
         Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/assets/libs/fancybox/jquery.fancybox.min.js');
         Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/assets/js/map.js');
-        Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/assets/js/slick.min.js');
         Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/assets/js/preloader.js');
         Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/assets/js/common.js');
         Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/assets/js/lang.js');
@@ -287,7 +284,7 @@ $isVisually = MWI\Version::isVisually();
 						</form>
 						<nav class="main-header-nav">
 							<ul class="main-header-list">
-                                <li class="submenu-wrap asd1">
+                                <li class="submenu-wrap">
                                     <?php
                                     $APPLICATION->IncludeComponent(
                                         'bitrix:menu',
@@ -311,7 +308,7 @@ $isVisually = MWI\Version::isVisually();
                                     );
                                     ?>
                                 </li>
-								  <li class="submenu-wrap asd2">
+								  <li class="submenu-wrap">
                                     <?php
                                     $APPLICATION->IncludeComponent(
                                         'bitrix:menu',
@@ -335,7 +332,7 @@ $isVisually = MWI\Version::isVisually();
                                     );
                                     ?>
                                 </li>
-								<li class="submenu-wrap asd3">
+								<li class="submenu-wrap">
                                     <?php
                                     $APPLICATION->IncludeComponent(
                                         'bitrix:menu',
@@ -359,7 +356,7 @@ $isVisually = MWI\Version::isVisually();
                                     );
                                     ?>
                                 </li>
-                                <li class="submenu-wrap asd4">
+                                <li class="submenu-wrap">
                                     <?php
                                     $APPLICATION->IncludeComponent(
                                         'bitrix:menu',
@@ -408,7 +405,7 @@ $isVisually = MWI\Version::isVisually();
                                     ?>
                                 </li>-->
                                 
-                                <li class="submenu-wrap asd5">
+                                <li class="submenu-wrap">
                                     <?php
                                     $APPLICATION->IncludeComponent(
                                         'bitrix:menu',
@@ -432,7 +429,7 @@ $isVisually = MWI\Version::isVisually();
                                     );
                                     ?>
                                 </li>
-                                <li class="submenu-wrap asd6">
+                                <li class="submenu-wrap">
                                     <?php
                                     $APPLICATION->IncludeComponent(
                                         'bitrix:menu',
