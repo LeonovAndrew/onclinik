@@ -9,6 +9,9 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
  * @var CBitrixComponentTemplate $this
  */
 ?>
+<pre style="display: none">
+    <? print_r($arResult);?>
+</pre>
 <a href="<?php echo $arResult['all_link'];?>"><?php echo $arParams['TITLE'];?></a>
 <?php
 if (!$arResult['use_tabs']) {
