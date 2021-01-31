@@ -28,7 +28,7 @@ $this->setFrameMode(true);
 </div>
 
 <?php
-if (!empty($arResult['OTHER_NEWS'])) {
+/*if (!empty($arResult['OTHER_NEWS'])) {
     ?>
     <div class="achievement-wrap1">
         <h2><?php echo getMessage('ND_NEWS_OTHER_TITLE');?></h2>
@@ -64,5 +64,5 @@ if (!empty($arResult['OTHER_NEWS'])) {
         </div>
     </div>
     <?php
-}
+}*/
 ?>

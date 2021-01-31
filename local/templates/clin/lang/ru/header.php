@@ -1,6 +1,6 @@
 <?php
 $MESS['top_menu_sec1_title'] = 'Услуги и направления';
-$MESS['top_menu_sec1_all_title'] = 'Все услуги и цены';
+$MESS['top_menu_sec1_all_title'] = 'Все услуги и направления';
 $MESS['top_menu_sec1_all_link'] = '/services/';
 $MESS['top_menu_sec2_title'] = 'Программы';
 $MESS['top_menu_sec2_all_title'] = 'Все программы';

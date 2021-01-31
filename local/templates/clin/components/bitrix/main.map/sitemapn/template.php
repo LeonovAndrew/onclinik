@@ -25,7 +25,6 @@ $colNum = ceil($allNum / $arParams["COL_NUM"]);
 		$previousLevel = -1;
 		$counter = 0;
 		$column = 1;
-		$levl=1;
 		foreach($arResult["arMap"] as $index => $arItem):
 			$arItem["FULL_PATH"] = htmlspecialcharsbx($arItem["FULL_PATH"], ENT_COMPAT, false);
 			$arItem["NAME"] = htmlspecialcharsbx($arItem["NAME"], ENT_COMPAT, false);
@@ -49,11 +48,8 @@ $colNum = ceil($allNum / $arParams["COL_NUM"]);
 			<?if (array_key_exists($index+1, $arResult["arMap"]) && $arItem["LEVEL"] < $arResult["arMap"][$index+1]["LEVEL"]):?>
 
 				<li><a href="<?=$arItem["FULL_PATH"]?>"><?=$arItem["NAME"]?></a><?if ($arParams["SHOW_DESCRIPTION"] == "Y" && strlen($arItem["DESCRIPTION"]) > 0) {?><div><?=$arItem["DESCRIPTION"]?></div><?}?>
-					<?if($arItem["LEVEL"]+1==1):?>
-                        <i class="show_level" data-lev="<?=$levl?>"></i>
-                    <?endif;?>
-                    <ul class="map-level-<?=$arItem["LEVEL"]+1?>" data-mapl="<?=$levl?>">
-                    <?$levl++;?>
+					<ul class="map-level-<?=$arItem["LEVEL"]+1?>">
+
 			<?else:?>
 
 					<li><a href="<?=$arItem["FULL_PATH"]?>"><?=$arItem["NAME"]?></a><?if ($arParams["SHOW_DESCRIPTION"] == "Y" && strlen($arItem["DESCRIPTION"]) > 0) {?><div><?=$arItem["DESCRIPTION"]?></div><?}?></li>

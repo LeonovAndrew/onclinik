@@ -360,17 +360,11 @@ if (!empty($arResult['STOCKS'])) {
                             if (!empty($obStock->expireDateCounter)) {
                                 ?>
                                 <div class="promo-ends">
-                                        <?php echo getMessage('before_expire');?>
-                                        <div class="stock-timer">
-                                            <?php
-                                if (!empty($obStock->expireDate)) {
-                                    ?>
-                                    <?php echo getMessage('to') . ' ' . $obStock->expireDate; ?>
-                                    <?php
-                                }
-                                ?>
-                                        </div>
+                                    <b><?php echo getMessage('PROMOTION_ENDS');?></b>
+                                    <div class="service1-action-timer-wrap">
+                                        <span class="service1-action-timer clock<?php echo $obStock->id; ?>" data-date="<?php echo $obStock->expireDateCounter;?>" data-id="<?php echo $obStock->id;?>"></span>
                                     </div>
+                                </div>
                                 <?php
                             }
                             ?>
@@ -390,7 +384,14 @@ if (!empty($arResult['STOCKS'])) {
                                 </div>
                             </div>
                             <div class="service1-action-text">
-                                <span><?php echo $obStock->name;?></span>
+                                <h2><?php echo $obStock->name; ?></h2>
+                                <?php
+                                if (!empty($obStock->expireDate)) {
+                                    ?>
+                                    <b><?php echo getMessage('to') . ' ' . $obStock->expireDate; ?></b>
+                                    <?php
+                                }
+                                ?>
                                 <p><?php echo $obStock->previewText; ?></p>
                             </div>
                         </div>
