@@ -20,4 +20,3 @@ $this->setFrameMode(true);
 
 <h1><?php echo $arResult['NAME'];?></h1>
 <?php echo $arResult['TEXT_REPLACED'];?>
-

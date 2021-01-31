@@ -36,57 +36,61 @@ $this->setFrameMode(true);
     </div>
 </div>
 
-<?php
-if (!empty($arResult['STOCKS'])) {
-    ?>
+<div class="service1-btn-block-wrap readmore">
     <div class="service1-action-slider service1-action-slider1">
         <div class="swiper-container swiper-container10">
             <div class="swiper-wrapper">
                 <?php
                 foreach ($arResult['STOCKS'] as $obStock) {
                     ?>
+					
                     <div class="swiper-slide">
                         <div class="service1-action service1-action1 promo-action">
                             <div class="promo-title">
-								<span><?php echo $obStock->name;?></span>
+								<h2><?php echo $obStock->name;?></h2>
 							</div>
 							<?php
                             if (!empty($obStock->expireDateCounter)) {
                                 ?>
                                 <div class="promo-ends">
-                                   <?php echo getMessage('before_expire');?>
-                                        <div class="stock-timer">
-                                            <?php
-                                if (!empty($obStock->expireDate)) {
-                                    ?>
-                                    <?php echo getMessage('to') . ' ' . $obStock->expireDate; ?>
-                                    <?php
-                                }
-                                ?>
+                                    <b><?php echo getMessage('PROMOTION_ENDS');?></b>
+                                    <div class="service1-action-timer-wrap">
+                                        <span class="service1-action-timer clock<?php echo $obStock->id;?>" data-date="<?php echo $obStock->expireDateCounter;?>" data-id="<?php echo $obStock->id;?>"></span>
                                     </div>
                                 </div>
                                 <?php
                             }
                             ?>
-                            <div class="service1-action-img">
+							
+							<div class="service1-action-img">
+								<p class="service1-action-discont">
+									<b><?php echo $obStock->amount;?> <?php echo $obStock->percentage ? '%' : 'Р';?></b>
+								</p>
+								<?php
+								 if (!empty($obStock->previewPicture)) {
+									?>
+									<div class="actionImg">
+										<img src="<?php echo $obStock->previewPicture['SRC'];?>" alt="<?php echo $obStock->previewPicture['ALT'];?>">
+									</div>
+									<?php
+								}
+								?>
+								<div class="service1-action-text-btn-wrap">
+									<a href="<?php echo $obStock->url;?>" class="btn4"><?php echo getMessage('ND_DIRECTIONS_SHOW_MORE');?></a>
+								</div>
+							</div>
+							
+
+                            <div class="service1-action-text">
+                                
                                 <?php
-                                if (!empty($obStock->previewPicture)) {
+                                if (!empty($obStock->expireDate)) {
                                     ?>
-                                    <img src="<?php echo $obStock->previewPicture['SMALL_SRC']; ?>"
-                                         alt="<?php echo $obStock->previewPicture['ALT']; ?>">
-                                    <b><?php echo $obStock->amount; ?><?php echo $obStock->percentage ? '%' : 'Р'; ?></b>
+                                    <b><?php echo getMessage('ND_DIRECTIONS_UNTIL') . ' ' . $obStock->expireDate;?></b>
                                     <?php
                                 }
                                 ?>
-                                <div class="service1-action-text-btn-wrap">
-                                    <a href="<?php echo $obStock->url; ?>"
-                                       class="btn4"><?php echo getMessage('DISEASE_DETAILS'); ?></a>
-                                </div>
-                            </div>
-                            <div class="service1-action-text">
-                                
-                                
-                                <p><?php echo $obStock->previewText; ?></p>
+                                <p><?php echo $obStock->previewText;?></p>
                             </div>
                         </div>
                     </div>
@@ -98,61 +102,241 @@ if (!empty($arResult['STOCKS'])) {
         <div class="swiper-button-next swiper-button-next10 swiper-button-next-style2"></div>
         <div class="swiper-button-prev swiper-button-prev10 swiper-button-prev-style2"></div>
     </div>
-    <?php
-}
-?>
-
-<div class="service1-btn-block-wrap readmore">
-    <?php
-    if (!empty($arResult['OFFERS'])) {
-        ?>
-        <div class="cost1" id="price">
-            <h2><?php echo getMessage('ND_DIRECTIONS_PRICE_TITLE');?></h2>
-            <ul class="cost1-list">
+    <div class="cost1-slider">
+        <div class="swiper-container swiper-container11">
+            <div class="swiper-wrapper">
                 <?php
-				$i = 0;
-                foreach ($arResult['OFFERS'] as $obOffer) {
+                if ($arResult['SERVICES']['TYPES_CNT'] > 1) {
+                    foreach ($arResult['SERVICES']['TYPES'] as $key => $arServiceType) {
+                        ?>
+                        <div class="swiper-slide">
+                            <h3><?php echo $arServiceType['NAME'];?></h3>
+                            <div class="cost1">
+                                <ul class="cost1-list">
+                                    <?php
+                                    foreach ($arServiceType['ITEMS'] as $obService) {
+                                        ?>
+                                        <li>
+                                            <i><a href="<?php echo $obService->url;?>"><?php echo $obService->name;?></a></i>
+                                            <b><a href="<?php echo $obService->url;?>"><?php echo getMessage('ND_DIRECTIONS_PRICE');?></a></b>
+											<?/*
+											<?php
+                                            if ($obService->minimumPrice != $obService->minimumDiscountPrice) {
+                                                ?>
+                                                <b><?php echo getMessage('ND_DIRECTIONS_PRICE_FROM');?> <?php echo priceFormat($obService->minimumDiscountPrice);?> ₽</b>
+                                                <span><?php echo getMessage('ND_DIRECTIONS_PRICE_FROM');?> <?php echo priceFormat($obService->minimumPrice);?> ₽</span>
+                                                <?php
+                                            } else {
+                                                ?>
+                                                <b><?php echo getMessage('ND_DIRECTIONS_PRICE_FROM');?> <?php echo priceFormat($obService->minimumPrice);?> ₽</b>
+                                                <?php
+                                            }
+											*/
+                                            ?>
+                                        </li>
+                                        <?php
+                                    }
+                                    ?>
+                                </ul>
+                            </div>
+                            <div class="service1-tab-link-wrap">
+                                <a href="<?php echo getMessage('ND_DIRECTIONS_ALL_SERVICES_LINK') . $arResult['CODE'] . '/price/';?>/"><?php echo getMessage('ND_DIRECTIONS_ALL_SERVICES');?></a>
+                            </div>
+                        </div>
+                        <?php
+                    }
+                } else {
+                    ?>
+                    <div class="swiper-slide">
+                        <h3><?php echo getMessage('ND_DIRECTIONS_PRICES_TAB');?></h3>
+                        <div class="cost1">
+                            <ul class="cost1-list">
+                                <?php
+                                reset($arResult['SERVICES']['TYPES']);
+                                foreach (current($arResult['SERVICES']['TYPES'])['ITEMS'] as $obService) {
+                                    ?>
+                                    <li>
+                                        <i><a href="<?php echo $obService->url;?>"><?php echo $obService->name;?></a></i>
+                                        <b><a href="<?php echo $obService->url;?>"><?php echo getMessage('ND_DIRECTIONS_PRICE');?></a></b>
+											<?/*
+											<?php
+                                            if ($obService->minimumPrice != $obService->minimumDiscountPrice) {
+                                                ?>
+                                                <b><?php echo getMessage('ND_DIRECTIONS_PRICE_FROM');?> <?php echo priceFormat($obService->minimumDiscountPrice);?> ₽</b>
+                                                <span><?php echo getMessage('ND_DIRECTIONS_PRICE_FROM');?> <?php echo priceFormat($obService->minimumPrice);?> ₽</span>
+                                                <?php
+                                            } else {
+                                                ?>
+                                                <b><?php echo getMessage('ND_DIRECTIONS_PRICE_FROM');?> <?php echo priceFormat($obService->minimumPrice);?> ₽</b>
+                                                <?php
+                                            }
+											*/
+                                            ?>
+                                    </li>
+                                    <?php
+                                }
+                                ?>
+                            </ul>
+                        </div>
+                        <div class="service1-tab-link-wrap">
+                            <a href="<?php echo getMessage('ND_DIRECTIONS_ALL_SERVICES_LINK') . $arResult['CODE'] . '/price/';?>/"><?php echo getMessage('ND_DIRECTIONS_ALL_SERVICES');?></a>
+                        </div>
+                    </div>
+                    <?php
+                }
+                ?>
+            </div>
+        </div>
+        <div class="swiper-button-next swiper-button-next11 swiper-button-next-style2"></div>
+        <div class="swiper-button-prev swiper-button-prev11 swiper-button-prev-style2"></div>
+    </div>
+    <?php
+    if (!empty($arResult['SERVICES']['TYPES'])) {
+        ?>
+        <div class="service1-tabs" id="price">
+            <ul class="tab_list1 service1-tab_list">
+                <?php
+                if ($arResult['SERVICES']['TYPES_CNT'] > 1) {
+                    $first = true;
+                    foreach ($arResult['SERVICES']['TYPES'] as $key => $arServiceType) {
+                        ?>
+                        <li>
+                            <a<?php if ($first) {?> class="active"<?php $first = false;}?> href="#s<?php echo $key?>"><?php echo $arServiceType['NAME'];?></a>
+                        </li>
+                        <?php
+                    }
+                } else {
                     ?>
                     <li>
-                        <i><?php echo $obOffer->name;?></i>
-                        <?php
-                        if ($obOffer->price != $obOffer->discountPrice) {
-                            ?>
-							<div>
-								<b><?php echo priceFormat($obOffer->discountPrice);?> ₽</b>
-								<span><?php echo priceFormat($obOffer->price);?> ₽</span>
-                            </div>
-							<?php
-                        } else {
-                            ?>
-							<div class="no_discount">
-								<b><?php echo priceFormat($obOffer->price);?> ₽</b>
-							</div>
-                            <?php
-                        }
-                        ?>
+                        <a class="active" href="#sd"><?php echo getMessage('ND_DIRECTIONS_PRICES_TAB');?></a>
                     </li>
                     <?php
-					$i++;
-					if ( $i > 9 ){
-						break;
-					}
                 }
                 ?>
             </ul>
+            <div class="service1-tabs-wrap">
+                <?php
+				
+                if ($arResult['SERVICES']['TYPES_CNT'] > 1) {
+                    $first = true;
+					
+                    foreach ($arResult['SERVICES']['TYPES'] as $key => $arServiceType) {
+                        ?>
+                        <div<?php if (!$first) {?> style="display: none;"<?php } else { $first = false; }?> class="service1-tab block_content1" id="s<?php echo $key;?>">
+                            <div class="service1-tab-wrap">
+                                <div class="cost1">
+                                    <ul class="cost1-list">
+                                        <?php
+										$count = 0;
+                                        foreach ($arServiceType['ITEMS'] as $obService) {
+                                            ?>
+                                            <li>
+                                                <i><a href="<?php echo $obService->url;?>"><?php echo $obService->name;?></a></i>
+                                                <b><a href="<?php echo $obService->url;?>"><?php echo getMessage('ND_DIRECTIONS_PRICE');?></a></b>
+												<?/*
+												<?php
+												if ($obService->minimumPrice != $obService->minimumDiscountPrice) {
+													?>
+													<b><?php echo getMessage('ND_DIRECTIONS_PRICE_FROM');?> <?php echo priceFormat($obService->minimumDiscountPrice);?> ₽</b>
+													<span><?php echo getMessage('ND_DIRECTIONS_PRICE_FROM');?> <?php echo priceFormat($obService->minimumPrice);?> ₽</span>
+													<?php
+												} else {
+													?>
+													<b><?php echo getMessage('ND_DIRECTIONS_PRICE_FROM');?> <?php echo priceFormat($obService->minimumPrice);?> ₽</b>
+													<?php
+												}
+												*/
+												?>
+                                            </li>
+                                            <?php
+											$count++;
+											if ( $count  > 9 ){
+												break;
+											}
+                                        }
+                                        ?>
+                                    </ul>
+                                </div>
+								<p class="price_info_text"><small><?php echo getMessage('PRICE_TEXT')?></small></p>
+                                <div class="service1-tab-link-wrap">
+                                    <a href="price/"><?php echo getMessage('ND_DIRECTIONS_ALL_SERVICES');?></a>
+                                </div>
+                            </div>
+                        </div>
+                        <?php
+						
+                    }
+                } else {
+                    ?>
+                    <div class="service1-tab block_content1" id="sd">
+                        <div class="service1-tab-wrap">
+                            <div class="cost1">
+                                <ul class="cost1-list">
+                                    <?php
+									$i = 0;
+                                    reset($arResult['SERVICES']['TYPES']);
+                                    foreach (current($arResult['SERVICES']['TYPES'])['ITEMS'] as $key => $obService) {
+                                        ?>
+                                        <li>
+                                            <i><a href="<?php echo $obService->url;?>"><?php echo $obService->name;?></a></i>
+                                            <b><a href="<?php echo $obService->url;?>"><?php echo getMessage('ND_DIRECTIONS_PRICE');?></a></b>
+											<?/*
+											<?php
+                                            if ($obService->minimumPrice != $obService->minimumDiscountPrice) {
+                                                ?>
+                                                <b><?php echo getMessage('ND_DIRECTIONS_PRICE_FROM');?> <?php echo priceFormat($obService->minimumDiscountPrice);?> ₽</b>
+                                                <span><?php echo getMessage('ND_DIRECTIONS_PRICE_FROM');?> <?php echo priceFormat($obService->minimumPrice);?> ₽</span>
+                                                <?php
+                                            } else {
+                                                ?>
+                                                <b><?php echo getMessage('ND_DIRECTIONS_PRICE_FROM');?> <?php echo priceFormat($obService->minimumPrice);?> ₽</b>
+                                                <?php
+                                            }
+											*/
+                                            ?>
+                                        </li>
+                                        <?php
+										$i++;
+										if ( $i > 9 ){
+											break;
+										}
+                                    }
+                                    ?>
+                                </ul>
+                            </div>
+							<p class="price_info_text"><small><?php echo getMessage('PRICE_TEXT')?></small></p>
+                            <div class="service1-tab-link-wrap">
+                                <a href="<?php echo getMessage('ND_DIRECTIONS_ALL_SERVICES_LINK') . $arResult['CODE'] . '/price/';?>"><?php echo getMessage('ND_DIRECTIONS_ALL_SERVICES');?></a>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                }
+                ?>
+				
+            </div>
         </div>
-		<p class="price_info_text"><small><?php echo getMessage('PRICE_TEXT')?></small></p><br>
         <?php
     }
     ?>
 </div>
+
+<?if ( $arResult['PROPERTIES']['PROCESS_TEXT']['~VALUE']['TEXT'] ):?>
+	<div class="service1-reception readmore">
+		<h2><?php echo getMessage('ND_DIRECTIONS_RECEPTION_TITLE');?></h2>
+		<div class="service1-reception-wrap">
+			<?php echo $arResult['PROPERTIES']['PROCESS_TEXT']['~VALUE']['TEXT'];?>
+		</div>
+	</div>
+<?endif;?>
+
 <div class="service1-tabs">
     <ul class="tab_list service1-tab_list">
         <?php
         if (!empty($arResult['BOTTOM_TABS']['DISEASES'])) {
             ?>
             <li>
-                <a<?php if ($arResult['BOTTOM_TABS']['DISEASES']['SELECTED']) {;?> class="active"<?php }?> href="#diseases"><?php echo $arResult['BOTTOM_TABS']['DISEASES']['NAME'];?></a>
+                <a<?php if ($arResult['BOTTOM_TABS']['DISEASES']['SELECTED']) {;?> class="active"<?php }?> href="#diseasestab"><?php echo $arResult['BOTTOM_TABS']['DISEASES']['NAME'];?></a>
             </li>
             <?php
         }
@@ -195,7 +379,7 @@ if (!empty($arResult['STOCKS'])) {
         <?php
         if (!empty($arResult['BOTTOM_TABS']['DISEASES'])) {
             ?>
-            <div<?php if (!$arResult['BOTTOM_TABS']['DISEASES']['SELECTED']) {?> style="display:none"<?php }?> class="service1-tab block_content" id="diseases">
+            <div <?php if (!$arResult['BOTTOM_TABS']['DISEASES']['SELECTED']) {?> style="display:none"<?php }?> class="service1-tab block_content" id="diseasestab">
                 <div class="service1-tab-wrap">
                     <?php
                     if (!empty($arResult['PROPERTIES']['DISEASES_TAB_TEXT']['~VALUE']['TEXT'])) {
@@ -234,9 +418,6 @@ if (!empty($arResult['STOCKS'])) {
                     }
                     ?>
                     <div class="service1-tab-link-wrap">
-                        <?php
-                        //TODO: scroll to tab
-                        ?>
                         <a href="<?php echo getMessage('ND_DIRECTIONS_ALL_DISEASES_LINK');?>"><?php echo getMessage('ND_DIRECTIONS_ALL_DISEASES');?></a>
                     </div>
                 </div>
@@ -316,7 +497,7 @@ if (!empty($arResult['STOCKS'])) {
                 }
                 ?>
                 <div class="service1-tab-link-wrap">
-                    <a href="<?php echo getMessage('ND_DIRECTIONS_ALL_QUESTIONS_LINK');?>"><?php echo getMessage('ND_DIRECTIONS_ALL_QUESTIONS');?></a>
+                    <a href="<?php echo getMessage('ND_DIRECTIONS_ALL_QUESTIONS_LINK') . '?directionId=' . $arResult['ID'];;?>"><?php echo getMessage('ND_DIRECTIONS_ALL_QUESTIONS');?></a>
                 </div>
             </div>
             <?php
@@ -335,6 +516,7 @@ if (!empty($arResult['STOCKS'])) {
                 foreach ($arResult['BOTTOM_TABS']['RECOMMENDATIONS']['ITEMS'] as $obItem) {
                     ?>
                     <div class="doctor_info">
+						
 							<div class="doctor-info-title">
 								<?if ( $obItem->doctor ):?>
 									<span><a href="<?php echo $obItem->doctor->url;?>"><?php echo $obItem->doctor->name;?></a>, <?php echo $obItem->doctor->position;?></span>
@@ -342,6 +524,7 @@ if (!empty($arResult['STOCKS'])) {
 									<span>ММЦ ОН КЛИНИК</span>
 								<?endif;?>
 							</div>
+						
 
                         <p><?php echo $obItem->text;?></p>
                     </div>
@@ -381,7 +564,7 @@ if (!empty($arResult['STOCKS'])) {
                 }
                 ?>
                 <div class="service1-tab-link-wrap">
-                    <a href="<?php echo getMessage('ND_DIRECTIONS_ALL_REVIEWS_LINK');?>"><?php echo getMessage('ND_DIRECTIONS_ALL_REVIEWS');?></a>
+                    <a href="<?php echo getMessage('ND_DIRECTIONS_ALL_REVIEWS_LINK') . '?directionId=' . $arResult['ID'];?>"><?php echo getMessage('ND_DIRECTIONS_ALL_REVIEWS');?></a>
                 </div>
             </div>
             <?php
@@ -482,7 +665,7 @@ if (!empty($arResult['STOCKS'])) {
                         ?>
 
                         <div class="service1-tab-link-wrap">
-                            <a href="<?php echo getMessage('ND_DIRECTIONS_ALL_QUESTIONS_LINK');?>"><?php echo getMessage('ND_DIRECTIONS_ALL_QUESTIONS');?></a>
+                            <a href="<?php echo getMessage('ND_DIRECTIONS_ALL_QUESTIONS_LINK') . '?directionId=' . $arResult['ID'];?>"><?php echo getMessage('ND_DIRECTIONS_ALL_QUESTIONS');?></a>
                         </div>
                     </div>
                 </div>
@@ -505,12 +688,12 @@ if (!empty($arResult['STOCKS'])) {
                             ?>
                             <div class="doctor_info">
                                 <div class="doctor-info-title">
-									<?if ( $obItem->doctor ):?>
+                                    <?if ( $obItem->doctor ):?>
 										<span><a href="<?php echo $obItem->doctor->url;?>"><?php echo $obItem->doctor->name;?></a>, <?php echo $obItem->doctor->position;?></span>
 									<?else:?>
 										<span>ММЦ ОН КЛИНИК</span>
 									<?endif;?>
-								</div>
+                                </div>
 
                                 <p><?php echo $obItem->text;?></p>
                             </div>
@@ -554,7 +737,7 @@ if (!empty($arResult['STOCKS'])) {
                         ?>
 
                         <div class="service1-tab-link-wrap">
-                            <a href="<?php echo getMessage('ND_DIRECTIONS_ALL_REVIEWS_LINK');?>"><?php echo getMessage('ND_DIRECTIONS_ALL_REVIEWS');?></a>
+                            <a href="<?php echo getMessage('ND_DIRECTIONS_ALL_REVIEWS_LINK') . '?directionId=' . $arResult['ID'];?>"><?php echo getMessage('ND_DIRECTIONS_ALL_REVIEWS');?></a>
                         </div>
                     </div>
                 </div>
@@ -568,59 +751,50 @@ if (!empty($arResult['STOCKS'])) {
 </div>
 
 <?php
-if (!empty($arResult['PROPERTIES']['RESULTS']['VALUE'])) {
-    ?>
-    <div class="service1-results">
-        <h2><?php echo getMessage('RESULTS_TITLE');?></h2>
-        <div class="service1-results-slider">
-            <div class="swiper-container swiper-container5">
-                <div class="swiper-wrapper">
-                    <?php
-                    foreach ($arResult['PROPERTIES']['RESULTS']['~VALUE'] as $arRes) {
-                        ?>
-                        <div class="swiper-slide">
-                            <div class="service1-results-item">
-                                <?php echo $arRes['TEXT'];?>
-                            </div>
-                        </div>
-                        <?php
-                    }
-                    ?>
-                </div>
-            </div>
-            <div class="swiper-button-next swiper-button-next5 swiper-button-next-style2"></div>
-            <div class="swiper-button-prev swiper-button-prev5 swiper-button-prev-style2"></div>
-        </div>
-    </div>
-    <?php
-}
+//TODO: form
 ?>
+<div class="service1-feedback">
+    <div class="service1-feedback-wrap">
+        <h2>Запишитесь на консультацию к специалистам Он Клиник!</h2>
+        <p>Запись ведется по телефону <a href="tel:+74952668571">+7 495 266-85-71</a>. <br> Или заполните форму онлайн записи</p>
+									<?php
+									$APPLICATION->IncludeComponent(
+										"bitrix:main.include",
+										"",
+										array(
+											"AREA_FILE_RECURSIVE" => "Y",
+											"AREA_FILE_SHOW" => "file",
+											"AREA_FILE_SUFFIX" => "",
+											"PATH" => "/include/order_direction.php"
+										),
+										false,
+										array(
+											'HIDE_ICONS' => 'Y'
+										)
+									);
+									?>
+    </div>
+</div>
 
 <?php
 $this->setViewTarget('stocks_desktop');
     if (!empty($arResult['STOCKS'])) {
         ?>
-        <div class="service1-action-slider">		
-            <div class="swiper-container swiper-container10">			
-                <div class="swiper-wrapper">				
+        <div class="service1-action-slider">
+            <div class="swiper-container swiper-container10">
+                <div class="swiper-wrapper">
                     <?php
                     foreach ($arResult['STOCKS'] as $obStock) {
                         ?>
-                        <div class="swiper-slide">						
+                        <div class="swiper-slide">
                             <div class="service1-action">
                                 <?php
                                 if (!empty($obStock->expireDateCounter)) {
                                     ?>
                                     <div class="promo-ends">
-                                        <?php echo getMessage('before_expire');?>
-                                        <div class="stock-timer">
-                                            <?php
-                                if (!empty($obStock->expireDate)) {
-                                    ?>
-                                    <?php echo getMessage('to') . ' ' . $obStock->expireDate; ?>
-                                    <?php
-                                }
-                                ?>
+                                        <b><?php echo getMessage('PROMOTION_ENDS');?></b>
+                                        <div class="service1-action-timer-wrap">
+                                            <span class="service1-action-timer clock<?php echo $obStock->id;?>" data-date="<?php echo $obStock->expireDateCounter;?>" data-id="<?php echo $obStock->id;?>"></span>
                                         </div>
                                     </div>
                                     <?php
@@ -633,8 +807,10 @@ $this->setViewTarget('stocks_desktop');
                                     <?php
                                     if (!empty($obStock->previewPicture)) {
                                         ?>
-                                        <img src="<?php echo $obStock->previewPicture['SMALL_SRC'];?>" alt="<?php echo $obStock->previewPicture['ALT'];?>">
-                                        <?php
+										<div class="actionImg">
+											<img src="<?php echo $obStock->previewPicture['SMALL_SRC'];?>" alt="<?php echo $obStock->previewPicture['ALT'];?>">
+                                        </div>
+										<?php
                                     }
                                     ?>
                                     <div class="service1-action-text-btn-wrap">
@@ -642,8 +818,14 @@ $this->setViewTarget('stocks_desktop');
                                     </div>
                                 </div>
                                 <div class="service1-action-text">
-                                    <span><?php echo $obStock->name;?></span>
-                                    
+                                    <h2><?php echo $obStock->name;?></h2>
+                                    <?php
+                                    if (!empty($obStock->expireDate)) {
+                                        ?>
+                                        <b><?php echo getMessage('ND_DIRECTIONS_UNTIL') . ' ' . $obStock->expireDate;?></b>
+                                        <?php
+                                    }
+                                    ?>
                                     <p><?php echo $obStock->previewText;?></p>
                                 </div>
                             </div>
@@ -663,6 +845,13 @@ $this->endViewTarget();
 $this->setViewTarget('doctors_list');
     if (!empty($arResult['DOCTORS'])) {
         ?>
+        <!--<pre style="display: none">
+            <?/*
+            print_r($arResult['DOCTORS'])
+            */?>
+        </pre>-->
+
+
         <div class="service1-doctors service1-doctors-services-style">
             <h3><?php echo getMessage('ND_DIRECTIONS_DOCTORS');?></h3>
             <div class="service1-doctors-slider">
@@ -671,18 +860,23 @@ $this->setViewTarget('doctors_list');
                         <?php
                         foreach ($arResult['DOCTORS'] as $obDoctor) {
                             ?>
+
                             <div class="swiper-slide">
+
                                 <?php
                                 if (!empty($obDoctor->previewPicture['SRC'])) {
                                     ?>
                                     <div class="service1-doctors-img">
                                         <img src="<?php echo $obDoctor->previewPicture['SMALL_SRC'];?>" alt="<?php echo $obDoctor->previewPicture['ALT'];?>">
                                     </div>
-                             <?}else{?>
+                                    <?php
+                                }else{?>
                                     <div class="service1-doctors-img">
                                         <img src="/no-photo.jpg" alt="<?php echo $obDoctor->previewPicture['ALT'];?>">
                                     </div>
-				<?}?>
+
+				<? }
+                                ?>
                                 <div class="service1-doctors-text">
                                     <h4><?php echo $obDoctor->name;?></h4>
                                     <p><?php echo $obDoctor->position;?></p>
@@ -698,49 +892,13 @@ $this->setViewTarget('doctors_list');
                 <div class="swiper-button-prev swiper-button-prev7 swiper-button-prev-style2"></div>
             </div>
             <div class="service1-doctors-link-wrap">
-                <a href="<?php echo getMessage('ALL_DOCTORS_LINK');?>"><?php echo getMessage('ALL_DOCTORS');?></a>
-            </div>
-        </div>
-        <?php
-    }
-$this->endViewTarget();
-
-$this->setViewTarget('other_services');
-    if (!empty($arResult['OTHER_SERVICES'])) {
-        ?>
-        <div class="service1-other">
-            <h3><?php echo getMessage('other_services');?></h3>
-            <div class="service1-other-slider">
-                <div class="swiper-container swiper-container8">
-                    <div class="swiper-wrapper">
-                        <?php
-                        foreach ($arResult['OTHER_SERVICES'] as $arService) {
-                            ?>
-                            <div class="swiper-slide">
-                                <div class="service1-other-item">
-                                    <h4><?php echo $arService['NAME'];?></h4>
-									<?if ( $arService['PRICE'] ):?>
-										<b><?php echo priceFormat($arService['PRICE']);?> ₽</b>
-                                    <?endif;?>
-									<p><?php echo $arService['PREVIEW_TEXT'];?></p>
-                                    <a href="<?php echo $arService['URL'];?>" class="btn2">Подробнее</a>
-                                </div>
-                            </div>
-                            <?php
-                        }
-                        ?>
-                    </div>
-                </div>
-                <div class="swiper-button-next swiper-button-next8 swiper-button-next-style2"></div>
-                <div class="swiper-button-prev swiper-button-prev8 swiper-button-prev-style2"></div>
+                <a href="<?php echo getMessage('ALL_DOCTORS_LINK') . '?directionId=' . $arResult['ID'];?>"><?php echo getMessage('ND_DIRECTIONS_ALL_DOCTORS_DIRECTION');?></a>
             </div>
         </div>
         <?php
     }
 $this->endViewTarget();
 ?>
-
-
 <script type='application/ld+json'> 
 {
   "@context": "http://www.schema.org",
@@ -750,4 +908,3 @@ $this->endViewTarget();
   "image": "https://<?=$_SERVER['HTTP_HOST'] . $arResult['DETAIL_PICTURE']['SRC']?>"
 }
 </script>
-

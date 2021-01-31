@@ -27,7 +27,6 @@ use MWI\Direction,
  * ! Check component_epilog for fields description.
  */
 $menuSort = 500;
-
 $arAnchorMenu = array();
 foreach ($arResult['PROPERTIES']['MENU']['VALUE'] as $menu) {
     $arAnchorMenu[] = array(
@@ -232,32 +231,7 @@ if (!empty($arResult['PROPERTIES']['DIRECTION']['VALUE'])) {
     }
 }
 */
-/***********get doctors new********************/
-$doctorsArr=array();
-$arSelect = Array("ID", "IBLOCK_ID", "NAME","PREVIEW_PICTURE", "DETAIL_PAGE_URL", "DATE_ACTIVE_FROM","PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
-$arFilter = Array("IBLOCK_ID"=>IntVal(5),"PROPERTY_DIRECTION"=>$arResult["PROPERTIES"]["DIRECTION"]["VALUE"], "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
-$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>50), $arSelect);
-while($ob = $res->GetNextElement()){
-    $doctorsItems=array();
-    $arFields = $ob->GetFields();
-    //print_r($arFields);
-    $arProps = $ob->GetProperties();
-    //print_r($arProps);
-    $doctorsItems["ID"]=$arFields["ID"];
-    $doctorsItems["URL"]=$arFields["DETAIL_PAGE_URL"];
-    $doctorsItems["NAME"]=$arFields["NAME"];
-    $img["PREVIEW_PICTURE"]=CFile::GetFileArray($arFields["PREVIEW_PICTURE"]);
-    $renderImage = CFile::ResizeImageGet($img["PREVIEW_PICTURE"], Array("width" => 300, "height" => 380), BX_RESIZE_IMAGE_EXACT, false);
-    $doctorsItems["IMG"]=array(
-        "ALT"=>$arFields["NAME"],
-        "SRC"=>$img["PREVIEW_PICTURE"]["SRC"],
-        "SRC_SMALL"=>$renderImage["src"],
-    );
-    $doctorsItems["POSITION"]=$arProps["POSITION"]["~VALUE"]["TEXT"];
-    $doctorsArr[]=$doctorsItems;
-}
-$arResult["DOCTORS"]=$doctorsArr;
-/*********************************************/
+
 /**
  * get stocks
  */
@@ -291,6 +265,3 @@ $this->__component->SetResultCacheKeys(
         'ANCHOR_MENU'
     )
 );
-?>
-
-<?
