@@ -1,5 +1,5 @@
 <?php
-$MESS['PROMOTION_ENDS'] = 'До окончания акции:';
+$MESS['PROMOTION_ENDS'] = 'Акция действует:';
 $MESS['FROM'] = 'от';
 $MESS['TO'] = 'до';
 $MESS['LEARN_MORE'] = 'Подробнее';

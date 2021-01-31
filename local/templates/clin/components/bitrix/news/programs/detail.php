@@ -130,7 +130,7 @@ $this->setFrameMode(true);
                 }
                 ?>
                 <div class="service1-info">
-                    <!--<h3><?php /*$APPLICATION->ShowTitle('patient_info_menu_title');*/?></h3>-->
+                    <h3><?php $APPLICATION->ShowTitle('patient_info_menu_title');?></h3>
                     <?php
                     $APPLICATION->IncludeComponent(
                         "bitrix:menu",
