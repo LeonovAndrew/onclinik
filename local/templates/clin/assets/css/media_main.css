@@ -665,7 +665,7 @@
 
     .service1-action.promo-action .promo-ends > b
     {
-        
+        padding-right: 15px;
     }
 
     .service1-action.promo-action .promo-ends .service1-action-timer-wrap
@@ -754,16 +754,6 @@
         margin-right: auto;
         margin-left: auto;
     }
-	.main-footer-list-wrap3 .main-footer-list
-    {
-        margin-right: auto;
-        margin-left: auto;
-    }
-	.main-footer-list-wrap4 .main-footer-list
-    {
-        margin-right: auto;
-        margin-left: auto;
-    }
 
     .main-footer-list1
     {
@@ -776,7 +766,7 @@
         order: -1;
     }
 
-    .main-footer-list-wrap3 .main-footer-list-wrap4
+    .main-footer-list-wrap3
     {
         width: 100%;
         margin: 35px 0;
@@ -784,7 +774,7 @@
 
     .main-footer-list-wrap3 .main-footer-list
     {
-        /*width: 48%;*/
+        width: 48%;
         max-width: none;
     }
 
@@ -802,7 +792,7 @@
 
     .main-footer-social-wrap
     {
-        width: 100%;
+        width: 48%;
         margin-top: 0;
     }
 
@@ -814,7 +804,7 @@
 
     .main-footer-contacts
     {
-        width: 30%;
+        width: 48%;
         max-width: none;
 
         text-align: center;
@@ -1163,7 +1153,7 @@
 
     .service1-doctors-img
     {
-        text-align: center;
+        text-align: left;
     }
 
     .cost1-list span
@@ -1901,7 +1891,7 @@
 
     .doctor h1
     {
-        padding-left: 0px;
+        padding-left: 60px;
     }
 
     .doctor
@@ -3527,11 +3517,11 @@
     {
         position: relative;
 
-        /*min-height: 400px;*/
+        min-height: 400px;
         margin-bottom: 300px;
         padding: 0;
 
-        background-image: none;
+        background-image: url('../img/service1-feedback-bg-mob.png');
         background-position: top center;
         background-size: cover;
     }
@@ -3614,11 +3604,6 @@
     .action-programs-item-wrap b
     {
         margin-right: 10px;
-    }
-	.swiper-pagination-style1
-    {
-    
-    bottom: 5px;
     }
 }
 
@@ -3926,16 +3911,11 @@
         right: auto;
         bottom: 32px;
         left: 50%;
-        width: 98%;
+
         -webkit-transform: translateX(-50%);
                 transform: translateX(-50%);
     }
-    .swiper-pagination-style1 .swiper-pagination-bullet
-	{
-   
-    margin-right: 5%;
 
-    }
     .banner-item
     {
         position: relative;
@@ -5178,7 +5158,7 @@
     .service1-action-slider .swiper-button-prev-style2,
     .service1-action-slider .swiper-button-next-style2
     {
-        top: 50px;
+        top: 70px;
     }
 
     .service1-action.promo-action .service1-action-img b
@@ -5642,15 +5622,6 @@
     }
 
     .main-footer-list-wrap2
-    {
-        width: 48%;
-    }
-	.main-footer-list-wrap3
-    {
-        width: 48%;
-    }
-
-    .main-footer-list-wrap4
     {
         width: 48%;
     }
@@ -6335,7 +6306,7 @@
     .stock-timer-wrap i
     {
         width: 100%;
-        max-width: 140px;
+        max-width: 115px;
     }
 
     .clinic .swiper-button-prev-style2,
