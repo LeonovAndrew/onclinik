@@ -52,17 +52,16 @@ $this->setFrameMode(true);
 							<?php
                             if (!empty($obStock->expireDateCounter)) {
                                 ?>
-                                <div class="promo-ends">
-                                   <?php echo getMessage('before_expire');?>
-                                        <div class="stock-timer">
-                                            <?php
-                                if (!empty($obStock->expireDate)) {
-                                    ?>
-                                    <?php echo getMessage('to') . ' ' . $obStock->expireDate; ?>
+                            <div class="promo-ends">
+                                <?php echo getMessage('before_expire');?>
+                                <div class="stock-timer">
                                     <?php
-                                }
-                                ?>
-                                    </div>
+                                    if (!empty($obStock->expireDate)) {
+                                        ?>
+                                        <?php echo getMessage('to') . ' ' . $obStock->expireDate; ?>
+                                        <?php
+                                    }
+                                    ?>
                                 </div>
                                 <?php
                             }
