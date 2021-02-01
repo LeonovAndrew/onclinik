@@ -302,6 +302,7 @@ if (!empty($arResult['STOCKS'])) {
                                 if (!empty($obStock->expireDateCounter)) {
                                     ?>
                                     <div class="promo-ends">
+                                        <div class="title_for_action_slide"><?php echo $obStock->name;?></div>
                                         <b><?php echo getMessage('PROMOTION_ENDS');?></b>
                                         <div class="service1-action-timer-wrap">
                                             <span class="service1-action-timer clock<?php echo $obStock->id;?>" data-date="<?php echo $obStock->expireDateCounter;?>" data-id="<?php echo $obStock->id;?>"></span>
@@ -324,7 +325,7 @@ if (!empty($arResult['STOCKS'])) {
                                     </div>
                                 </div>
                                 <div class="service1-action-text">
-                                    <h2><?php echo $obStock->name;?></h2>
+                                    <!--<h2><?php /*echo $obStock->name;*/?></h2>-->
                                     <?php
                                     if (!empty($obStock->expireDate)) {
                                         ?>
@@ -361,6 +362,7 @@ if (!empty($arResult['STOCKS'])) {
                                 if (!empty($obStock->expireDateCounter)) {
                                     ?>
                                     <div class="promo-ends">
+                                        <div class="title_for_action_slide"><?php echo $obStock->name; ?></div>
                                         <b><?php echo getMessage('PROMOTION_ENDS');?></b>
                                         <div class="service1-action-timer-wrap">
                                             <span class="service1-action-timer clock<?php echo $obStock->id; ?>" data-date="<?php echo $obStock->expireDateCounter;?>" data-id="<?php echo $obStock->id;?>"></span>
@@ -385,7 +387,7 @@ if (!empty($arResult['STOCKS'])) {
                                     </div>
                                 </div>
                                 <div class="service1-action-text">
-                                    <h2><?php echo $obStock->name; ?></h2>
+                                    <!--<h2><?php /*echo $obStock->name; */?></h2>-->
                                     <?php
                                     if (!empty($obStock->expireDate)) {
                                         ?>

@@ -41,16 +41,7 @@ $(document).ready(function () {
 
 	
 		
-		$(document).on("click",".accordion_block h4",function () {
-			$(this).toggleClass('active');
-			$(this).next().toggleClass('active');
-		})
-		
-		$( ".on_ajax_form" ).each(function( ) {
-			var form_id = $(this).data('id');
-			var bloc_id = $(this).attr('id');
-			BX.ajax.insertToNode('/ajax/ajax_form.php?id=' + form_id, BX(bloc_id) );
-		});
+	
 	
 	
 		$('body').on('click', '.load_more_service', function(e) {
@@ -1118,6 +1109,35 @@ $(document).ready(function () {
 
             //переключение
             $("ul.tab_list.service1-tab_list a[href='" + href + "']").click();
+        }else{
+            e.preventDefault();
+            var _href = $(this).attr("href");
+            $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+            return false;
+        }
+    });
+    $(".menu_list a").on('click', function (e) {
+        if ($(this).data("is-tab")) {
+            let href = $(this).attr("href"),
+                destination = $("ul.tab_list.service1-tab_list").offset().top - 42; //50 отступ фикс меню
+
+            e.preventDefault();
+
+            //пролистывание
+            $('html, body').animate(
+                {
+                    scrollTop: destination
+                },
+                600
+            );
+
+            //переключение
+            $("ul.tab_list.service1-tab_list a[href='" + href + "']").click();
+        }else{
+            e.preventDefault();
+            var _href = $(this).attr("href");
+            $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+            return false;
         }
     });
 
@@ -1307,6 +1327,90 @@ Share = {
 	}
 };
 
+$(document).on("keyup","#servicesSearch",function () {
+    if($(this).val()==""){
+        $(".clean_search").css("display","none");
+    }else{
+        $(".clean_search").css("display","block");
+    }
+})
+$(document).on("focus","#servicesSearch",function () {
+    if($(this).val()==""){
+        $(".clean_search").css("display","none");
+    }else{
+        $(".clean_search").css("display","block");
+    }
+})
+$(document).on("click",".clean_search",function () {
+    $("#servicesSearch").val("");
+    $(".costsection-search-wrap.search__inner button[type='submit']").click();
+    $(".clean_search").css("display","none");
+})
+$(document).on("click",".text-btn.t_credit", function () {
+    $(".credit-text1.show_slow").css("max-height","auto");
+})
+$(document).on("click",".accordion_block h4",function () {
+    $(this).toggleClass('active');
+	$(this).next().toggleClass('active');
+})
 
+$( ".on_ajax_form" ).each(function( ) {
+	var form_id = $(this).data('id');
+	var bloc_id = $(this).attr('id');
+	BX.ajax.insertToNode('/ajax/ajax_form.php?id=' + form_id, BX(bloc_id) );
+});
 
+$('.slider_doctors_wrap').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    dots: false,
+    prevArrow: "<span class='slickArrow prevArrow'><img src='/local/templates/clin/assets/img/arrow4.png'></span>",
+    nextArrow: "<span class='slickArrow nextArrow'><img src='/local/templates/clin/assets/img/arrow4.png'></span>",
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+    ]
+});
 
+$(document).ready(function() {
+    var button = $('#button-up');
+    $(window).scroll (function () {
+        if ($(this).scrollTop () > 300) {
+            button.fadeIn();
+        } else {
+            button.fadeOut();
+        }
+    });
+    button.on('click', function(){
+        $('body, html').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+});

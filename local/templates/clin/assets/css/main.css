@@ -4111,6 +4111,13 @@ order: 1;
 	margin-right: -17px;
 }
 
+@media only screen and (max-width: 680px){
+	.cost1-list li div
+	{
+		margin-right: -17px;
+	}
+}
+
 .cost1-list li div b{
 	margin-right: 5px;
 }
@@ -15163,7 +15170,7 @@ order: 1;
     left: 50%;
 
     width: 100%;
-    padding: 10px 25px 10px 25px;
+    padding: 40px 25px 10px 25px;
 
     -webkit-transition: opacity .5s;
             transition: opacity .5s;

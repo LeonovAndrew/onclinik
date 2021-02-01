@@ -42,7 +42,7 @@ foreach ($arResult['PROPERTIES']['MENU']['VALUE'] as $menu) {
         'IS_PARENT' => false,
     );
 }
-
+//print_r($arResult);
 $obDirection = new Direction($arResult['ID']);
 $obDirectionList = new DirectionList();
 $obDirectionList->add($obDirection);
@@ -225,7 +225,36 @@ $arAnchorMenu[] = array(
     'IS_PARENT' => false,
 );
 
+/***********get doctors new********************/
+/*echo "<pre>";
+print_r($arResult["PROPERTIES"]);
+echo "</pre>";*/
+$doctorsArr=array();
+$arSelect = Array("ID", "IBLOCK_ID", "NAME","PREVIEW_PICTURE", "DETAIL_PAGE_URL", "DATE_ACTIVE_FROM","PROPERTY_*");//IBLOCK_ID и ID обязательно должны быть указаны, см. описание arSelectFields выше
+$arFilter = Array("IBLOCK_ID"=>IntVal(5),"PROPERTY_DIRECTION"=>$arResult["ID"], "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y");
+$res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>50), $arSelect);
+while($ob = $res->GetNextElement()){
+    $doctorsItems=array();
+    $arFields = $ob->GetFields();
+    //print_r($arFields);
+    $arProps = $ob->GetProperties();
+    //print_r($arProps);
+    $doctorsItems["ID"]=$arFields["ID"];
+    $doctorsItems["URL"]=$arFields["DETAIL_PAGE_URL"];
+    $doctorsItems["NAME"]=$arFields["NAME"];
+    $img["PREVIEW_PICTURE"]=CFile::GetFileArray($arFields["PREVIEW_PICTURE"]);
+    $renderImage = CFile::ResizeImageGet($img["PREVIEW_PICTURE"], Array("width" => 300, "height" => 380), BX_RESIZE_IMAGE_EXACT, false);
+    $doctorsItems["IMG"]=array(
+        "ALT"=>$arFields["NAME"],
+        "SRC"=>$img["PREVIEW_PICTURE"]["SRC"],
+        "SRC_SMALL"=>$renderImage["src"],
+    );
+    $doctorsItems["POSITION"]=$arProps["POSITION"]["~VALUE"]["TEXT"];
+    $doctorsArr[]=$doctorsItems;
+}
+$arResult["DOCTORS"]=$doctorsArr;
 
+/*********************************************/
 
 /**
  * add tags to cache
