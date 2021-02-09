@@ -104,6 +104,9 @@ $this->setFrameMode(true);
 
                 <?php
                 $obDoctor = new Personal($doctorId);
+				$APPLICATION->showViewContent('regalia');
+                $APPLICATION->showViewContent('specialization');
+                $APPLICATION->showViewContent('practical_activity');
                 $obReviews = $obDoctor->getReviews(2000);
                 if (!$obReviews->isEmpty()) {
                     $GLOBALS['reviewsFilter']['ID'] = $obReviews->getIds();
@@ -140,15 +143,13 @@ $this->setFrameMode(true);
                     );
                 }
 
-                $APPLICATION->showViewContent('specialization');
+                
 
-                $APPLICATION->showViewContent('prices');
+                
 
-                $APPLICATION->showViewContent('offers');
-
-                $APPLICATION->showViewContent('regalia');
-
-                $APPLICATION->showViewContent('practical_activity');
+               
+                
+				$APPLICATION->showViewContent('certificates');
 
                 $APPLICATION->showViewContent('video');
 

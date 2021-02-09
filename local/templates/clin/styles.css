@@ -36,17 +36,26 @@
 .mobile-radio-wrap {
 	display: none;
 }
+@media (max-width: 700px){
+    .costsection-radio-wrap {
+        margin: auto;
+    }
+}
 
 @media  (max-width: 480px)
 {
+    .costsection-radio-wrap{
+        margin: auto;
+    }
 	.mobile-radio-wrap {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 		margin-top: -20px;
-		margin-left: 20px;
+		/*margin-left: 20px;*/
 		margin-bottom: 20px;
 	}
+
 	#services.costsection-item {
 		display: none;
 	}

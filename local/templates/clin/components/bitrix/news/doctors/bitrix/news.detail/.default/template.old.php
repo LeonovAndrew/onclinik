@@ -59,8 +59,52 @@ $this->setFrameMode(true);
         <?php
         if (!empty($arResult['PRICES'])) {
             ?>
-            
-                <div class="doctor-cost" id="prices">
+            <div class="doctor-info-text-wrap2">
+                <h2><?php echo getMessage('ADMISSION_COST');?>: <b><?php echo getMessage('PRICE_FROM');?> <i><?php echo priceFormat($arResult['PRICES']['discount_price']);?> ₽</i></b></h2>
+                <?php
+                if ($arResult['PRICES']['price'] != $arResult['PRICES']['discount_price']) {
+                    ?>
+                    <b><?if ( !$arResult['PRICES']['simple']){ echo getMessage('PRICE_FROM');}?> <i><?php echo priceFormat($arResult['PRICES']['discount_price']);?> ₽</i></b>
+                    <span><?if ( !$arResult['PRICES']['simple']){ echo getMessage('PRICE_FROM');}?> <?php echo priceFormat($arResult['PRICES']['price']);?> ₽</span>
+                    <?php
+                } else {
+                    ?>
+                    <b><?if ( !$arResult['PRICES']['simple']){ echo getMessage('PRICE_FROM');}?> <i><?php echo priceFormat($arResult['PRICES']['price']);?> ₽</i></b>
+                    <?php
+                }
+
+                if (!empty($arResult['OFFERS'])) {
+                    ?>
+                    <a href="#prices" class="btn3"><?php echo getMessage('ALL_PRICES');?></a>
+                    <?php
+                }
+                ?>
+            </div>
+			 <?php
+        }
+        ?>
+		
+        <div class="doctor-info-text-wrap3">
+            <?php echo $arResult['~PREVIEW_TEXT'];?>
+        </div>
+        <div class="doctor-info-text-wrap4">
+            <?php echo $arResult['~DETAIL_TEXT'];?>
+        </div>
+    </div>
+    <?php
+    if (!empty($arResult['~DETAIL_TEXT'])) {
+        ?>
+        <b></b>
+        <?php
+    }
+    ?>
+</div>
+
+<?php
+$this->setViewTarget('offers');
+    if (!empty($arResult['OFFERS'])) {
+        ?>
+        <div class="doctor-cost" id="prices">
             <h2><?php echo getMessage('PRICE_TITLE');?></h2>
             <ul class="action-programs-list">
                 <?php
@@ -90,31 +134,14 @@ $this->setFrameMode(true);
                     <?php
                 }
                 ?>
-            
-			<p class="price_info_text"><small><?php echo getMessage('PRICE_TEXT')?></small></p></ul>
+            </ul>
         </div>
-		
-            
-			 <?php
-        }
-        ?>
-		
-        <div class="doctor-info-text-wrap3">
-            <?php echo $arResult['~PREVIEW_TEXT'];?>
-        </div>
-        <div class="doctor-info-text-wrap4">
-            <?php echo $arResult['~DETAIL_TEXT'];?>
-        </div>
-    </div>
-    <?php
-    if (!empty($arResult['~DETAIL_TEXT'])) {
-        ?>
-        <b></b>
+		<p class="price_info_text"><small><?php echo getMessage('PRICE_TEXT')?></small></p>
+           
         <?php
     }
-    ?>
-</div>
-
+$this->endViewTarget();
+?>
 
 <?php
 $this->setViewTarget('specialization');

@@ -4,6 +4,10 @@
 .swiper-button-prev10{
     display: none;
 }*/
+.mobile-radio-wrap {
+    display: none;
+}
+
 .rules-info-link-item.pdf a:after {
     background: url(../img/rules-info-link-item-1.svg) center no-repeat;
 }

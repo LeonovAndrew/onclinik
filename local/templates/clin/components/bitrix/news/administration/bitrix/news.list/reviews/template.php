@@ -31,15 +31,16 @@ $this->setFrameMode(true);
 
                     <div class="swiper-slide" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
                         <div class="reviews-item readmore">
-                            <div class="reviews-item-text1">
-                                <span><?php echo $arItem['PROPERTIES']['PATIENT_NAME']['VALUE'];?></span>
-                                <b><?php echo $arItem['DISPLAY_ACTIVE_FROM'];?></b>
-                            </div>
+                            
                             <div class="reviews-item-text2">
                                 <p><?php echo $arItem['DETAIL_TEXT'];?></p>
                                 <ul class="reviews-list2">
                                     <li class="reviews-item2 reviews-item22"><?php echo $arItem['CLINIC']['NAME'];?></li>
                                 </ul>
+                            </div>
+							<div class="reviews-item-text1">
+                                <span><?php echo $arItem['PROPERTIES']['PATIENT_NAME']['VALUE'];?></span>
+                                <b><?php echo $arItem['DISPLAY_ACTIVE_FROM'];?></b>
                             </div>
                         </div>
                     </div>

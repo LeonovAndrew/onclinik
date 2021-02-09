@@ -1,6 +1,6 @@
 <?php
-$MESS['SPECIALIZATION_TITLE'] = 'Специализация';
-$MESS['REGALIA_TITLE'] = 'Достижения';
+$MESS['SPECIALIZATION_TITLE'] = 'Диагностика и лечение';
+$MESS['REGALIA_TITLE'] = 'Образование';
 $MESS['SHOW_MORE'] = 'Показать ещё';
 $MESS['HIDE'] = 'Скрыть';
 $MESS['CERTIFICATES_TITLE'] = 'Дипломы и Сертификаты';

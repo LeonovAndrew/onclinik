@@ -1285,7 +1285,7 @@ h6
 
     padding-top: 20px;
     padding-right: 45px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     padding-left: 45px;
 }
 
@@ -3412,8 +3412,8 @@ order: 1;
 .service1-action-img b
 {
     color: #e31e23;
-    font-size: 45px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 500;
 
     position: absolute;
     top: 0;
@@ -4103,12 +4103,20 @@ order: 1;
 
 .cost1-list li div
 {
-	width: 150px;
-	margin-right: 60px;
+	width: 180px;
+	margin-right: 20px;
+	text-align: right;
 }
 .cost1-list li div.no_discount
 {
-	margin-right: -17px;
+	text-align: right;
+}
+
+@media only screen and (max-width: 680px){
+	.cost1-list li div
+	{
+		margin-right: -17px;
+	}
 }
 
 .cost1-list li div b{
@@ -4142,7 +4150,7 @@ order: 1;
 
     width: 100%;
     max-width: 138px;
-    margin-right: -7px;
+    margin-right: 5px;
 
     text-decoration: line-through;
 }
@@ -6747,12 +6755,13 @@ order: 1;
 {
     margin-bottom: 15px;
     padding-left: 47px;
+	background-color: #f3fafe;
 }
 
 .reviews-item-text1 span
 {
     color: #143341;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 500;
 
     display: inline-block;
@@ -6765,7 +6774,7 @@ order: 1;
 .reviews-item-text1 b
 {
     color: #364e5b;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 300;
 
     display: inline-block;
@@ -6790,19 +6799,7 @@ order: 1;
     margin-bottom: 62px;
 }
 
-.reviews-item-text2 p:after
-{
-    position: absolute;
-    top: -7px;
-    left: -34px;
 
-    width: 25px;
-    height: 19px;
-
-    content: '';
-
-    background: url('../img/reviews-item-icon1.png') center no-repeat;
-}
 
 .reviews-item-text2 p:before
 {
@@ -10917,8 +10914,8 @@ order: 1;
 .stock-img-wrap i
 {
     color: #e31e23;
-    font-size: 45px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 500;
     font-style: normal;
 
     position: absolute;
@@ -12821,7 +12818,7 @@ order: 1;
 
 .action-info-img p span
 {
-    color: #143341;
+    color: #e31e23;
     font-size: 26px;
     font-weight: 500;
 
@@ -12833,8 +12830,8 @@ order: 1;
 .action-info-img p b
 {
     color: #e31e23;
-    font-size: 45px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 500;
 
     display: inline-block;
 
@@ -13546,7 +13543,7 @@ order: 1;
     background-color: #f3fafe;
 }
 
-.doctor-reviews-slider .reviews-item:after,
+
 .clinic-reviews .reviews-item:after
 {
     position: absolute;
@@ -13591,7 +13588,7 @@ order: 1;
 
 .doctor-reviews-slider .reviews-item-text2
 {
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 .doctor-reviews-btn-wrap
@@ -13714,28 +13711,16 @@ order: 1;
 
 .doctor-cost
 {
-    margin-bottom: 35px;
-    padding-bottom: 35px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     /*border-bottom: 1px solid #b8e2f9;*/
 }
-.doctor-cost:after
-{
-    display: block;
 
-    width: 100%;
-    height: 1px;
-    margin-top: 35px;
-    margin-bottom: -35px;
-
-    content: ' ';
-
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(184,226,249,1) 50%, rgba(255,255,255,1) 100%);
-}
 
 .doctor-cost h2
 {
     color: #143341;
-    font-size: 26px;
+    font-size: 20px;
 
     margin-bottom: 20px;
 
@@ -15001,7 +14986,7 @@ order: 1;
     position: fixed;
     z-index: 999;
     right: 20px;
-    bottom: 10px;
+    bottom: 40px;
 
     display: none;
 
@@ -15302,6 +15287,17 @@ order: 1;
     height: 100%;
 
     border: none;
+}
+.service1-text1-wrap .img-wrap
+{
+    display: flex;
+	flex-flow: row nowrap;
+	max-width: 70%;
+}
+.service1-text1-wrap .img-wrap img
+{
+    
+	flex: 1 1;
 }
 
 .popup-videos

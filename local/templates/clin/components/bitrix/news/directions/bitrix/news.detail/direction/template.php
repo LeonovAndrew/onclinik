@@ -70,7 +70,7 @@ $this->setFrameMode(true);
 							
 							<div class="service1-action-img">
 								<p class="service1-action-discont">
-									<b><?php echo $obStock->amount;?> <?php echo $obStock->percentage ? '%' : 'Р';?></b>
+									<b>-<?php echo $obStock->amount;?> <?php echo $obStock->percentage ? '%' : 'Р';?></b>
 								</p>
 								<?php
 								 if (!empty($obStock->previewPicture)) {
@@ -814,7 +814,7 @@ $this->setViewTarget('stocks_desktop');
                                 ?>
                                 <div class="service1-action-img">
                                     <p class="service1-action-discont">
-                                        <b><?php echo $obStock->amount;?> <?php echo $obStock->percentage ? '%' : 'Р';?></b>
+                                        <b>-<?php echo $obStock->amount;?> <?php echo $obStock->percentage ? '%' : 'Р';?></b>
                                     </p>
                                     <?php
                                     if (!empty($obStock->previewPicture)) {

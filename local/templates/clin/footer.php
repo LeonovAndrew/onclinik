@@ -519,7 +519,26 @@ $APPLICATION->IncludeComponent(
                                                           'minutes' => getMessage('clock_words_minutes'),
                                                       ]);?>;
         </script>
-		<script src="//cdn.callibri.ru/callibri.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+        <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=8e2e6d7e28110ce6b3fe485ab56e9519" charset="UTF-8" async></script>
+<script>
+var ct_cb_style = document.createElement('style'); ct_cb_style.id = 'ct_custom_style';
+ct_cb_style.innerHTML = '#CalltouchWidgetFrame{height:0px!important;width:0px!important;}';
+document.getElementsByTagName('head')[0].appendChild(ct_cb_style);
+var on_show_widget = function(event){
+ console.log('widget show: ',event);
+ if (!!ct_cb_style && !!ct_cb_style.parentNode){ ct_cb_style.parentNode.removeChild(ct_cb_style); }
+}
+var on_close_widget = function(event){
+ console.log('widget close: ',event);
+ if (!document.getElementById('ct_custom_style')){ document.getElementsByTagName('head')[0].appendChild(ct_cb_style); }
+}
+window.ct('modules','widgets','subscribeToEvent',[
+ {object:'form',action:'show',callback:function(event){ on_show_widget(event); }},
+ {object:'form',action:'close',callback:function(event){ on_close_widget(event); }},
+ {object:'widget-button',action:'show',callback:function(event){ on_close_widget(event); }},
+]);
+</script>
 	<?endif;?>
 	</body>
 </html>

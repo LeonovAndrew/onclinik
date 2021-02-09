@@ -29,7 +29,7 @@ $isAjax = !empty($_REQUEST['ajax']) ? $_REQUEST['ajax'] : false;
 		foreach ($arResult['ITEMS'] as $arItem) {
 			?>
 			<li>
-				<a href="<?php echo $arItem['DETAIL_PAGE_URL'];?>" class="direction-item"><?php echo $arItem['NAME'];?></a>
+				<a <?if ( $arItem['DETAIL_PAGE_URL'] == '/kosmetologiya/' || $arItem['DETAIL_PAGE_URL'] == '/plasticheskaya-hirurgiya/' ):?>target="_blank"<?endif;?> href="<?php echo $arItem['DETAIL_PAGE_URL'];?>" class="direction-item"><?php echo $arItem['NAME'];?></a>
 			</li>
 			<?php
 		}

@@ -59,27 +59,39 @@ $this->setFrameMode(true);
         <?php
         if (!empty($arResult['PRICES'])) {
             ?>
-            <div class="doctor-info-text-wrap2">
-                <h2><?php echo getMessage('ADMISSION_COST');?>: <b><?php echo getMessage('PRICE_FROM');?> <i><?php echo priceFormat($arResult['PRICES']['discount_price']);?> ₽</i></b></h2>
+           <div class="doctor-cost" id="prices">
+            <h2><?php echo getMessage('PRICE_TITLE');?></h2>
+            <ul class="action-programs-list">
                 <?php
-                if ($arResult['PRICES']['price'] != $arResult['PRICES']['discount_price']) {
+                foreach ($arResult['OFFERS'] as $obOffer) {
                     ?>
-                    <b><?if ( !$arResult['PRICES']['simple']){ echo getMessage('PRICE_FROM');}?> <i><?php echo priceFormat($arResult['PRICES']['discount_price']);?> ₽</i></b>
-                    <span><?if ( !$arResult['PRICES']['simple']){ echo getMessage('PRICE_FROM');}?> <?php echo priceFormat($arResult['PRICES']['price']);?> ₽</span>
-                    <?php
-                } else {
-                    ?>
-                    <b><?if ( !$arResult['PRICES']['simple']){ echo getMessage('PRICE_FROM');}?> <i><?php echo priceFormat($arResult['PRICES']['price']);?> ₽</i></b>
-                    <?php
-                }
-
-                if (!empty($arResult['OFFERS'])) {
-                    ?>
-                    <a href="#prices" class="btn3"><?php echo getMessage('ALL_PRICES');?></a>
+                    <li>
+                        <div class="action-programs-item-wrap">
+                            <p><?php echo $obOffer->name;?></p>
+                            <?php
+                            if ($obOffer->price != $obOffer->discountPrice) {
+                                ?>
+								<div>
+									<b><?php echo priceFormat($obOffer->discountPrice);?> ₽</b>
+									<span><?php echo priceFormat($obOffer->price);?> ₽</span>
+                                </div>
+								<?php
+                            } else {
+                                ?>
+								<div class="no_discount">
+									<b><?php echo priceFormat($obOffer->price);?> ₽</b>
+                                </div>
+								<?php
+                            }
+                            ?>
+                        </div>
+                    </li>
                     <?php
                 }
                 ?>
-            </div>
+            
+			<p class="price_info_text"><small><?php echo getMessage('PRICE_TEXT')?></small></p></ul>
+        </div>
             <?php
         }
         ?>

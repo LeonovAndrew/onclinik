@@ -47,7 +47,7 @@ if ($isAjax) {
             }
             ?>
             <div class="stock-img-wrap">
-                <i><?php echo $arItem['PROPERTIES']['AMOUNT']['VALUE'];?><?php echo $arItem['PROPERTIES']['PERCENTAGE']['VALUE'] ? ' %' : ' р';?></i>
+                <i>-<?php echo $arItem['PROPERTIES']['AMOUNT']['VALUE'];?><?php echo $arItem['PROPERTIES']['PERCENTAGE']['VALUE'] ? ' %' : ' р';?></i>
                 <div class="stock-img">
                     <img src="<?php echo $arItem['PREVIEW_PICTURE']['SRC'];?>" alt="<?php echo $arItem['PREVIEW_PICTURE']['ALT'];?>">
                 </div>

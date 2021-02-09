@@ -25,14 +25,14 @@ $this->setFrameMode(true);
         <?php
         if (!empty($arResult['expire_date'])) {
             ?>
-            <div class="action-info-time action-info-time1">
+            <!--<div class="action-info-time action-info-time1">
                 <div class="promo-ends">
                     <b><?php echo getMessage('PROMOTION_ENDS');?></b>
                     <div class="stock-timer">
                         <span class="service1-action-timer clock<?php echo $arResult['ID'];?>" data-date="<?php echo $arResult['expire_date'];?>" data-id="<?php echo $arResult['ID'];?>"></span>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <?php
         }
         ?>

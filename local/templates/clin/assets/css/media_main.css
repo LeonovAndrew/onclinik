@@ -2507,7 +2507,7 @@
 
     .service1-text1 h1
     {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .service1-tabs .service1-tab_list a
@@ -3535,6 +3535,10 @@
         background-position: top center;
         background-size: cover;
     }
+	.service1-text1-wrap .img-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    
 }
 
 @media only screen and (max-width: 850px)
@@ -4189,6 +4193,7 @@
         -webkit-box-pack: start;
         -ms-flex-pack: start;
         justify-content: flex-start;
+		padding: 10px;
     }
 
     .cost1-list b
@@ -5188,7 +5193,7 @@
 
     .cost1-list i,
     .cost1-list a{
-        width: calc(100% - 140px);
+		width: calc(100% - 220px);
     }
     .cost1-list b{
         margin-right: 0;
@@ -5196,6 +5201,11 @@
     }
 }
 
+@media only screen and (max-width: 420px){
+	.cost1-list i, .cost1-list a {
+		width: calc(100% - 140px);
+	}
+}
 @media only screen and (max-width: 650px)
 {
     .main-header-container
@@ -6195,7 +6205,7 @@
 {
     .service1-text1-wrap
 		{
-        max-height: 390px;
+        max-height: 300px;
     }
 
 	.contact1-map {
@@ -6488,6 +6498,27 @@
         width: 65px;
         font-size: 11px;
     }
+	.costsection-radio-wrap
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    width: 100%;
+    max-width: 300px;
+
+    border-radius: 300px;
+    background-color: #fff;
+
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
 }
 
 @media only screen and (max-width: 400px)

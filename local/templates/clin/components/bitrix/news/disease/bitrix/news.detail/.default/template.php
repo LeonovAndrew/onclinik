@@ -321,7 +321,7 @@ if (!empty($arResult['STOCKS'])) {
                                 if (!empty($obStock->previewPicture)) {
                                     ?>
                                     <img src="<?php echo $obStock->previewPicture['SRC'];?>" alt="<?php echo $obStock->previewPicture['ALT'];?>">
-                                    <b><?php echo $obStock->amount;?> <?php echo $obStock->percentage ? '%' : 'Р';?></b>
+                                    <b>-<?php echo $obStock->amount;?> <?php echo $obStock->percentage ? '%' : 'Р';?></b>
                                     <?php
                                 }
                                 ?>
@@ -383,7 +383,7 @@ if (!empty($arResult['STOCKS'])) {
                                     <?php
                                 }
                                 ?>
-                                <b><?php echo $obStock->amount; ?><?php echo $obStock->percentage ? '%' : 'Р'; ?></b>
+                                <b>-<?php echo $obStock->amount; ?><?php echo $obStock->percentage ? '%' : 'Р'; ?></b>
                                 <div class="service1-action-text-btn-wrap">
                                     <a href="<?php echo $obStock->url; ?>"
                                        class="btn4"><?php echo getMessage('DISEASE_DETAILS'); ?></a>

@@ -50,9 +50,20 @@ $obDirectionList->add($obDirection);
 /**
  * get stocks
  */
-$stocksList = $obDirectionList->getStocks();
-$stocksList->makeData();
-$arResult['STOCKS'] = $stocksList->getList();
+
+	$stocksList = $obDirectionList->getStocks( $arResult['PROPERTIES']['actions']['VALUE'] );
+	$stocksList->makeData();
+	$arResult['STOCKS'] = $stocksList->getList();
+	$arStocks = Array();
+	foreach ($arResult['STOCKS'] as $obStock) {
+		$arStocks[$obStock->id] = $obStock;
+	}
+	$arResult['STOCKS'] = Array();
+	foreach ($arResult['PROPERTIES']['actions']['VALUE'] as $id) {
+		if ( $arStocks[$id] )
+			$arResult['STOCKS'][] = $arStocks[$id];
+	}
+
 
 /**
  * get doctors

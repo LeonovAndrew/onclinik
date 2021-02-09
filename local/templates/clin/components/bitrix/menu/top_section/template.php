@@ -21,7 +21,7 @@ if (!$arResult['use_tabs']) {
                     foreach ($arTab['items'] as $arItem) {
                     ?>
                         <li>
-                            <a href="<?php echo $arItem['LINK'];?>"><?php echo $arItem['TEXT'];?></a>
+                            <a <?if ( $arItem['PARAMS']['open'] ):?>target="<?=$arItem['PARAMS']['open']?>"<?endif;?> href="<?php echo $arItem['LINK'];?>"><?php echo $arItem['TEXT'];?></a>
                         </li>
                     <?php
                     }
@@ -61,7 +61,7 @@ if (!$arResult['use_tabs']) {
                     foreach ($arTab['items'] as $arItem) {
                         ?>
                         <li>
-                            <a href="<?php echo $arItem['LINK'];?>"><?php echo $arItem['TEXT'];?></a>
+                            <a <?if ( $arItem['PARAMS']['open'] ):?>target="<?=$arItem['PARAMS']['open']?>"<?endif;?> href="<?php echo $arItem['LINK'];?>"><?php echo $arItem['TEXT'];?></a>
                         </li>
                         <?php
                     }
