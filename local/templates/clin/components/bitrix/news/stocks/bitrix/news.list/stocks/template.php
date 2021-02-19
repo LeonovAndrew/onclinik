@@ -35,7 +35,9 @@ if ($isAjax) {
             <?php
             if (!empty($arItem['DATE_ACTIVE_TO'])) {
                 ?>
+
                 <div class="stock-timer-wrap">
+                    <h3><?php echo $arItem['NAME'];?></h3>
                         <i><?php echo getMessage('PROMOTION_ENDS');?></i>
                         <div class="stock-timer">
                             <span class="service1-action-timer clock"><?php echo getMessage('TO');?> <?php echo $arItem['expire_date'];?></span>
@@ -56,7 +58,7 @@ if ($isAjax) {
                 </div>
             </div>
             <div class="stock-text">
-                <h3><?php echo $arItem['NAME'];?></h3>
+
                 <?php
                 if (isset($arItem['expire_date'])) {
                     ?>

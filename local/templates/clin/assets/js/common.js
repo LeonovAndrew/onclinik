@@ -1051,7 +1051,7 @@ $(document).ready(function () {
         })()
     }
 
-    var mql = window.matchMedia('all and (max-width: 1359px)');
+    /*var mql = window.matchMedia('all and (max-width: 1359px)');
     if (mql.matches) {
         if ($(".section-wrap1").length > 0) {
             (function () {
@@ -1098,7 +1098,7 @@ $(document).ready(function () {
                 }
             })()
         }
-    }
+    }*/
 
     //tabs selection
     $(".service1-nav a").on('click', function (e) {

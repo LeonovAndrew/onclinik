@@ -879,7 +879,7 @@
     color: #000;
 
     border: 1px solid #000;
-    background: 000;
+    background: #000;
 }
 
 .body_white .programs-tabs .tab_list a.active
@@ -1192,7 +1192,7 @@
 
 .body_white .doctors-item-text1
 {
-    background: rgba(0,0,0,,.8);
+    background: rgba(0,0,0,.8);
 }
 
 .body_white .doctors-item-text2

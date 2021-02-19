@@ -15129,7 +15129,7 @@ order: 1;
 .submenu-wrap:hover .submenu-container
 {
     top: 100%;
-
+    display: block;
     opacity: 1;
 }
 
@@ -15146,7 +15146,7 @@ order: 1;
     z-index: 999;
     top: -1000px;
     left: 50%;
-
+    display: none;
     width: 100%;
     padding: 10px 25px 10px 25px;
 

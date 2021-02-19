@@ -32,6 +32,11 @@ function updateFilter() {
             autocomplete($("#servicesSearch")[0], searchHints, updateFilter);
             readmore('.readmore');
             preloaderFilter.remove();
+            if($("#servicesSearch").val()==""){
+                $(".clean_search").css("display","none");
+            }else{
+                $(".clean_search").css("display","block");
+            }
         })
         .fail(function(jqXHR, textStatus) {
             preloaderFilter.remove();

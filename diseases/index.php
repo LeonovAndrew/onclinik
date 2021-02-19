@@ -6,12 +6,16 @@ $APPLICATION->SetPageProperty("title", "Справочник заболеван�
 use MWI\Disease;
 
 $APPLICATION->SetTitle("Справочник заболеваний");
+$templName="disease_new";
+if($_REQUEST["new"]=="Y"){
+	$templName="disease_new";
+}
 ?>
 
 <?php
 $APPLICATION->IncludeComponent(
-	"bitrix:news", 
-	"disease", 
+	"bitrix:news",
+	$templName,
 	array(
 		"IBLOCK_TYPE" => "catalog",
 		"IBLOCK_ID" => Disease::getIBlockId(),

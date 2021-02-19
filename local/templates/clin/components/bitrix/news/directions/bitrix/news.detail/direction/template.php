@@ -17,10 +17,49 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
 $this->setFrameMode(true);
 ?>
 
-<div class="service1-text1" id="start">
+<div class="service1-text1 news_directions_b_n_d_direction" id="start">
+
+    <div class="section-wrap1 before_stale">
+        <nav class="section-nav">
+            <!--<h2><?php /*$APPLICATION->ShowTitle('patient_info_menu_title');*/?></h2>-->
+            <?php
+            $APPLICATION->IncludeComponent(
+                "bitrix:menu",
+                "right",
+                array(
+                    "COMPONENT_TEMPLATE" => "left",
+                    "ROOT_MENU_TYPE" => "patient_info",
+                    "MENU_CACHE_TYPE" => "N",
+                    "MENU_CACHE_TIME" => "3600",
+                    "MENU_CACHE_USE_GROUPS" => "Y",
+                    "MENU_CACHE_GET_VARS" => "",
+                    "MAX_LEVEL" => "1",
+                    "CHILD_MENU_TYPE" => "",
+                    "USE_EXT" => "N",
+                    "DELAY" => "N",
+                    "ALLOW_MULTI_SELECT" => "N",
+                )
+            )
+            ?>
+            <!--<ul class="service1-list2">
+                <?/*foreach ($arResult["ANCHOR_MENU"] as $menus):*/?>
+                    <?/*if($menus["LINK"]!="#start"):*/?>
+                        <li>
+                            <a href="<?/*=$menus["LINK"]*/?>"><?/*=$menus["TEXT"]*/?></a>
+                        </li>
+                    <?/*endif;*/?>
+                <?/*endforeach;*/?>
+            </ul>-->
+        </nav>
+        <div class="menu-btn"></div>
+    </div>
+
+
 	<?if ( strlen($arResult['PROPERTIES']['H1']['~VALUE']) > 1 ):?>
 		<h1><?php echo $arResult['PROPERTIES']['H1']['~VALUE'];?></h1>
 	<?endif;?>
+
+
     <div class="service1-text1-wrap readmore">
         <?php
         if (!empty($arResult['DETAIL_PICTURE']['SRC'])) {
@@ -37,6 +76,7 @@ $this->setFrameMode(true);
 </div>
 
 <div class="service1-btn-block-wrap readmore">
+    <?if(count($arResult['STOCKS'])):?>
     <div class="service1-action-slider service1-action-slider1">
         <div class="swiper-container swiper-container10">
             <div class="swiper-wrapper">
@@ -108,6 +148,7 @@ $this->setFrameMode(true);
         <div class="swiper-button-next swiper-button-next10 swiper-button-next-style2"></div>
         <div class="swiper-button-prev swiper-button-prev10 swiper-button-prev-style2"></div>
     </div>
+    <?endif;?>
     <div class="cost1-slider">
         <div class="swiper-container swiper-container11">
             <div class="swiper-wrapper">

@@ -43,6 +43,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
     </div>
     <div class="costsection-search-wrap search__inner">
         <input type="search" autocomplete="off" placeholder="<?php echo getMessage('SEARCH_PLACEHOLDER');?>" name="search" id="servicesSearch" value="<?php echo $arResult['search_query'];?>">
+        <i class="clean_search">+</i>
         <button type="submit"><?php echo getMessage('SEARCH');?></button>
     </div>
 </form>

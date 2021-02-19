@@ -24,8 +24,8 @@ $this->setFrameMode(true);
 
 <section class="service1">
     <div class="container">
-        <div class="service1-container">
-            <div class="service1-wrap1" id="start">
+        <div class="service1-container news_diseas_detailPhp">
+            <div class="service1-wrap1">
                 <?php
                 $APPLICATION->IncludeComponent(
                     "bitrix:main.include",
@@ -41,50 +41,54 @@ $this->setFrameMode(true);
                         'HIDE_ICONS' => 'Y'
                     )
                 );
-
-                $diseaseId = $APPLICATION->IncludeComponent(
-                    'bitrix:news.detail',
-                    '',
-                    array(
-                        'IBLOCK_TYPE' => $arParams['IBLOCK_TYPE'],
-                        'IBLOCK_ID' => $arParams['IBLOCK_ID'],
-                        'SET_CANONICAL_URL' => $arParams['DETAIL_SET_CANONICAL_URL'],
-                        'CACHE_TYPE' => $arParams['CACHE_TYPE'],
-                        'CACHE_TIME' => $arParams['CACHE_TIME'],
-                        'CACHE_GROUPS' => $arParams['CACHE_GROUPS'],
-                        'SET_TITLE' => $arParams['SET_TITLE'],
-                        'SET_BROWSER_TITLE' => $arParams['SET_BROWSER_TITLE'],
-                        'SET_META_KEYWORDS' => $arParams['SET_META_KEYWORDS'],
-                        'SET_META_DESCRIPTION' => $arParams['SET_META_DESCRIPTION'],
-                        'SET_LAST_MODIFIED' => $arParams['SET_LAST_MODIFIED'],
-                        'MESSAGE_404' => $arParams['~MESSAGE_404'],
-                        'SET_STATUS_404' => $arParams['SET_STATUS_404'],
-                        'SHOW_404' => $arParams['SHOW_404'],
-                        'FILE_404' => $arParams['FILE_404'],
-                        'ELEMENT_ID' => $arResult['VARIABLES']['ELEMENT_ID'],
-                        'ELEMENT_CODE' => $arResult['VARIABLES']['ELEMENT_CODE'],
-                        'SECTION_ID' => $arResult['VARIABLES']['SECTION_ID'],
-                        'SECTION_CODE' => $arResult['VARIABLES']['SECTION_CODE'],
-                        'PROPERTY_CODE' => $arParams['PROPERTY_CODE'],
-                        'INCLUDE_IBLOCK_INTO_CHAIN' => $arParams['INCLUDE_IBLOCK_INTO_CHAIN'],
-                        'ADD_SECTIONS_CHAIN' => $arParams['ADD_SECTIONS_CHAIN'],
-                        'ADD_ELEMENT_CHAIN' => $arParams['ADD_ELEMENT_CHAIN'],
-                    ),
-                    $component
-                );
                 ?>
+                <div id="start">
+                    <?
+                    $diseaseId = $APPLICATION->IncludeComponent(
+                        'bitrix:news.detail',
+                        '',
+                        array(
+                            'IBLOCK_TYPE' => $arParams['IBLOCK_TYPE'],
+                            'IBLOCK_ID' => $arParams['IBLOCK_ID'],
+                            'SET_CANONICAL_URL' => $arParams['DETAIL_SET_CANONICAL_URL'],
+                            'CACHE_TYPE' => $arParams['CACHE_TYPE'],
+                            'CACHE_TIME' => $arParams['CACHE_TIME'],
+                            'CACHE_GROUPS' => $arParams['CACHE_GROUPS'],
+                            'SET_TITLE' => $arParams['SET_TITLE'],
+                            'SET_BROWSER_TITLE' => $arParams['SET_BROWSER_TITLE'],
+                            'SET_META_KEYWORDS' => $arParams['SET_META_KEYWORDS'],
+                            'SET_META_DESCRIPTION' => $arParams['SET_META_DESCRIPTION'],
+                            'SET_LAST_MODIFIED' => $arParams['SET_LAST_MODIFIED'],
+                            'MESSAGE_404' => $arParams['~MESSAGE_404'],
+                            'SET_STATUS_404' => $arParams['SET_STATUS_404'],
+                            'SHOW_404' => $arParams['SHOW_404'],
+                            'FILE_404' => $arParams['FILE_404'],
+                            'ELEMENT_ID' => $arResult['VARIABLES']['ELEMENT_ID'],
+                            'ELEMENT_CODE' => $arResult['VARIABLES']['ELEMENT_CODE'],
+                            'SECTION_ID' => $arResult['VARIABLES']['SECTION_ID'],
+                            'SECTION_CODE' => $arResult['VARIABLES']['SECTION_CODE'],
+                            'PROPERTY_CODE' => $arParams['PROPERTY_CODE'],
+                            'INCLUDE_IBLOCK_INTO_CHAIN' => $arParams['INCLUDE_IBLOCK_INTO_CHAIN'],
+                            'ADD_SECTIONS_CHAIN' => $arParams['ADD_SECTIONS_CHAIN'],
+                            'ADD_ELEMENT_CHAIN' => $arParams['ADD_ELEMENT_CHAIN'],
+                        ),
+                        $component
+                    );
+                    ?>
 
-                <?php
-                //TODO: form
-                ?>
-                <div class="service1-feedback">
-                    <div class="service1-feedback-wrap">
-                        <h2>Запишитесь на консультацию к специалистам Он Клиник!</h2>
-                        <p>Запись ведется по телефону <a href="tel:+74952668571">+7 495 266-85-71</a>. <br> Или заполните форму онлайн записи</p>
-                        <a href="#" class="js-appointment-btn btn1">Записаться на приём</a>
+                    <?php
+                    //TODO: form
+                    ?>
+                    <div class="service1-feedback">
+                        <div class="service1-feedback-wrap">
+                            <h2>Запишитесь на консультацию к специалистам Он Клиник!</h2>
+                            <p>Запись ведется по телефону <a href="tel:+74952668571">+7 495 266-85-71</a>. <br> Или заполните форму онлайн записи</p>
+                            <a href="#" class="js-appointment-btn btn1">Записаться на приём</a>
+                        </div>
                     </div>
+                    <?php $APPLICATION->showViewContent('stocks_mobile');?>
                 </div>
-                <?php $APPLICATION->showViewContent('stocks_mobile');?>
+
             </div>
 
             <div class="service1-wrap2">

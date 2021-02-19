@@ -1,0 +1,2744 @@
+.body_black{
+    background: #000;
+    color: #fff;
+}
+
+.body_black .main-header-wrap1{
+	background: #000;
+	border-bottom: 1px solid #fff;
+}
+
+.body_black .main-header-link1{
+	background: #000;
+}
+
+.body_black .main-header-link1-list{
+	background: #000;
+	border: 1px solid #fff;
+
+	top: calc(100% + 2px);
+}
+
+.body_black .main-header-form-search input{
+	border-color: #000;
+	border-left-color: #fff;
+	border-right-color: #fff;
+	border-top: none;
+	border-bottom: none;
+	background-color: #000;
+	color: #fff;
+}
+
+/* .body_black .main-header-form-search button{
+	background-image: url(../img/search-btn_white.svg);
+} */
+
+.body_black .main-header-tel-wrap a{
+	color: #fff;
+}
+
+.body_black .main-header-tel-wrap b{
+	color: #fff;
+}
+
+.body_black .btn1{
+	background: #000;
+	color: #fff;
+
+	border: 1px solid #fff;
+}
+
+.body_black .main-header-list{
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.body_black .main-header-list a{
+	background-color: #000;
+	color: #fff;
+}
+
+.body_black .submenu-wrap:hover > a{
+	background-color: #ccc !important;
+	color: #000 !important;
+}
+
+.body_black .submenu-container{
+	background: #000;
+}
+
+.body_black .submenu-container .submenu_tab_list{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black.no-touch .main-header-list a:hover,
+.body_black.no-touch .fixed-header-list a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.body_black.no-touch .submenu-container a:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.body_black.no-touch .submenu-container .submenu_tab_list a:hover {
+    color: #000;
+    background-color: #ccc;
+    text-decoration: none;
+}
+
+.body_black .submenu-container .submenu_tab_list a.active{
+	color: #000;
+    background-color: #ccc;
+}
+
+.submenu-wrap:hover .submenu-container{
+	margin-top: -1px;
+	border-top: 1px solid #fff;
+}
+
+.body_black .fixed-header-wrap1{
+	background: #000;
+	border-bottom: 1px solid #fff;
+}
+
+.body_black .fixed-header-search-form input{
+	background: #000;
+	color: #fff;
+	border-top: none;
+	border-bottom: none;
+}
+
+.body_black .fixed-header-search-form button{
+	background-image: url(../img/search-btn_white.svg);
+}
+
+.body_black .fixed-header-tel-wrap a{
+	color: #fff;
+}
+
+.body_black .fixed-header-tel-wrap span{
+	color: #fff;
+}
+
+.body_black .fixed-header-feedback a{
+	background: #000;
+	color: #fff;
+
+	border-left: 1px solid #fff;
+}
+
+.body_black .fixed-header-list{
+	background: #000;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.body_black .submenu-container .submenu_tab_list a{
+	color: #fff;
+}
+
+.body_black .submenu-container a{
+	color: #fff;
+}
+
+.body_black .banner .tab_list a{
+	background: #000;
+	color: #fff;
+	border: 1px solid #fff;
+	border-top: none;
+}
+
+.body_black.no-touch .banner .tab_list a:hover,
+.body_black .banner .tab_list a.active{
+	background: #ccc;
+	color: #000;
+}
+
+.body_black .banner .tab_list a:after{
+	border-top-color: #ccc;
+}
+
+.body_black .banner-list li{
+	border-bottom-color: #fff;
+}
+
+.body_black .banner-list a{
+	color: #fff;
+}
+
+.body_black .banner-link-wrap1 a{
+	color: #fff;
+}
+
+.body_black .banner-info{
+	background: #000;
+}
+
+.body_black .banner-info h2{
+	color: #fff;
+}
+
+.body_black .banner-price-new{
+	color: #fff;
+}
+
+.body_black .banner-price-old{
+	color: #fff;
+}
+
+.body_black .banner-info p{
+	color: #fff;
+}
+
+.body_black .services1 h2{
+	color: #fff;
+}
+
+.body_black .services1 h2 b{
+	color: #fff;
+	font-weight: 700;
+}
+
+.body_black .services1-item h3{
+	color: #fff;
+}
+
+.body_black .services1-item p{
+	color: #fff;
+}
+
+.body_black .map-btn span{
+	background: #000;
+}
+
+.body_black .map .container:after{
+	background: #fff;
+}
+
+.body_black .main-footer-container h3{
+	color: #fff;
+}
+
+.body_black .main-footer-container h3:after{
+	background: #fff;
+}
+
+.body_black .main-footer-list a{
+	color: #fff;
+}
+
+.body_black .main-footer-list1 a{
+	color: #fff;
+}
+
+.body_black .main-footer-tel{
+	color: #fff;
+}
+
+.body_black .main-footer-contacts span{
+	color: #fff;
+}
+
+.body_black .main-footer-wrap1:after{
+	background: #fff;
+}
+
+.body_black .main-footer-certificates-item p{
+	color: #fff;
+}
+
+.body_black .main-footer-wrap2:after{
+	background: #fff;
+}
+
+.body_black .main-footer-share-wrap span{
+	color: #fff;
+}
+
+.body_black .main-footer-subscribe-btn-wrap a{
+	background: #000;
+	color: #fff;
+}
+
+.body_black .main-footer-subscribe-btn-wrap a:before{
+	background: #fff;
+}
+
+.body_black .main-footer-versions-item button{
+	color: #fff;
+}
+
+.body_black .main-footer-list2 a{
+	color: #fff;
+}
+
+.body_black .main-footer-list2 li:after{
+	background: #fff;
+}
+
+.body_black .main-footer-wrap4 p{
+	color: #fff;
+}
+
+.body_black .main-footer-wrap4 span a{
+	color: #fff;
+}
+
+.body_black .section-nav h2{
+	color: #fff;
+	border-bottom-color: #fff;
+}
+
+.body_black .section-list1 li{
+	color: #fff;
+}
+
+.body_black .section-list1 a{
+	color: #fff;
+}
+
+.body_black .rules-wrap2 p{
+	color: #fff;
+}
+
+.body_black .rules-wrap2 h1{
+	color: #fff;
+}
+
+.body_black .breadcrumbs-list li{
+	color: #fff;
+}
+
+.body_black .breadcrumbs-list a{
+	color: #fff;
+}
+
+.body_black .rules-text-cotaniner2{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .rules-text3 h3{
+	color: #fff;
+}
+
+.body_black .rules-text-list1 li{
+	color: #fff;
+}
+
+.body_black .rules-text-list1 a{
+	color: #fff;
+}
+
+.body_black .rules-text-list1 a:after{
+	background: #fff;
+}
+
+.body_black .rules-info-link b{
+	color: #fff;
+}
+
+.body_black .rules-info-link-item i{
+	color: #fff;
+}
+
+.body_black .rules-info-link-item span{
+	color: #fff;
+}
+
+.body_black .rules-text-list2 b{
+	color: #fff;
+}
+
+.body_black .rules-text-list2 span{
+	color: #fff;
+}
+
+.body_black .rules-text-list2 a{
+	color: #fff;
+}
+
+.body_black .rules-text-list2 a:after{
+	background: #fff;
+}
+
+.body_black .rules-text-cotaniner3 h3{
+	color: #fff;
+}
+
+.body_black .rules-text-cotaniner4 h2{
+	color: #fff;
+}
+
+.body_black .achievement-wrap1 h2{
+	color: #fff;
+}
+
+.body_black .achievement-item{
+	background: #000;
+	border: 1px solid #fff;
+	margin-right: 1px;
+}
+
+.body_black .achievement-item-text h3{
+	color: #fff;
+}
+
+.body_black .action h1{
+	color: #fff;
+}
+
+.body_black .action-paragraph1{
+	color: #fff;
+}
+
+.body_black .action-info-time{
+	background: transparent;
+}
+
+.body_black .action-info-time b{
+	color: #fff;
+}
+
+.body_black .service1-action-timer .clock-text-wrap span {
+  color: #fff;
+}
+
+.body_black .service1-action-timer .clock-text-wrap b{
+	color: #fff;
+}
+
+.body_black .action-info-text h2{
+	color: #fff;
+}
+
+.body_black .action-info-text-wrap p{
+	color: #fff;
+}
+
+.body_black .text-btn:before{
+	background: #fff;
+}
+
+.body_black .text-btn span{
+	color: #fff;
+}
+
+.body_black .text-btn:after{
+	background: #000;
+
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+
+.body_black .text-btn.active:after{
+	border-color: #fff;
+}
+
+.body_black .text-btn i{
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
+
+.body_black .text-btn i:after{
+	border-top-color: #000;
+}
+
+.body_black .action-clinics h2{
+	color: #fff;
+}
+
+.body_black .clinics-item-text-wrap1{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .clinics-item-text-wrap2{
+	background: #000;
+	border: 1px solid #fff;
+	border-top: none;
+}
+
+.body_black .clinics-item-title-wrap1 h3{
+	color: #fff;
+}
+
+.body_black .clinics-item-title-wrap1 p{
+	color: #fff;
+}
+
+.body_black .clinics-item-title-wrap2 a{
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .clinics-item-text-wrap2 ul li{
+	color: #fff;
+}
+
+.body_black .clinics-item-text-wrap2 ul a{
+	color: #fff;
+}
+
+.body_black .action-text1 p{
+	color: #fff;
+}
+
+.body_black .action-programs h2{
+	color: #fff;
+}
+
+.body_black .action-programs-item-wrap p{
+	color: #fff;
+}
+
+.body_black .action-programs-item-wrap b{
+	color: #fff;
+}
+
+.body_black .action-programs-item-wrap span{
+	color: #fff;
+	font-size: 16px;
+}
+
+.body_black .action-programs-item-wrap:after{
+	background: #fff;
+}
+
+.body_black .btn2{
+	background: #000;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.body_black .service1-feedback-wrap{
+	background: #000;
+}
+
+.body_black .service1-feedback-wrap h2{
+	color: #fff;
+}
+
+.body_black .service1-feedback-wrap p{
+	color: #fff;
+}
+
+.body_black .service1-feedback-wrap p a{
+	color: #fff;
+}
+
+.body_black .action-info-img p{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .action-info-img p span{
+	color: #fff;
+}
+
+.body_black .action-info-img p b{
+	color: #fff;
+}
+
+.body_black .action-other h2{
+	color: #fff;
+}
+
+.body_black .stock-img-wrap i{
+	background: rgba(0,0,0,.8);
+	color: #fff;
+}
+
+.body_black .stock-btn{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .stock-timer-wrap{
+	background: #000;
+	border: 1px solid #fff;
+	border-bottom: none;
+}
+
+.body_black .stock-text{
+	background: #000;
+	border: 1px solid #fff;
+	border-top: none;
+}
+
+.body_black .stock-text h3{
+	color: #fff;
+}
+
+.body_black .stock-text b{
+	color: #fff;
+}
+
+.body_black .stock-text p{
+	color: #fff;
+}
+
+.body_black .administration h1{
+	color: #fff;
+}
+
+.body_black .administration-filter{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .jq-selectbox__select-text{
+	background: #000;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.body_black .jq-selectbox__dropdown{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .jq-selectbox li,
+.body_black .jq-select-multiple li{
+	color: #fff;
+}
+
+.body_black .administration-item-feedback{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .administration-item-text{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .administration-item-text h3{
+	color: #fff;
+}
+
+.body_black .administration-item-text span{
+	color: #fff;
+}
+
+.body_black .administration-item-text b{
+	color: #fff;
+}
+
+.body_black .agreement h1{
+	color: #fff;
+}
+
+.body_black .agreement-text p{
+	color: #fff;
+}
+
+.body_black .agreement-text ul li{
+	color: #fff;
+}
+
+.body_black .programs h1{
+	color: #fff;
+}
+
+.body_black .programs-text1 p{
+	color: #fff;
+}
+
+.body_black .programs-text3 p{
+	color: #fff;
+}
+
+.body_black .programs-text3 h3{
+	color: #fff;
+}
+
+.body_black .programs-text3 ul li{
+	color: #fff;
+}
+
+.body_black .programs-item{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .programs-item h3{
+	color: #fff;
+}
+
+.body_black .programs-item p{
+	color: #fff;
+}
+
+.body_black .programs-item-btn-wrap span{
+	color: #fff;
+	border-color: #fff;
+}
+
+.body_black .programs-item-btn-wrap a{
+	color: #fff;
+}
+
+.programs-tabs .tab_list a{
+	background: #000;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.body_black .programs-tabs .tab_list a.active{
+	background: #ccc;
+	color: #000;
+}
+
+.body_black.no-touch .service1-tabs .tab_list a:hover,
+.body_black.no-touch .btn3:hover,
+.body_black.no-touch .programs-tabs .tab_list a:hover{
+	background: #ccc;
+	color: #000;
+}
+
+.body_black .programs-tabs .tab_list a:after{
+	border-top-color: #ccc;
+}
+
+.body_black .attendance-text1 p{
+	color: #fff;
+}
+
+.body_black .attendance h1{
+	color: #fff;
+}
+
+.body_black .attendance-list span{
+	color: #fff;
+}
+
+.body_black .attendance-list b{
+	color: #fff;
+}
+
+.body_black .attendance-list i{
+	color: #fff;
+	font-size: 14px;
+}
+
+.body_black .attendance-list li:after{
+	background: #fff;
+}
+
+.body_black .attendance-btn1{
+	border-color: #fff;
+	color: #fff;
+}
+
+.body_black .attendance-btn3{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .main-header-menuToggle:after{
+	background-image: url("../img/menu1.svg");
+}
+
+.body_black .main-header-menuToggle.active:after {
+    background-image: url(../img/close1.svg);
+}
+
+.body_black .main-header-menuToggle.active{
+	background: #000;
+	color: #fff;
+}
+
+.body_black .main-header-menuToggle{
+	color: #fff;
+}
+
+.body_black .main-header-nav{
+	background: #000;
+}
+
+.body_black .main-header-nav-link-wrap2 a{
+	background: #000;
+}
+
+.body_black .main-header-nav-link-wrap3{
+	background: #000;
+	border-left: 1px solid #fff;
+}
+
+.body_black .main-header-nav-link-wrap4{
+	background: #000;
+	border-left: 1px solid #fff;
+}
+
+.body_black .main-header-nav-link-wrap1{
+	background: #000;
+}
+
+.body_black .main-header-nav-link-wrap2{
+	background: #000;
+	border-left: 1px solid #fff;
+}
+
+.body_black .main-header-nav-mobile-block{
+	border-bottom: 1px solid #fff;
+	background: #000;
+}
+
+.body_black .main-header-menuToggle{
+	background: #000;
+}
+
+.body_black .main-header-form-search input{
+	border-color: #fff;
+}
+
+.body_black .main-header-wrap3 .main-header-form-search input{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.body_black .main-header-wrap1 .main-header-form-search button{
+    border-top: none;
+    border-bottom: none;
+}
+
+
+.body_black .fixed-header-search-form input{
+	border-color: #fff;
+}
+
+
+
+.body_black .section-wrap1{
+	background: #000;
+}
+
+.body_black .menu-btn{
+	background-color: #000;
+	border: 1px solid #fff;
+	background-image: url(../img/menu1.svg);
+}
+
+.body_black .certificates h1{
+	color: #fff;
+}
+
+.body_black .certificates-text1 p{
+	color: #fff;
+}
+
+.body_black .toTop-icon{
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .certificates-item h3{
+	color: #fff;
+}
+
+.body_black .certificates-item-btn{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .certificates-filter{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .clinic-title h1{
+	color: #fff;
+}
+
+.body_black .clinic-btn-print{
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .clinic-map-info{
+	background: #000;
+}
+
+.body_black .clinic-map-info-title h2{
+	color: #fff;
+}
+
+.body_black .clinic-map-info-title a{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .clinic-map-info h3{
+	color: #fff;
+}
+
+.body_black .clinic-map-info-item1{
+	color: #fff;
+}
+
+.body_black .clinic-map-info-item1 span{
+	color: #fff;
+}
+
+.body_black .clinic-map-info-item1 a{
+	color: #fff;
+}
+
+.body_black .clinic-map-info-item1 i{
+	color: #fff;
+}
+
+.body_black .clinic-map-info-list2 li{
+	color: #fff;
+}
+
+.body_black .clinic-text1{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .clinic-text1-title h2{
+	color: #fff;
+}
+
+.body_black .clinic-tab-item span{
+	color: #fff;
+	border-radius: 50px;
+}
+
+.clinic-tab-item.active span > span{
+	background: transparent;
+	color: #000;
+}
+
+.body_black .clinic-tab-item span > span{
+	color: inherit;
+}
+
+.body_black .clinic-tab_list{
+	background: #000;
+}
+
+.body_black .clinic-text1 p{
+	color: #fff;
+}
+
+.body_black .clinic-doctors h2{
+	color: #fff;
+}
+
+.body_black .swiper-button-prev-style2,
+.body_black .swiper-button-next-style2{
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .doctors-item-text1{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .doctors-item-text2{
+	background: #000;
+	border: 1px solid #fff;
+	border-top: none;
+}
+
+.body_black .doctors-item-text2 h3{
+	color: #fff;
+}
+
+.body_black .doctors-item-text2 span{
+	color: #fff;
+}
+
+.body_black .doctors-item-text2 b{
+	color: #fff;
+}
+
+.body_black .clinic-doctors-btn-wrap a{
+	color: #fff;
+}
+
+.body_black .clinic-reviews h2{
+	color: #fff;
+}
+
+.body_black .reviews-item-text1 span{
+	color: #fff;
+}
+
+.body_black .reviews-item-text1 b{
+	color: #fff;
+}
+
+.body_black .reviews-item-text2{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .reviews-item-text2 p{
+	color: #fff;
+}
+
+.body_black .reviews-item2{
+	color: #fff;
+}
+
+.body_black .reviews .reviews-item .text-btn.active:after,
+.body_black .clinic-reviews .text-btn.active:after{
+	background: #000;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+.body_black .btn3{
+	color: #fff;
+	border-color: #fff;
+	background: #000;
+}
+
+.body_black .clinic-reviews-btn-wrap .reviews-btn{
+	color: #fff;
+}
+
+.body_black .clinic-text2-wrap p{
+	color: #fff;
+}
+
+.body_black .clinic-photo h2{
+	color: #fff;
+}
+
+.body_black .clinic-photo-btn-wrap{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .btn5{
+	background: #000;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.body_black .clinic-administration h2{
+	color: #fff;
+}
+
+.body_black .clinics-filter{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .clinics h1{
+	color: #fff;
+}
+
+.body_black .clinics-filter-radio-wrap{
+	background: #000;
+
+	border: 1px solid #fff;
+}
+
+.body_black .clinics-filter-radio-wrap label span{
+	color: #fff;
+	background: transparent;
+}
+
+.body_black .clinics-filter-radio-wrap input:checked ~ span{
+	color: #000;
+	background: #ccc;
+}
+
+.body_black .company h1{
+	color: #fff;
+}
+
+.body_black .company-text1 p{
+	color: #fff;
+}
+
+.body_black .company-text1 a{
+	color: #fff;
+}
+
+.body_black.no-touch .company-text1 a:hover,
+.body_black.no-touch .jobs-list li a:hover,
+.body_black.no-touch .search-item p a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.body_black .company-text2{
+	color: #fff;
+}
+
+.body_black .contact1-title1 h2{
+	color: #fff;
+}
+
+.body_black .contact1-title1 a{
+	color: #fff;
+}
+
+.body_black .contact1-title1 a:after{
+	background: #fff;
+}
+
+.body_black .contact1-text h3{
+	color: #fff;
+}
+
+.body_black .contact1-list2 h4{
+	color: #fff;
+}
+
+.body_black .contact1-list2 span{
+	color: #fff;
+}
+
+.body_black .contact1-list2 a{
+	color: #fff;
+}
+
+.body_black .contact1-title2 h2{
+	color: #fff;
+}
+
+.body_black .contact1-item3{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .contact1-item-text-wrap h3{
+	color: #fff;
+}
+
+.body_black .contact1-item-text-wrap b{
+	color: #fff;
+}
+
+.body_black .contact1-item-text-wrap p{
+	color: #fff;
+}
+
+.body_black .contact1-list4 b{
+	color: #fff;
+}
+
+.body_black .contact1-list4 a{
+	color: #fff;
+}
+
+.body_black .corporate h1{
+	color: #fff;
+}
+
+.body_black .corporate-text1 p{
+	color: #fff;
+}
+
+.body_black .corporate-select-wrap{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .corporate-item-text1{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .corporate-item-text2 h3{
+	color: #fff;
+}
+
+.body_black .costsection-list2 a{
+	color: #fff;
+}
+
+.body_black .costsection-list2 a:after{
+	background: #fff;
+}
+
+.body_black .costsection h1{
+	color: #fff;
+}
+
+.body_black .costsection-item h3{
+	color: #fff;
+}
+
+.body_black .costsection-filter:before{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .costsection-search-wrap input{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .costsection-search-wrap button{
+	background-image: url("../img/search-btn_white.svg");
+}
+
+.body_black .costsection-radio-wrap{
+	background: #000;
+
+	border: 1px solid #fff;
+}
+
+.body_black .costsection-label span{
+	color: #fff;
+}
+
+.body_black .costsection-label input:checked ~ span{
+	background-color: #ccc;
+	color: #000;
+}
+
+.body_black .costsection-search-wrap input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.body_black .costsection-search-wrap input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.body_black .costsection-search-wrap input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.body_black .costsection-search-wrap input::placeholder {
+  color: #fff;
+}
+
+.body_black .credit h1{
+	color: #fff;
+}
+
+.body_black .credit-text1 p{
+	color: #fff;
+}
+
+.body_black .credit-item{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .credit-item h3{
+	color: #fff;
+}
+
+.body_black .credit-item p{
+	color: #fff;
+}
+
+.body_black .creditFeedback h1{
+	color: #fff;
+}
+
+.body_black .creditFeedback-container-text h3{
+	color: #fff;
+}
+
+.body_black .creditFeedback-container-text ul li{
+	color: #fff;
+}
+
+.body_black .creditFeedback-container-text span{
+	color: #fff;
+}
+
+.body_black .creditFeedback-container-text b{
+	color: #fff;
+}
+
+.body_black .creditFeedback-img{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .creditFeedback-form{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .creditFeedback-form h2{
+	color: #fff;
+}
+
+.body_black label span{
+	color: #fff;
+}
+
+.body_black input{
+	background: #000;
+	border: 1px solid #fff;
+
+	color: #fff;
+}
+
+.body_black .label-checkbox i{
+	border-color: #fff;
+	border-width: 3px;
+	width: 16px;
+	height: 16px;
+}
+
+.body_black .input-checkbox:checked ~ .housecall-form-wrap2 i,
+.body_black .input-checkbox:checked ~ .reviews-feedback-form-wrap3 .label-checkbox i,
+.body_black .input-checkbox:checked ~ .label-checkbox i,
+.body_black .radio-checkbox:checked ~ .reviews-feedback-form-wrap3 .radio-label i{
+	border-color: #fff;
+	background: #fff;
+}
+
+.body_black .input-checkbox:checked ~ .housecall-form-wrap2 .btn2,
+.body_black .input-checkbox:checked ~ .housecall-captcha-wrap .btn2,
+.body_black #personal-data:checked ~ #consent-accommodation:checked ~ .reviews-feedback-form-wrap3 .btn2,
+.body_black .input-checkbox:checked ~ .vacancy-form-wrap .btn2,
+.body_black .input-checkbox:checked ~ .creditFeedback-form-wrap .btn2{
+	background-color: #000;
+	color: #fff;
+	border-color: #fff;
+}
+
+.body_black .directory-slider h2{
+	color: #fff;
+}
+
+.body_black .directory-list a{
+	color: #fff;
+}
+
+.body_black .directory-slider .swiper-pagination .swiper-pagination-bullet:after{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .directory h1{
+	color: #fff;
+}
+
+.body_black .directory-filter{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .directory-filter .tab_list{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .directory-filter .tab_list a{
+	color: #fff;
+}
+
+.body_black .directory-filter .tab_list a.active{
+	background: #ccc;
+	color: #000;
+}
+
+.body_black .service1-text1 h1{
+	color: #fff;
+}
+
+.body_black .service1-text1-wrap p{
+	color: #fff;
+}
+
+.body_black .service1-tabs-wrap p{
+	color: #fff;
+}
+
+.body_black .service1-reception{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .service1-reception h2{
+	color: #fff;
+}
+
+.body_black .service1-reception-text p{
+	color: #fff;
+}
+
+.body_black .service1-tab-list a{
+	color: #fff;
+}
+
+.body_black .service1-tab-list li:after{
+	background: #fff;
+}
+
+.body_black .disease-wrap h2{
+	color: #fff;
+}
+
+.body_black .disease-item{
+	background: #000;
+	border: 1px solid #fff;
+	margin-right: 1px;
+}
+
+.body_black .disease-text h3{
+	color: #fff;
+}
+
+.body_black .disease-text p{
+	color: #fff;
+}
+
+.body_black .doctor-certificates-item p{
+	color: #fff;
+}
+
+.body_black .disease-link-wrap{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .service1-action{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .service1-action-img b{
+	color: #fff;
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .service1-action-text-btn-wrap{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .service1-action-text h2{
+	color: #fff;
+}
+
+.body_black .service1-action-text b{
+	color: #fff;
+}
+
+.body_black .service1-action-text p{
+	color: #fff;
+}
+
+.body_black .service1-info{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .service1-info h3{
+	color: #fff;
+}
+
+.body_black .service1-list2 a{
+	color: #fff;
+}
+
+.body_black .service1-nav{
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .service1-tab-link-wrap a{
+	color: #fff;
+}
+
+.body_black .service1-tabs .service1-tab_list{
+	border-left: 2px solid #fff;
+}
+
+.body_black .service1-tabs .service1-tab_list a{
+	background: #000;
+	color: #fff;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.body_black.no-touch .service1-tabs .service1-tab_list a:hover,
+.body_black .service1-tabs .service1-tab_list a.active{
+	background: #ccc;
+	color: #000;
+}
+
+.body_black .service1-tabs .service1-tab_list a:after{
+	border-top-color: #ccc;
+}
+
+.body_black .doctor h1{
+	color: #fff;
+}
+
+.body_black .doctor-info-title span{
+	color: #fff;
+}
+
+.body_black .doctor-info-text-wrap1 b{
+	color: #fff;
+}
+
+.body_black .doctor-info-text-wrap1 li{
+	color: #fff;
+}
+
+.body_black .doctor-info-text-wrap2 h2{
+	color: #fff;
+}
+
+.body_black .doctor-info-text-wrap2 b{
+	color: #fff;
+}
+
+.body_black .doctor-info-text-wrap2 span{
+	color: #fff;
+}
+
+.body_black .doctor-info-text-wrap3 p{
+	color: #fff;
+}
+
+.body_black .doctor-reviews-link{
+	color: #fff;
+}
+
+.body_black .doctor-specialization h2{
+	color: #fff;
+}
+
+.body_black .doctor-specialization h3{
+	color: #fff;
+}
+
+.body_black .doctor-specialization-list li{
+	color: #fff;
+}
+
+.body_black .doctor-specialization-list li b{
+	color: #fff;
+}
+
+.body_black .doctor-reviews h2{
+	color: #fff;
+}
+
+.body_black .doctor-regalia-text-wrap h3{
+	color: #fff;
+}
+
+.body_black .doctor-regalia-list li{
+	color: #fff;
+}
+
+.body_black .doctor-regalia h2{
+	color: #fff;
+}
+
+.body_black .doctor-certificates h2{
+	color: #fff;
+}
+
+.body_black .doctor-text-wrap h2{
+	color: #fff;
+}
+
+.body_black .doctor-text p{
+	color: #fff;
+}
+
+.body_black .doctor-cost h2{
+	color: #fff;
+}
+
+.body_black .doctor-form p{
+	color: #fff;
+}
+
+.body_black .doctor-info-text-wrap4 p{
+	color: #fff;
+}
+
+.body_black .doctor-info-text-wrap1 p{
+	color: #fff;
+}
+
+.body_black .doctor-info-text-wrap2 b i{
+	color: #fff;
+}
+
+.body_black .doctor-form{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .doctor-info-title:after{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .doctors h1{
+	color: #fff;
+}
+
+.body_black .doctors-filter{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .doctors-filter-radio-wrap{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .doctors-filter-radio-wrap input:checked ~ span{
+	background: #ccc;
+	color: #000;
+}
+
+.body_black .doctors-item-text1{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .faq h1{
+	color: #fff;
+}
+
+.body_black .faq-filter{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .faq-list-wrap h3{
+	color: #fff;
+}
+
+.body_black .faq-item .block_toggle p{
+	color: #fff;
+}
+
+.body_black .faq-item .open_toggle{
+	color: #fff;
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .health h1{
+	color: #fff;
+}
+
+.body_black .health-subtitle{
+	color: #fff;
+}
+
+.body_black .health-subtitle:after{
+	color: #fff;
+}
+
+.body_black .health-list a{
+	color: #fff;
+}
+
+.body_black .health-link-wrap a{
+	color: #fff;
+}
+
+.body_black .health-question h2{
+	color: #fff;
+}
+
+.body_black .questions-item h3 i{
+	color: #fff;
+}
+
+.body_black .questions-item h3 b{
+	color: #fff;
+}
+
+.body_black .health-link-wrap a{
+	color: #fff;
+}
+
+.body_black .questions-item span{
+	color: #fff;
+}
+
+.body_black .health-problem h2{
+	color: #fff;
+}
+
+.body_black .questions-item p{
+	color: #fff;
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .health-problem-list{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .health-problem-list a{
+	color: #fff;
+}
+
+.body_black .health-informations h2{
+	color: #fff;
+}
+
+.body_black .publications-item:after{
+	background: #fff;
+}
+
+.body_black .publications-item-text h3{
+	color: #fff;
+}
+
+.body_black .publications-item-text p{
+	color: #fff;
+}
+
+.body_black .publications-item-text-info span{
+	color: #fff;
+}
+
+.body_black .publications-item-text-info b{
+	color: #fff;
+}
+
+.body_black .housecall h1{
+	color: #fff;
+}
+
+.body_black .housecall-text p{
+	color: #fff;
+}
+
+.body_black .text-btn:before{
+	background: #fff;
+}
+
+.body_black .text-btn i{
+	border-top-color: #fff;
+}
+
+.body_black .text-btn span{
+	color: #fff;
+}
+
+.body_black .text-btn:after{
+	background: #000;
+}
+
+.body_black .housecall-form-wrap1{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .housecall-form h3{
+	color: #fff;
+}
+
+.body_black .textarea{
+	background: #000;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.body_black .information h1{
+	color: #fff;
+}
+
+.body_black .information-item{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .information-item-text-wrap1{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .information-item:after{
+	background: #fff;
+}
+
+.body_black .information-item-text-wrap2 h2{
+	color: #fff;
+}
+
+.body_black .information-item-text-wrap2 p{
+	color: #fff;
+}
+
+.body_black .pagination-list li{
+	color: #fff;
+}
+
+.body_black .pagination-list li.active a{
+	color: #fff;
+}
+
+.body_black .pagination-list a:after{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .pagination-list a{
+	color: #fff;
+}
+
+.body_black .jobs h1{
+	color: #fff;
+}
+
+.body_black .jobs-text1 p{
+	color: #fff;
+}
+
+.body_black .jobs-text-container2 p{
+	color: #fff;
+}
+
+.body_black .jobs-text-container2 ul li{
+	color: #fff;
+}
+
+.body_black .jobs-list-wrap h2{
+	color: #fff;
+}
+
+.body_black .jobs-list li a{
+	color: #fff;
+}
+
+.body_black .partnership h1{
+	color: #fff;
+}
+
+.body_black .partnership-text1 p{
+	color: #fff;
+}
+
+.body_black .partnership-item h3{
+	color: #fff;
+}
+
+.body_black .partnership-text2 p{
+	color: #fff;
+}
+
+.body_black .program h1{
+	color: #fff;
+}
+
+.body_black .program-text-container1 p{
+	color: #fff;
+}
+
+.body_black .program-text-container1 h2{
+	color: #fff;
+}
+
+.body_black .program-text-container1 h3{
+	color: #fff;
+}
+
+.body_black .program-text-container1 ul li{
+	color: #fff;
+}
+
+.body_black .program-text-container1 h3{
+	color: #fff;
+}
+
+.body_black .program-text-container1 p b{
+	color: #fff;
+}
+
+.body_black .program-list-wrap h2{
+	color: #fff;
+}
+
+.body_black .program-item h3{
+	color: #fff;
+}
+
+.body_black .program-item p{
+	color: #fff;
+}
+
+.body_black .program-item-btn-wrap span{
+	color: #fff;
+	border-color: #fff;
+}
+
+.body_black .program-item-btn-wrap a{
+	color: #fff;
+}
+
+.body_black .program-item{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .program .row div:first-child{
+	border-left-color: #fff;
+}
+
+.body_black .program .row div{
+	border-left-color: #fff;
+}
+
+.body_black .program .row div:last-child{
+	border-right-color: #fff;
+}
+
+.body_black .program .row{
+	border-bottom-color: #fff;
+}
+
+.body_black .program .row-1{
+	background: #000;
+	border-top: 1px solid #fff;
+}
+
+.body_black .program .row b{
+	color: #fff;
+}
+
+.body_black .program .row span{
+	color: #fff;
+}
+
+.body_black .program .row:nth-child(2n){
+	background: #000;
+}
+
+.body_black .programs-text2 p{
+	color: #fff;
+}
+
+.body_black .programs-text2 ul li{
+	color: #fff;
+}
+
+.body_black .publication h1{
+	color: #fff;
+}
+
+.body_black .publication p{
+	color: #fff;
+}
+
+.body_black .publication h3{
+	color: #fff;
+}
+
+.body_black .publications-title h1{
+	color: #fff;
+}
+
+.body_black .publications-link{
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .questions-title h1{
+	color: #fff;
+}
+
+.body_black .questions-filter{
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .reviews-radio-wrap1{
+	background: #000;
+}
+
+.body_black label span{
+	border: 1px solid transparent;
+}
+
+.body_black .reviews-radio-wrap1 label input:checked ~ span{
+	color: #fff;
+	background: #000;
+	border-color: #fff;
+}
+
+.body_black .vacancy-form h2{
+	color: #fff;
+}
+
+.body_black .vacancy-form{
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .vacancy-select-wrap span{
+	color: #fff;
+}
+
+.body_black .questions .textarea-wrap span{
+	color: #fff;
+}
+
+.body_black .reviews-feedback h2{
+	color: #fff;
+}
+
+.body_black .reviews-feedback-form{
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .reviews-textarea-wrap textarea{
+	background-color: #000;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.body_black .reviews-textarea-wrap span{
+	color: #fff;
+}
+
+.body_black .reviews-feedback-checkbox-wrap .radio-label span{
+	color: #fff;
+}
+
+.body_black .reviews h1{
+	color: #fff;
+}
+
+.body_black .reviews-filter{
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .rights h1{
+	color: #fff;
+}
+
+.body_black .rights-text1 p{
+	color: #fff;
+}
+
+.body_black .rights-text2-wrap h3{
+	color: #fff;
+}
+
+.body_black .rights-text2 p{
+	color: #fff;
+}
+
+.body_black .rules-text3 p{
+	color: #fff;
+}
+
+.body_black .rights-text2 p a{
+	color: #fff;
+}
+
+.body_black .rules-img3 span{
+	color: #fff;
+}
+
+.body_black .search h1{
+	color: #fff;
+}
+
+.body_black .search-form{
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .search-form p{
+	color: #fff;
+}
+
+.body_black .search-form p b{
+	color: #fff;
+}
+
+.body_black .search-item-link a{
+	color: #fff;
+}
+
+.body_black .search-item p{
+	color: #fff;
+}
+
+.body_black .search-item:after{
+	background: #fff;
+}
+
+.body_black .search-item p a{
+	color: #fff;
+}
+
+.body_black .cost1 h2{
+	color: #fff;
+}
+
+.body_black .cost1-list li:before{
+	background: #fff;
+}
+
+.body_black .cost1-list i{
+	color: #fff;
+}
+
+.body_black .cost1-list b{
+	color: #fff;
+}
+
+.body_black .cost1-list span{
+	color: #fff;
+	font-size: 16px;
+}
+
+.body_black .service1-results:after{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .service1-results h2{
+	color: #fff;
+}
+
+.body_black .service1-results-text p{
+	color: #fff;
+}
+
+.body_black .service1-results-img-container b{
+	color: #fff;
+}
+
+.body_black .service1-other-item{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .service1-other h3{
+	color: #fff;
+}
+
+.body_black .service1-other-item h4{
+	color: #fff;
+}
+
+.body_black .service1-other-item b{
+	color: #fff;
+}
+
+.body_black .service1-other-item p{
+	color: #fff;
+}
+
+.body_black .service1-doctors{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .service1-doctors-slider{
+	border-color: #fff;
+}
+
+.body_black .service1-doctors h3{
+	color: #fff;
+}
+
+.body_black .service1-doctors-text h4{
+	color: #fff;
+}
+
+.body_black .service1-doctors-text p{
+	color: #fff;
+}
+
+.body_black .service1-doctors-link-wrap a{
+	color: #fff;
+}
+
+.body_black .service1-doctors-link-wrap a:hover{
+	text-decoration: underline;
+}
+
+.body_black .social h1{
+	color: #fff;
+}
+
+.body_black .social-text p{
+	color: #fff;
+}
+
+.body_black .solutions-text1 p{
+	color: #fff;
+}
+
+.body_black .solutions-list li a{
+	color: #fff;
+}
+
+.body_black .solutions-list li a:hover{
+	color: #fff;
+}
+
+.body_black .solutions-text2 p{
+	color: #fff;
+}
+
+.body_black .solutions .tab_list1 li a{
+	color: #fff;
+	border-color: #fff;
+	background: #000;
+}
+
+.body_black.no-touch .solutions .tab_list1 li a:hover,
+.body_black .solutions .tab_list1 li a.active{
+	background: #ccc;
+	color: #000;
+}
+
+.body_black .stock-timer-wrap i{
+	color: #fff;
+}
+
+.body_black .stock h1{
+	color: #fff;
+}
+
+.body_black .stock-filter{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .stock-radio-wrap{
+	background: #000;
+
+	border: 1px solid #fff;
+}
+
+.body_black .stock-radio-wrap input:checked ~ span{
+	color: #000;
+	background: #ccc;
+	border-color: #ccc;
+}
+
+.body_black .vacancy h1{
+	color: #fff;
+}
+
+.body_black .vacancy-item h2{
+	color: #fff;
+}
+
+.body_black .vacancy-item li{
+	color: #fff;
+}
+
+.body_black .vacancy-item2 p span{
+	color: #fff;
+}
+
+.body_black .vacancy-item2 p b{
+	color: #fff;
+}
+
+.body_black .vacancy-item2 p a{
+	color: #fff;
+}
+
+.body_black .jq-file{
+	background: #000;
+	border-color: #fff;
+}
+
+.body_black .jq-file__name{
+	color: #fff;
+}
+
+.body_black .jq-file__name:after{
+	color: #fff;
+}
+
+.body_black .videos h1{
+	color: #fff;
+}
+
+.body_black .videos-filter{
+	background: #000;
+	border: 1px solid #fff;
+}
+
+.body_black .videos-item-wrap:before{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .videos-item-text{
+	background: #000;
+	border: 1px solid #fff;
+	border-top: none;
+}
+
+.body_black .videos-item-text h3{
+	color: #fff;
+}
+
+.body_black .videos-filter-radio-wrap{
+	background: transparent;
+	border: 1px solid #fff;
+}
+
+.body_black .videos-filter-radio-wrap input:checked ~ span{
+	background: #ccc;
+	color: #000;
+	border-color: #fff;
+}
+
+.body_black.no-touch .main-header-link1-list a:hover,
+.body_black.no-touch .main-header-form-search button:hover,
+.body_black.no-touch .main-header-link-list a:hover,
+.body_black.no-touch .btn1:hover,
+.body_black.no-touch .swiper-button-prev-style1:hover,
+.body_black.no-touch .swiper-button-next-style1:hover,
+.body_black.no-touch .main-footer-social-list a:hover,
+.body_black.no-touch .main-footer-share-item:hover,
+.body_black.no-touch .main-footer-subscribe-btn-wrap a:hover,
+.body_black.no-touch .main-footer-versions-item button:hover,
+.body_black.no-touch .fixed-header-feedback a:hover,
+.body_black.no-touch .breadcrumbs-list a:hover,
+.body_black.no-touch .text-btn:hover span,
+.body_black.no-touch .swiper-button-prev-style2:hover,
+.body_black.no-touch .swiper-button-next-style2:hover,
+.body_black.no-touch .btn2:hover,
+.body_black.no-touch .rules-info-link-item a:hover,
+.body_black.no-touch .swiper-button-prev-style3:hover,
+.body_black.no-touch .swiper-button-next-style3:hover,
+.body_black.no-touch .service1-list1 a:hover,
+.body_black.no-touch .publications-link:hover,
+.body_black.no-touch .pagination-list a:hover,
+.body_black.no-touch .publications-item:hover,
+.body_black.no-touch .clinic-btn-print:hover,
+.body_black.no-touch .clinic-map-info-title a:hover,
+.body_black.no-touch .btn5:hover,
+.body_black.no-touch .attendance-btn3:hover,
+.body_black.no-touch .directory-slider .swiper-pagination .swiper-pagination-bullet:hover,
+.body_black.doctor-certificates-img:hover {
+  opacity: 1;
+}
+
+.body_black.no-touch .banner-list a:hover,
+.body_black.no-touch .banner-link-wrap1 a:hover,
+.body_black.no-touch .main-footer-list a:hover,
+.body_black.no-touch .main-footer-list1 a:hover,
+.body_black.no-touch .main-footer-list2 a:hover,
+.body_black.no-touch .main-footer-wrap4 span a:hover,
+.body_black.no-touch .service1-tab-list a:hover,
+.body_black.no-touch .service1-tab-link-wrap a:hover,
+.body_black.no-touch .section-list1 a:hover,
+.body_black.no-touch .service1-list2 a:hover,
+.body_black.no-touch .costsection-list2 a:hover,
+.body_black.no-touch .programs-item-btn-wrap a:hover,
+.body_black.no-touch .program-item-btn-wrap a:hover,
+.body_black.no-touch .clinic-doctors-btn-wrap a:hover,
+.body_black.no-touch .directory-list a:hover,
+.body_black.no-touch .health-list a:hover,
+.body_black.no-touch .health-question-link-wrap a:hover,
+.body_black.no-touch .action-programs-item-wrap:hover p,
+.body_black.no-touch .doctor-reviews-link:hover,
+.body_black.no-touch .health-link-wrap a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.body_black .main-header-form-search input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.body_black .main-header-form-search input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.body_black .main-header-form-search input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.body_black .main-header-form-search input::placeholder {
+  color: #fff;
+}
+
+.body_black .fixed-header-search-form input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.body_black .fixed-header-search-form input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.body_black .fixed-header-search-form input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.body_black .fixed-header-search-form input::placeholder {
+  color: #fff;
+}
+
+.body_black ::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+.body_black :-moz-placeholder {
+  color: #fff !important;
+}
+
+.body_black ::-moz-placeholder {
+  color: #fff !important;
+}
+
+.body_black :-ms-input-placeholder {
+  color: #fff !important;
+}
+
+
+.body_black .action-other .stock-item{
+	width: calc(100% - 1px);
+}
+
+.body_black .action-clinics-slider .clinics-item{
+	width: calc(100% - 1px);
+}
+
+.body_black .clinic-doctors-slider .doctors-item{
+	width: calc(100% - 1px);
+}
+
+.body_black .doctor-reviews-slider .reviews-item,
+.body_black .clinic-reviews .reviews-item{
+	width: calc(100% - 1px);
+}
+
+.body_black .clinic-administration-slider .administration-item{
+	width: calc(100% - 1px);
+}
+
+.body_black .fixed-header-list a{
+	color: #fff;
+}
+
+@media only screen and (max-width: 1359px)
+{
+	.body_black .main-header-form-search input{
+		border-right: none;
+	}
+
+	.banner .tab_list{
+		width: calc(100% + 2px);
+		margin-left: -1px;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	.body_black .achievement-item{
+		margin-right: 0;
+	}
+}
+
+
+.body_black.no-touch .main-header-link1-list a:hover,
+.body_black.no-touch .main-header-form-search button:hover,
+.body_black.no-touch .main-header-link-list a:hover,
+.body_black.no-touch .swiper-button-prev-style1:hover,
+.body_black.no-touch .swiper-button-next-style1:hover,
+.body_black.no-touch .main-footer-social-list a:hover,
+.body_black.no-touch .main-footer-subscribe-btn-wrap a:hover,
+.body_black.no-touch .main-footer-versions-item button:hover,
+.body_black.no-touch .fixed-header-feedback a:hover,
+.body_black.no-touch .breadcrumbs-list a:hover,
+.body_black.no-touch .text-btn:hover span,
+.body_black.no-touch .swiper-button-prev-style2:hover,
+.body_black.no-touch .swiper-button-next-style2:hover,
+.body_black.no-touch .swiper-button-prev-style3:hover,
+.body_black.no-touch .swiper-button-next-style3:hover,
+.body_black.no-touch .service1-list1 a:hover,
+.body_black.no-touch .publications-link:hover,
+.body_black.no-touch .pagination-list a:hover,
+.body_black.no-touch .publications-item:hover,
+.body_black.no-touch .clinic-btn-print:hover,
+.body_black.doctor-certificates-img:hover,
+.body_black .clinic-reviews-btn-wrap .reviews-btn:hover{
+	text-decoration: underline;
+}
+
+.body_middle .main-header-link1 b:hover{
+	text-decoration: underline;
+}
+
+.body_black.no-touch .btn1:hover,
+.body_black.no-touch .btn2:hover,
+.body_black.no-touch .attendance-btn3:hover,
+.body_black .attendance-btn1:hover,
+.body_black.no-touch .clinic-map-info-title a:hover,
+.body_black.no-touch .btn5:hover,
+.body_black.no-touch .directory-slider .swiper-pagination .swiper-pagination-bullet:hover:after{
+	background: #ccc;
+	color: #000;
+	border-color: transparent;
+}
+
+.body_black.no-touch .rules-info-link-item a:hover i,
+.body_black.no-touch .rules-info-link-item a:hover span{
+	text-decoration: underline;
+}
+
+.achievement-item-btn-wrap{
+	background: rgba(0,0,0,.8);
+}
+
+.body_black .clinic-tab_list{
+
+	border: 1px solid #fff;
+}
+
+.body_black .clinic-tab-item.active > span,
+.body_black .clinic-tab-item:hover > span{
+	color: #000;
+	background: #ccc;
+}
+
+.clinic-tab-item.active i path,
+.clinic-tab-item:hover i path{
+	fill: #000;
+}
+
+.body_black .faq-item .open_toggle:hover{
+	background: #ccc;
+	color: #000;
+	border-color: transparent;
+}
+
+.body_black .health-problem-list a:hover{
+	text-decoration: underline;
+}
+
+.body_black.no-touch .publications-item{
+	color: #fff;
+}
+
+.body_black .videos-filter-radio-wrap label{
+	background: transparent;
+}
+
+.body_black .radio-label i{
+	border-color: #fff;
+    border-width: 3px;
+    width: 16px;
+    height: 16px;
+}
+
+.body_black .radio-label input:checked ~ i {
+    border-color: #fff;
+    background: #fff;
+}
+
+.body_black .reviews-feedback-form-wrap2 label input{
+    color: #fff;
+    border: 1px solid #fff;
+    background: #000;
+}
+
+.body_black .breadcrumbs-list a.home{
+    background-image: url(../img/home-iconWhite.svg);
+}
+
+
+.search__inner input
+{
+    color: #fff;
+
+    border: 1px solid #fff;
+    border-right: none;
+    background: #000;
+    box-shadow: none;
+}
+
+.body_black .search__inner input::-webkit-input-placeholder
+{
+    color: #fff;
+}
+
+.body_black .search__inner input:-ms-input-placeholder
+{
+    color: #fff;
+}
+
+.body_black .search__inner input::-ms-input-placeholder
+{
+    color: #fff;
+}
+
+.body_black .search__inner input::placeholder
+{
+    color: #fff;
+}
+
+.body_black .search__inner button{
+	color: #fff;
+    border: 1px solid #fff;
+    border-left: none;
+    background: #000;
+    box-shadow: none;
+}
+
+.body_black.no-touch .search__inner button:hover{
+    color: #000;
+    background: #ccc;
+}
+
+
+.body_black .main-header-form-search button
+{
+    color: #fff;
+    border: 1px solid #fff;
+    border-left: none;
+    background: #000;
+
+    right: 0;
+}
+
+.body_black.no-touch .main-header-form-search button:hover {
+    color: #000;
+    background: #ccc;
+    opacity: 1!important;
+    text-decoration: none!important;
+}
+
+
+.body_black .fixed-header-search-form button
+{
+    color: #fff;
+    border-right: 1px solid #fff;
+    background: #000;
+
+    right: 0;
+}
+
+.body_black.no-touch .fixed-header-search-form button:hover {
+    color: #000;
+    background: #ccc;
+    opacity: 1!important;
+    text-decoration: none!important;
+}
+
+.body_black .service1-reception-wrap p{
+	color: #fff;
+}
+
+.body_black .text_block{
+    color: #fff;
+}
+
+.body_black .text_block p{
+    color: #fff;
+}
+
+.body_black .text_block ul,
+.body_black .text_block ol{
+    color: #fff;
+}
+
+.body_black .text_block ul li,
+.body_black .text_block ol li{
+    color: #fff;
+}
+
+.body_black .box_price .price b{
+    color: #fff;
+}
+
+.body_black .doctor-info-text-wrap1 a{
+    color: #fff;
+}
+
+.body_black .doctor-specialization li,
+.body_black .doctor-specialization p{
+    color: #fff;
+}
+
+.body_black .programs-text1 ul li,
+.body_black .programs-text1 ol li,
+.body_black .rules-wrap2 ul li,
+.body_black .partnership-text1 ul li,
+.body_black .partnership-text1 ol li,
+.body_black .service1-text1-wrap ul li,
+.body_black .service1-text1-wrap ol li,
+.body_black .doctor-text-wrap ul li,
+.body_black .doctor-text-wrap ol li,
+.body_black .doctor-info-text-wrap3 ul li,
+.body_black .doctor-info-text-wrap3 ol li,
+.body_black .doctor-regalia li{
+    color: #fff;
+}
+
+.body_black .clinic-text2-wrap p,
+.body_black .doctor-container p{
+    color: #fff;
+}
+
+.body_black .doctor-info-text-wrap4 p,
+.body_black .action-info .action-info-text p{
+    color: #fff;
+}
+
+.body_black .action-info ul{
+    color: #fff;
+}
+
+.body_black .service1-text1 ul>li:before{
+    color: #fff;
+}
+
+.body_black .letter{
+    color: #000;
+    background: #fff;
+}
+
+.body_black ul{
+    color: #fff;
+}
+
+.body_black .service1-text1 h2,
+.body_black .rules-wrap2 h2{
+    color: #fff;
+}
+
+.body_black .doctor-container h3,
+.body_black .rules-wrap2 h3{
+    color: #fff;
+}
+
+.body_black .rules-wrap2 p a{
+    color: #fff;
+}
+
+
+.body_black .rules-wrap2 p a:hover{
+    text-decoration: underline;
+}
+
+.body_black .price-holder table{
+    border-collapse: collapse;
+    border-color: #fff;
+}
+
+.body_black .price-holder td{
+    border-color: #fff;
+}
+
+.body_black .price-holder th{
+    border-color: #fff;
+    background: #000;
+}
+
+.body_black blockquote{
+    background: #000;
+    border-color: #fff;
+}

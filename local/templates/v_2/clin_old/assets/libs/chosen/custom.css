@@ -1,0 +1,22 @@
+.chosen-container.chosen-container-single {
+  font-family: "Gerbera", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
+  padding: 16px 20px;
+  padding-right: 40px;
+  outline: none;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.11);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.11);
+  background-color: white;
+}
+.chosen-container-single .chosen-default,.chosen-container-active.chosen-with-drop .chosen-single,.chosen-container-single .chosen-single {
+  border: 0px;
+  box-shadow: none;
+  background: none;
+  padding: 0px;
+}
+.chosen-container .chosen-drop{
+  margin-left: -20px;
+  border: 0px;
+}

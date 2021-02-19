@@ -17,7 +17,43 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
 $this->setFrameMode(true);
 ?>
 
-<div class="service1-text1" id="start">
+<div class="service1-text1 n_d_service" id="start">
+
+    <div class="section-wrap1 before_stale">
+        <nav class="section-nav">
+            <!--<h2><?php /*$APPLICATION->ShowTitle('patient_info_menu_title');*/?></h2>-->
+            <?php
+            $APPLICATION->IncludeComponent(
+                "bitrix:menu",
+                "right",
+                array(
+                    "COMPONENT_TEMPLATE" => "left",
+                    "ROOT_MENU_TYPE" => "patient_info",
+                    "MENU_CACHE_TYPE" => "N",
+                    "MENU_CACHE_TIME" => "3600",
+                    "MENU_CACHE_USE_GROUPS" => "Y",
+                    "MENU_CACHE_GET_VARS" => "",
+                    "MAX_LEVEL" => "1",
+                    "CHILD_MENU_TYPE" => "",
+                    "USE_EXT" => "N",
+                    "DELAY" => "N",
+                    "ALLOW_MULTI_SELECT" => "N",
+                )
+            )
+            ?>
+            <!--<ul class="service1-list2">
+                <?/*foreach ($arResult["ANCHOR_MENU"] as $menus):*/?>
+                    <?/*if($menus["LINK"]!="#start"):*/?>
+                        <li>
+                            <a href="<?/*=$menus["LINK"]*/?>"><?/*=$menus["TEXT"]*/?></a>
+                        </li>
+                    <?/*endif;*/?>
+                <?/*endforeach;*/?>
+            </ul>-->
+        </nav>
+        <div class="menu-btn"></div>
+    </div>
+
 	<?if ( strlen($arResult['PROPERTIES']['H1']['~VALUE']) > 1 ):?>
 		<h1><?php echo $arResult['PROPERTIES']['H1']['~VALUE'];?></h1>
 	<?endif;?>
@@ -48,8 +84,8 @@ if (!empty($arResult['STOCKS'])) {
                     <div class="swiper-slide">
                         <div class="service1-action service1-action1 promo-action">
                             <div class="promo-title">
-								<span><?php echo $obStock->name;?></span>
-							</div>
+                                <span><?php echo $obStock->name;?></span>
+                            </div>
 							<?php
                             if (!empty($obStock->expireDateCounter)) {
                                 ?>
@@ -68,6 +104,7 @@ if (!empty($arResult['STOCKS'])) {
                                 <?php
                             }
                             ?>
+
                             <div class="service1-action-img">
                                 <?php
                                 if (!empty($obStock->previewPicture)) {
@@ -608,6 +645,9 @@ $this->setViewTarget('stocks_desktop');
                         ?>
                         <div class="swiper-slide">						
                             <div class="service1-action">
+                                <div class="promo-title">
+                                    <span><?php echo $obStock->name;?></span>
+                                </div>
                                 <?php
                                 if (!empty($obStock->expireDateCounter)) {
                                     ?>
@@ -626,6 +666,7 @@ $this->setViewTarget('stocks_desktop');
                                     <?php
                                 }
                                 ?>
+
                                 <div class="service1-action-img">
                                     <p class="service1-action-discont">
                                         <b>-<?php echo $obStock->amount;?> <?php echo $obStock->percentage ? '%' : 'Р';?></b>
@@ -642,7 +683,7 @@ $this->setViewTarget('stocks_desktop');
                                     </div>
                                 </div>
                                 <div class="service1-action-text">
-                                    <span><?php echo $obStock->name;?></span>
+                                    <!--<span><?php /*echo $obStock->name;*/?></span>-->
                                     
                                     <p><?php echo $obStock->previewText;?></p>
                                 </div>

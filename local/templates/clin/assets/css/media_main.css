@@ -3536,9 +3536,9 @@
         background-size: cover;
     }
 	.service1-text1-wrap .img-wrap {
-    display: flex;
-    flex-flow: row wrap;
-    
+        display: flex;
+        flex-flow: row wrap;
+    }
 }
 
 @media only screen and (max-width: 850px)
